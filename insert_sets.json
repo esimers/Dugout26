@@ -1,0 +1,3861 @@
+[
+  {
+    "Name": "2025 All Topps Team",
+    "Category": "Standard Inserts",
+    "Code": "ATT",
+    "IsOwned": false,
+    "OwnedCards": [
+      2,
+      8,
+      10
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Cal Raleigh"
+      },
+      {
+        "Number": 2,
+        "Name": "Nick Kurtz"
+      },
+      {
+        "Number": 3,
+        "Name": "Jazz Chisholm Jr."
+      },
+      {
+        "Number": 4,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 5,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 6,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 7,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 8,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 9,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 10,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 11,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 12,
+        "Name": "Aroldis Chapman"
+      }
+    ]
+  },
+  {
+    "Name": "Topps Profiles",
+    "Category": "Standard Inserts",
+    "Code": "TP",
+    "IsOwned": false,
+    "OwnedCards": [
+      2,
+      6
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 2,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 3,
+        "Name": "Hank Aaron"
+      },
+      {
+        "Number": 4,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 5,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 6,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 7,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 8,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 9,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 10,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 11,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 12,
+        "Name": "Ichiro"
+      },
+      {
+        "Number": 13,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 14,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 15,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 16,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 17,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 18,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 19,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 20,
+        "Name": "Jackie Robinson"
+      },
+      {
+        "Number": 21,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 22,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 23,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 24,
+        "Name": "Cal Raleigh"
+      },
+      {
+        "Number": 25,
+        "Name": "Randy Johnson"
+      }
+    ]
+  },
+  {
+    "Name": "Big Ticket Players",
+    "Category": "Standard Inserts",
+    "Code": "BTP",
+    "IsOwned": false,
+    "OwnedCards": [
+      1,
+      12,
+      19,
+      18,
+      24,
+      25
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 2,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 3,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 4,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 5,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 6,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 7,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 8,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 9,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 10,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 11,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 12,
+        "Name": "Jackson Chourio"
+      },
+      {
+        "Number": 13,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 14,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 15,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 16,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 17,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 18,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 19,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 20,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 21,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 22,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 23,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 24,
+        "Name": "Chase Burns"
+      },
+      {
+        "Number": 25,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 26,
+        "Name": "Kyle Teel"
+      }
+    ]
+  },
+  {
+    "Name": "2025\u0027s Greatest Hits",
+    "Category": "Standard Inserts",
+    "Code": "GH",
+    "IsOwned": false,
+    "OwnedCards": [
+      15,
+      13,
+      1,
+      2,
+      27
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 2,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 3,
+        "Name": "Ceddanne Rafaela"
+      },
+      {
+        "Number": 4,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 5,
+        "Name": "Christian Yelich"
+      },
+      {
+        "Number": 6,
+        "Name": "Jasson Dom\u00EDnguez"
+      },
+      {
+        "Number": 7,
+        "Name": "Freddie Freeman"
+      },
+      {
+        "Number": 8,
+        "Name": "Cal Raleigh"
+      },
+      {
+        "Number": 9,
+        "Name": "Matt Chapman"
+      },
+      {
+        "Number": 10,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 11,
+        "Name": "Andrew McCutchen"
+      },
+      {
+        "Number": 12,
+        "Name": "Byron Buxton"
+      },
+      {
+        "Number": 13,
+        "Name": "Manny Machado"
+      },
+      {
+        "Number": 14,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 15,
+        "Name": "Cody Bellinger"
+      },
+      {
+        "Number": 16,
+        "Name": "Kyle Schwarber"
+      },
+      {
+        "Number": 17,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 18,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 19,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 20,
+        "Name": "Jackson Chourio"
+      },
+      {
+        "Number": 21,
+        "Name": "Patrick Bailey"
+      },
+      {
+        "Number": 22,
+        "Name": "Marcus Semien"
+      },
+      {
+        "Number": 23,
+        "Name": "Nick Kurtz"
+      },
+      {
+        "Number": 24,
+        "Name": "Max Muncy"
+      },
+      {
+        "Number": 25,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 26,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 27,
+        "Name": "Michael Busch"
+      },
+      {
+        "Number": 28,
+        "Name": "Pete Alonso"
+      }
+    ]
+  },
+  {
+    "Name": "Cover Athletes Cards",
+    "Category": "Standard Inserts",
+    "Code": "CAC",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [],
+    "ValidCards": []
+  },
+  {
+    "Name": "All Aces",
+    "Category": "Standard Inserts",
+    "Code": "AA",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 2,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 3,
+        "Name": "Nolan Ryan"
+      },
+      {
+        "Number": 4,
+        "Name": "Chase Burns"
+      },
+      {
+        "Number": 5,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 6,
+        "Name": "Nolan McLean"
+      },
+      {
+        "Number": 7,
+        "Name": "Bubba Chandler"
+      },
+      {
+        "Number": 8,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 9,
+        "Name": "Zack Wheeler"
+      },
+      {
+        "Number": 10,
+        "Name": "Walter Johnson"
+      }
+    ]
+  },
+  {
+    "Name": "All Kings",
+    "Category": "Standard Inserts",
+    "Code": "AK",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 2,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 3,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 4,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 5,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 6,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 7,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 8,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 9,
+        "Name": "Cal Ripken Jr."
+      },
+      {
+        "Number": 10,
+        "Name": "Hank Aaron"
+      },
+      {
+        "Number": 11,
+        "Name": "Rickey Henderson"
+      },
+      {
+        "Number": 12,
+        "Name": "Barry Bonds"
+      },
+      {
+        "Number": 13,
+        "Name": "Babe Ruth"
+      },
+      {
+        "Number": 14,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 15,
+        "Name": "Jac Caglianone"
+      }
+    ]
+  },
+  {
+    "Name": "1991 Topps Baseball",
+    "Category": "Standard Inserts",
+    "Code": "T91",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 2,
+        "Name": "Riley Greene"
+      },
+      {
+        "Number": 3,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 4,
+        "Name": "Colson Montgomery"
+      },
+      {
+        "Number": 5,
+        "Name": "Kyle Schwarber"
+      },
+      {
+        "Number": 6,
+        "Name": "Colby Thomas"
+      },
+      {
+        "Number": 7,
+        "Name": "Jose Altuve"
+      },
+      {
+        "Number": 8,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 9,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 10,
+        "Name": "Owen Caissie"
+      },
+      {
+        "Number": 11,
+        "Name": "Will Clark"
+      },
+      {
+        "Number": 12,
+        "Name": "Pete Alonso"
+      },
+      {
+        "Number": 13,
+        "Name": "Chipper Jones"
+      },
+      {
+        "Number": 14,
+        "Name": "Oneil Cruz"
+      },
+      {
+        "Number": 15,
+        "Name": "David Ortiz"
+      },
+      {
+        "Number": 16,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 17,
+        "Name": "Jeff Bagwell"
+      },
+      {
+        "Number": 18,
+        "Name": "Jackson Chourio"
+      },
+      {
+        "Number": 19,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 20,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 21,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 22,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 23,
+        "Name": "Manny Machado"
+      },
+      {
+        "Number": 24,
+        "Name": "Dylan Beavers"
+      },
+      {
+        "Number": 25,
+        "Name": "Ryne Sandberg"
+      },
+      {
+        "Number": 26,
+        "Name": "Ryan Ritter"
+      },
+      {
+        "Number": 27,
+        "Name": "Shoeless Joe Jackson"
+      },
+      {
+        "Number": 28,
+        "Name": "Brice Matthews"
+      },
+      {
+        "Number": 29,
+        "Name": "Bo Jackson"
+      },
+      {
+        "Number": 30,
+        "Name": "Derek Jeter"
+      },
+      {
+        "Number": 31,
+        "Name": "Frank Thomas"
+      },
+      {
+        "Number": 32,
+        "Name": "Robin Yount"
+      },
+      {
+        "Number": 33,
+        "Name": "Ichiro"
+      },
+      {
+        "Number": 34,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 35,
+        "Name": "Alex Freeland"
+      },
+      {
+        "Number": 36,
+        "Name": "Yordan Alvarez"
+      },
+      {
+        "Number": 37,
+        "Name": "Seiya Suzuki"
+      },
+      {
+        "Number": 38,
+        "Name": "Carson Williams"
+      },
+      {
+        "Number": 39,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 40,
+        "Name": "Andrew McCutchen"
+      },
+      {
+        "Number": 41,
+        "Name": "Brady House"
+      },
+      {
+        "Number": 42,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 43,
+        "Name": "Albert Pujols"
+      },
+      {
+        "Number": 44,
+        "Name": "Mark McGwire"
+      },
+      {
+        "Number": 45,
+        "Name": "Ken Griffey Jr."
+      },
+      {
+        "Number": 46,
+        "Name": "Christian Moore"
+      },
+      {
+        "Number": 47,
+        "Name": "Miguel Cabrera"
+      },
+      {
+        "Number": 48,
+        "Name": "Mickey Mantle"
+      },
+      {
+        "Number": 49,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 50,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 51,
+        "Name": "Bubba Chandler"
+      },
+      {
+        "Number": 52,
+        "Name": "Rickey Henderson"
+      },
+      {
+        "Number": 53,
+        "Name": "Matt Olson"
+      },
+      {
+        "Number": 54,
+        "Name": "Rafael Devers"
+      },
+      {
+        "Number": 55,
+        "Name": "Yoshinobu Yamamoto"
+      },
+      {
+        "Number": 56,
+        "Name": "Jacob Melton"
+      },
+      {
+        "Number": 57,
+        "Name": "Otto Kemp"
+      },
+      {
+        "Number": 58,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 59,
+        "Name": "Adrian Beltr\u00E9"
+      },
+      {
+        "Number": 60,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 61,
+        "Name": "Yanquiel Fern\u00E1ndez"
+      },
+      {
+        "Number": 62,
+        "Name": "Junior Caminero"
+      },
+      {
+        "Number": 63,
+        "Name": "Nolan McLean"
+      },
+      {
+        "Number": 64,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 65,
+        "Name": "Corey Seager"
+      },
+      {
+        "Number": 66,
+        "Name": "David Wright"
+      },
+      {
+        "Number": 67,
+        "Name": "Randy Johnson"
+      },
+      {
+        "Number": 68,
+        "Name": "Don Mattingly"
+      },
+      {
+        "Number": 69,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 70,
+        "Name": "Alex Bregman"
+      },
+      {
+        "Number": 71,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 72,
+        "Name": "Mike Schmidt"
+      },
+      {
+        "Number": 73,
+        "Name": "Chase Burns"
+      },
+      {
+        "Number": 74,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 75,
+        "Name": "Pedro Martinez"
+      },
+      {
+        "Number": 76,
+        "Name": "Didier Fuentes"
+      },
+      {
+        "Number": 77,
+        "Name": "Jacob Wilson"
+      },
+      {
+        "Number": 78,
+        "Name": "Jackson Merrill"
+      },
+      {
+        "Number": 79,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 80,
+        "Name": "Matt Chapman"
+      },
+      {
+        "Number": 81,
+        "Name": "Barry Larkin"
+      },
+      {
+        "Number": 82,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 83,
+        "Name": "Christian Yelich"
+      },
+      {
+        "Number": 84,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 85,
+        "Name": "Lawrence Butler"
+      },
+      {
+        "Number": 86,
+        "Name": "Cam Schlittler"
+      },
+      {
+        "Number": 87,
+        "Name": "Cal Ripken Jr."
+      },
+      {
+        "Number": 88,
+        "Name": "Cal Raleigh"
+      },
+      {
+        "Number": 89,
+        "Name": "Shota Imanaga"
+      },
+      {
+        "Number": 90,
+        "Name": "C.J. Kayfus"
+      },
+      {
+        "Number": 91,
+        "Name": "Kyle Teel"
+      },
+      {
+        "Number": 92,
+        "Name": "Byron Buxton"
+      },
+      {
+        "Number": 93,
+        "Name": "Vladimir Guerrero"
+      },
+      {
+        "Number": 94,
+        "Name": "Kirby Puckett"
+      },
+      {
+        "Number": 95,
+        "Name": "Nolan Arenado"
+      },
+      {
+        "Number": 96,
+        "Name": "Kyle Tucker"
+      },
+      {
+        "Number": 97,
+        "Name": "Nolan Ryan"
+      },
+      {
+        "Number": 98,
+        "Name": "Cole Young"
+      },
+      {
+        "Number": 99,
+        "Name": "Roberto Clemente"
+      },
+      {
+        "Number": 100,
+        "Name": "Shohei Ohtani"
+      }
+    ]
+  },
+  {
+    "Name": "Stars of MLB",
+    "Category": "Retail Exclusive Inserts",
+    "Code": "SMLB",
+    "IsOwned": false,
+    "OwnedCards": [
+      27,
+      28,
+      29,
+      30,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      9,
+      10,
+      3,
+      4,
+      5,
+      6,
+      7,
+      1
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 2,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 3,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 4,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 5,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 6,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 7,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 8,
+        "Name": "Yordan Alvarez"
+      },
+      {
+        "Number": 9,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 10,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 11,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 12,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 13,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 14,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 15,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 16,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 17,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 18,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 19,
+        "Name": "Rafael Devers"
+      },
+      {
+        "Number": 20,
+        "Name": "Christian Yelich"
+      },
+      {
+        "Number": 21,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 22,
+        "Name": "Byron Buxton"
+      },
+      {
+        "Number": 23,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 24,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 25,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 26,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 27,
+        "Name": "Chase Burns"
+      },
+      {
+        "Number": 28,
+        "Name": "Kyle Teel"
+      },
+      {
+        "Number": 29,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 30,
+        "Name": "Jacob Wilson"
+      }
+    ]
+  },
+  {
+    "Name": "Titans of the Game",
+    "Category": "Retail Exclusive Inserts",
+    "Code": "TOG",
+    "IsOwned": false,
+    "OwnedCards": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 2,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 3,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 4,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 5,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 6,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 7,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 8,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 9,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 10,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 11,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 12,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 13,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 14,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 15,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 16,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 17,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 18,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 19,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 20,
+        "Name": "Julio Rodr\u00EDguez"
+      }
+    ]
+  },
+  {
+    "Name": "Dugout Peeks",
+    "Category": "Celebration Mega Box Exclusive Inserts",
+    "Code": "DP",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      10,
+      20,
+      46,
+      66,
+      100,
+      123,
+      138,
+      140,
+      150,
+      189,
+      196,
+      200,
+      205,
+      209,
+      217,
+      219,
+      238,
+      242,
+      250,
+      255,
+      257,
+      300,
+      307,
+      308,
+      324,
+      328,
+      333,
+      349,
+      350
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 10,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 20,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 46,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 66,
+        "Name": "Roki Sasaki"
+      },
+      {
+        "Number": 100,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 123,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 138,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 140,
+        "Name": "Cal Raleigh"
+      },
+      {
+        "Number": 150,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 189,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 196,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 200,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 205,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 209,
+        "Name": "Riley Greene"
+      },
+      {
+        "Number": 217,
+        "Name": "Seiya Suzuki"
+      },
+      {
+        "Number": 219,
+        "Name": "Rafael Devers"
+      },
+      {
+        "Number": 238,
+        "Name": "Austin Riley"
+      },
+      {
+        "Number": 242,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 250,
+        "Name": "Kyle Schwarber"
+      },
+      {
+        "Number": 255,
+        "Name": "Byron Buxton"
+      },
+      {
+        "Number": 257,
+        "Name": "Ketel Marte"
+      },
+      {
+        "Number": 300,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 307,
+        "Name": "Jeremy Pe\u00F1a"
+      },
+      {
+        "Number": 308,
+        "Name": "Jazz Chisholm Jr."
+      },
+      {
+        "Number": 324,
+        "Name": "Lawrence Butler"
+      },
+      {
+        "Number": 328,
+        "Name": "Junior Caminero"
+      },
+      {
+        "Number": 333,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 349,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 350,
+        "Name": "Mike Trout"
+      }
+    ]
+  },
+  {
+    "Name": "Walk This Way",
+    "Category": "Celebration Mega Box Exclusive Inserts",
+    "Code": "WTW",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      23,
+      27,
+      50,
+      73,
+      78,
+      85,
+      92,
+      97,
+      98,
+      101,
+      110,
+      123,
+      129,
+      135,
+      138,
+      139,
+      144,
+      147,
+      154,
+      156,
+      162,
+      164,
+      189,
+      193,
+      196,
+      200,
+      202,
+      205,
+      219,
+      225,
+      226,
+      230,
+      237,
+      240,
+      252,
+      267,
+      269,
+      284,
+      287,
+      293,
+      309,
+      326,
+      333,
+      349,
+      350
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 3,
+        "Name": "Luke Keaschall"
+      },
+      {
+        "Number": 5,
+        "Name": "Justin Turner"
+      },
+      {
+        "Number": 7,
+        "Name": "Patrick Bailey"
+      },
+      {
+        "Number": 8,
+        "Name": "Heliot Ramos"
+      },
+      {
+        "Number": 23,
+        "Name": "Spencer Torkelson"
+      },
+      {
+        "Number": 27,
+        "Name": "Matt Shaw"
+      },
+      {
+        "Number": 50,
+        "Name": "Marcell Ozuna"
+      },
+      {
+        "Number": 73,
+        "Name": "Jackson Chourio"
+      },
+      {
+        "Number": 78,
+        "Name": "Jonah Heim"
+      },
+      {
+        "Number": 85,
+        "Name": "Brooks Lee"
+      },
+      {
+        "Number": 92,
+        "Name": "Jackson Holliday"
+      },
+      {
+        "Number": 97,
+        "Name": "Nick Kurtz"
+      },
+      {
+        "Number": 98,
+        "Name": "Josh Jung"
+      },
+      {
+        "Number": 101,
+        "Name": "Ceddanne Rafaela"
+      },
+      {
+        "Number": 110,
+        "Name": "Adolis Garc\u00EDa"
+      },
+      {
+        "Number": 123,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 129,
+        "Name": "Cole Young"
+      },
+      {
+        "Number": 135,
+        "Name": "Trevor Story"
+      },
+      {
+        "Number": 138,
+        "Name": "Salvador Perez"
+      },
+      {
+        "Number": 139,
+        "Name": "Jo Adell"
+      },
+      {
+        "Number": 144,
+        "Name": "Javier B\u00E1ez"
+      },
+      {
+        "Number": 147,
+        "Name": "Christian Moore"
+      },
+      {
+        "Number": 154,
+        "Name": "Christian Yelich"
+      },
+      {
+        "Number": 156,
+        "Name": "J.P. Crawford"
+      },
+      {
+        "Number": 162,
+        "Name": "Jorge Soler"
+      },
+      {
+        "Number": 164,
+        "Name": "Brenton Doyle"
+      },
+      {
+        "Number": 189,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 193,
+        "Name": "Nolan Arenado"
+      },
+      {
+        "Number": 196,
+        "Name": "Ian Happ"
+      },
+      {
+        "Number": 200,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 202,
+        "Name": "Isaac Collins"
+      },
+      {
+        "Number": 205,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 219,
+        "Name": "Matt Chapman"
+      },
+      {
+        "Number": 225,
+        "Name": "Tyler Soderstrom"
+      },
+      {
+        "Number": 226,
+        "Name": "Jorge Polanco"
+      },
+      {
+        "Number": 230,
+        "Name": "Zach Neto"
+      },
+      {
+        "Number": 237,
+        "Name": "Jonathan India"
+      },
+      {
+        "Number": 240,
+        "Name": "Jacob Wilson"
+      },
+      {
+        "Number": 252,
+        "Name": "Freddie Freeman"
+      },
+      {
+        "Number": 267,
+        "Name": "Willy Adames"
+      },
+      {
+        "Number": 269,
+        "Name": "Wilyer Abreu"
+      },
+      {
+        "Number": 284,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 287,
+        "Name": "Agust\u00EDn Ram\u00EDrez"
+      },
+      {
+        "Number": 293,
+        "Name": "Kyle Stowers"
+      },
+      {
+        "Number": 309,
+        "Name": "Kyle Manzardo"
+      },
+      {
+        "Number": 326,
+        "Name": "Jonathan Aranda"
+      },
+      {
+        "Number": 333,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 349,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 350,
+        "Name": "Taylor Ward"
+      }
+    ]
+  },
+  {
+    "Name": "Mascots",
+    "Category": "Celebration Mega Box Exclusive Inserts",
+    "Code": "MAS",
+    "IsOwned": false,
+    "OwnedCards": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20,
+      22,
+      24,
+      29,
+      30
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Baxter"
+      },
+      {
+        "Number": 2,
+        "Name": "Wally the Green Monster"
+      },
+      {
+        "Number": 3,
+        "Name": "Mascot"
+      },
+      {
+        "Number": 4,
+        "Name": "Dinger"
+      },
+      {
+        "Number": 5,
+        "Name": "Bernie Brewer"
+      },
+      {
+        "Number": 6,
+        "Name": "Rosie Red"
+      },
+      {
+        "Number": 7,
+        "Name": "Mr. Red"
+      },
+      {
+        "Number": 8,
+        "Name": "Mariner Moose"
+      },
+      {
+        "Number": 9,
+        "Name": "Sluggerrr"
+      },
+      {
+        "Number": 10,
+        "Name": "T.C. Bear"
+      },
+      {
+        "Number": 11,
+        "Name": "Mr. Met"
+      },
+      {
+        "Number": 12,
+        "Name": "Rangers Captain"
+      },
+      {
+        "Number": 13,
+        "Name": "Screech"
+      },
+      {
+        "Number": 14,
+        "Name": "Mrs. Met"
+      },
+      {
+        "Number": 15,
+        "Name": "Paws"
+      },
+      {
+        "Number": 16,
+        "Name": "Mascot"
+      },
+      {
+        "Number": 17,
+        "Name": "Pirate Parrot"
+      },
+      {
+        "Number": 18,
+        "Name": "Clark"
+      },
+      {
+        "Number": 19,
+        "Name": "Phillie Phanatic"
+      },
+      {
+        "Number": 20,
+        "Name": "Orbit"
+      },
+      {
+        "Number": 21,
+        "Name": "Fredbird"
+      },
+      {
+        "Number": 22,
+        "Name": "Raymond"
+      },
+      {
+        "Number": 23,
+        "Name": "Blooper"
+      },
+      {
+        "Number": 24,
+        "Name": "Mascot"
+      },
+      {
+        "Number": 25,
+        "Name": "Slider"
+      },
+      {
+        "Number": 26,
+        "Name": "Tessie"
+      },
+      {
+        "Number": 27,
+        "Name": "Mascot"
+      },
+      {
+        "Number": 28,
+        "Name": "ACE"
+      },
+      {
+        "Number": 29,
+        "Name": "Swinging Friar"
+      },
+      {
+        "Number": 30,
+        "Name": "Billy the Marlin"
+      }
+    ]
+  },
+  {
+    "Name": "Gameday Drip",
+    "Category": "Celebration Mega Box Exclusive Inserts",
+    "Code": "GD",
+    "IsOwned": false,
+    "OwnedCards": [
+      19,
+      18,
+      14,
+      11,
+      12,
+      13,
+      4,
+      5,
+      6,
+      7,
+      2
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 2,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 3,
+        "Name": "Javier B\u00E1ez"
+      },
+      {
+        "Number": 4,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 5,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 6,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 7,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 8,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 9,
+        "Name": "Jazz Chisholm Jr."
+      },
+      {
+        "Number": 10,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 11,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 12,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 13,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 14,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 15,
+        "Name": "Jackson Chourio"
+      },
+      {
+        "Number": 16,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 17,
+        "Name": "Matt Chapman"
+      },
+      {
+        "Number": 18,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 19,
+        "Name": "Andrew McCutchen"
+      },
+      {
+        "Number": 20,
+        "Name": "Carlos Correa"
+      }
+    ]
+  },
+  {
+    "Name": "Perennial All Stars",
+    "Category": "Celebration Mega Box Exclusive Inserts",
+    "Code": "PAS",
+    "IsOwned": false,
+    "OwnedCards": [
+      2,
+      6,
+      7,
+      8,
+      10,
+      13,
+      15,
+      17,
+      19,
+      22,
+      21,
+      23,
+      25
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 2,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 3,
+        "Name": "Kyle Tucker"
+      },
+      {
+        "Number": 4,
+        "Name": "Jose Altuve"
+      },
+      {
+        "Number": 5,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 6,
+        "Name": "Clayton Kershaw"
+      },
+      {
+        "Number": 7,
+        "Name": "Nolan Arenado"
+      },
+      {
+        "Number": 8,
+        "Name": "Freddie Freeman"
+      },
+      {
+        "Number": 9,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 10,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 11,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 12,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 13,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 14,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 15,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 16,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 17,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 18,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 19,
+        "Name": "Pete Alonso"
+      },
+      {
+        "Number": 20,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 21,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 22,
+        "Name": "Chris Sale"
+      },
+      {
+        "Number": 23,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 24,
+        "Name": "Manny Machado"
+      },
+      {
+        "Number": 25,
+        "Name": "Christian Yelich"
+      }
+    ]
+  },
+  {
+    "Name": "8 Bit Ballers",
+    "Category": "Celebration Mega Box Exclusive Inserts",
+    "Code": "8BB",
+    "IsOwned": false,
+    "OwnedCards": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      18,
+      20,
+      23
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 2,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 3,
+        "Name": "Chase Burns"
+      },
+      {
+        "Number": 4,
+        "Name": "Kyle Teel"
+      },
+      {
+        "Number": 5,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 6,
+        "Name": "Nick Kurtz"
+      },
+      {
+        "Number": 7,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 8,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 9,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 10,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 11,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 12,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 13,
+        "Name": "Ken Griffey Jr."
+      },
+      {
+        "Number": 14,
+        "Name": "Derek Jeter"
+      },
+      {
+        "Number": 15,
+        "Name": "Cal Ripken Jr."
+      },
+      {
+        "Number": 16,
+        "Name": "Nolan Ryan"
+      },
+      {
+        "Number": 17,
+        "Name": "Rickey Henderson"
+      },
+      {
+        "Number": 18,
+        "Name": "Owen Caissie"
+      },
+      {
+        "Number": 19,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 20,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 21,
+        "Name": "Alex Freeland"
+      },
+      {
+        "Number": 22,
+        "Name": "Bubba Chandler"
+      },
+      {
+        "Number": 23,
+        "Name": "Carson Williams"
+      },
+      {
+        "Number": 24,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 25,
+        "Name": "Kyle Schwarber"
+      }
+    ]
+  },
+  {
+    "Name": "Hidden Mascots",
+    "Category": "Celebration Mega Box Exclusive Inserts",
+    "Code": "HM",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      4,
+      5,
+      10,
+      15,
+      16,
+      18,
+      20,
+      22,
+      24,
+      25,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      46,
+      49,
+      50,
+      62,
+      66,
+      69,
+      72,
+      73,
+      74,
+      75,
+      79,
+      82,
+      92,
+      94,
+      97,
+      100,
+      101,
+      104,
+      111,
+      115,
+      116,
+      123,
+      125,
+      129,
+      131,
+      132,
+      138,
+      139,
+      140,
+      144,
+      146,
+      147,
+      148,
+      150,
+      152,
+      154,
+      155,
+      157,
+      166,
+      170,
+      178,
+      180,
+      184,
+      187,
+      189,
+      196,
+      200,
+      201,
+      205,
+      206,
+      209,
+      213,
+      229,
+      233,
+      238,
+      240,
+      243,
+      246,
+      250,
+      255,
+      257,
+      261,
+      264,
+      270,
+      275,
+      278,
+      283,
+      284,
+      296,
+      300,
+      306,
+      307,
+      308,
+      310,
+      312,
+      314,
+      317,
+      322,
+      324,
+      328,
+      333,
+      337,
+      339,
+      341,
+      350,
+      420
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 4,
+        "Name": "Jonah Tong"
+      },
+      {
+        "Number": 5,
+        "Name": "Nico Hoerner"
+      },
+      {
+        "Number": 10,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 15,
+        "Name": "Payton Tolle"
+      },
+      {
+        "Number": 16,
+        "Name": "Casey Mize"
+      },
+      {
+        "Number": 18,
+        "Name": "Ryan Ritter"
+      },
+      {
+        "Number": 20,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 22,
+        "Name": "Clayton Kershaw"
+      },
+      {
+        "Number": 24,
+        "Name": "Nathan Church"
+      },
+      {
+        "Number": 25,
+        "Name": "Carson Williams"
+      },
+      {
+        "Number": 33,
+        "Name": "Xander Bogaerts"
+      },
+      {
+        "Number": 35,
+        "Name": "C.J. Kayfus"
+      },
+      {
+        "Number": 37,
+        "Name": "Jakob Marsee"
+      },
+      {
+        "Number": 39,
+        "Name": "Matt Olson"
+      },
+      {
+        "Number": 41,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 43,
+        "Name": "Nolan Schanuel"
+      },
+      {
+        "Number": 46,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 49,
+        "Name": "Grant Taylor"
+      },
+      {
+        "Number": 50,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 62,
+        "Name": "Bryan Woo"
+      },
+      {
+        "Number": 66,
+        "Name": "Roki Sasaki"
+      },
+      {
+        "Number": 69,
+        "Name": "Logan Webb"
+      },
+      {
+        "Number": 72,
+        "Name": "Coby Mayo"
+      },
+      {
+        "Number": 73,
+        "Name": "Jimmy Crooks"
+      },
+      {
+        "Number": 74,
+        "Name": "Alex Freeland"
+      },
+      {
+        "Number": 75,
+        "Name": "YEARS OF TOPPS DIE CUT AUTOGRAPHS"
+      },
+      {
+        "Number": 79,
+        "Name": "Spencer Strider"
+      },
+      {
+        "Number": 82,
+        "Name": "Carlos Rod\u00F3n"
+      },
+      {
+        "Number": 92,
+        "Name": "Jackson Holliday"
+      },
+      {
+        "Number": 94,
+        "Name": "Yu Darvish"
+      },
+      {
+        "Number": 97,
+        "Name": "Nick Kurtz"
+      },
+      {
+        "Number": 100,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 101,
+        "Name": "Ceddanne Rafaela"
+      },
+      {
+        "Number": 104,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 111,
+        "Name": "Cam Schlittler"
+      },
+      {
+        "Number": 115,
+        "Name": "Royce Lewis"
+      },
+      {
+        "Number": 116,
+        "Name": "Yanquiel Fern\u00E1ndez"
+      },
+      {
+        "Number": 123,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 125,
+        "Name": "Kristian Campbell"
+      },
+      {
+        "Number": 129,
+        "Name": "Cole Young"
+      },
+      {
+        "Number": 131,
+        "Name": "Andrew McCutchen"
+      },
+      {
+        "Number": 132,
+        "Name": "Brice Matthews"
+      },
+      {
+        "Number": 138,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 139,
+        "Name": "Jo Adell"
+      },
+      {
+        "Number": 140,
+        "Name": "Cal Raleigh"
+      },
+      {
+        "Number": 144,
+        "Name": "Javier B\u00E1ez"
+      },
+      {
+        "Number": 146,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 147,
+        "Name": "Christian Moore"
+      },
+      {
+        "Number": 148,
+        "Name": "Jacob Melton"
+      },
+      {
+        "Number": 150,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 152,
+        "Name": "CJ Abrams"
+      },
+      {
+        "Number": 154,
+        "Name": "Christian Yelich"
+      },
+      {
+        "Number": 155,
+        "Name": "Drew Gilbert"
+      },
+      {
+        "Number": 157,
+        "Name": "Colson Montgomery"
+      },
+      {
+        "Number": 166,
+        "Name": "Colton Cowser"
+      },
+      {
+        "Number": 170,
+        "Name": "Brady House"
+      },
+      {
+        "Number": 178,
+        "Name": "Shota Imanaga"
+      },
+      {
+        "Number": 180,
+        "Name": "Willson Contreras"
+      },
+      {
+        "Number": 184,
+        "Name": "Carson Whisenhunt"
+      },
+      {
+        "Number": 187,
+        "Name": "Otto Kemp"
+      },
+      {
+        "Number": 189,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 196,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 200,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 201,
+        "Name": "Kyle Teel"
+      },
+      {
+        "Number": 205,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 206,
+        "Name": "Jack Perkins"
+      },
+      {
+        "Number": 209,
+        "Name": "Riley Greene"
+      },
+      {
+        "Number": 213,
+        "Name": "Colby Thomas"
+      },
+      {
+        "Number": 229,
+        "Name": "Jackson Merrill"
+      },
+      {
+        "Number": 233,
+        "Name": "Owen Caissie"
+      },
+      {
+        "Number": 238,
+        "Name": "Austin Riley"
+      },
+      {
+        "Number": 240,
+        "Name": "Jacob Wilson"
+      },
+      {
+        "Number": 243,
+        "Name": "Didier Fuentes"
+      },
+      {
+        "Number": 246,
+        "Name": "Oneil Cruz"
+      },
+      {
+        "Number": 250,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 255,
+        "Name": "Byron Buxton"
+      },
+      {
+        "Number": 257,
+        "Name": "Geraldo Perdomo"
+      },
+      {
+        "Number": 261,
+        "Name": "Zack Wheeler"
+      },
+      {
+        "Number": 264,
+        "Name": "Hunter Brown"
+      },
+      {
+        "Number": 270,
+        "Name": "Max Fried"
+      },
+      {
+        "Number": 275,
+        "Name": "Luisangel Acu\u00F1a"
+      },
+      {
+        "Number": 278,
+        "Name": "Jose Altuve"
+      },
+      {
+        "Number": 283,
+        "Name": "Bubba Chandler"
+      },
+      {
+        "Number": 284,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 296,
+        "Name": "Hayden Birdsong"
+      },
+      {
+        "Number": 300,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 306,
+        "Name": "Spencer Schwellenbach"
+      },
+      {
+        "Number": 307,
+        "Name": "Jeremy Pe\u00F1a"
+      },
+      {
+        "Number": 308,
+        "Name": "Anthony Volpe"
+      },
+      {
+        "Number": 310,
+        "Name": "Michael Harris II"
+      },
+      {
+        "Number": 312,
+        "Name": "Chase Burns"
+      },
+      {
+        "Number": 314,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 317,
+        "Name": "Troy Johnston"
+      },
+      {
+        "Number": 322,
+        "Name": "Trea Turner"
+      },
+      {
+        "Number": 324,
+        "Name": "Lawrence Butler"
+      },
+      {
+        "Number": 328,
+        "Name": "Junior Caminero"
+      },
+      {
+        "Number": 333,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 337,
+        "Name": "Francisco Alvarez"
+      },
+      {
+        "Number": 339,
+        "Name": "Dylan Beavers"
+      },
+      {
+        "Number": 341,
+        "Name": "Giancarlo Stanton"
+      },
+      {
+        "Number": 350,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 420,
+        "Name": "Luis Arraez"
+      }
+    ]
+  },
+  {
+    "Name": "Oversized 2026 Topps Baseball Cards",
+    "Category": "Super Box and Specialty Exclusives",
+    "Code": "O26",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      20,
+      50,
+      97,
+      100,
+      104,
+      123,
+      138,
+      146,
+      189,
+      196,
+      200,
+      205,
+      250,
+      333,
+      350
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 20,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 50,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 97,
+        "Name": "Nick Kurtz"
+      },
+      {
+        "Number": 100,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 104,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 123,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 138,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 146,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 189,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 196,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 200,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 205,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 250,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 333,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 350,
+        "Name": "Mike Trout"
+      }
+    ]
+  },
+  {
+    "Name": "Companion Cards",
+    "Category": "Super Box and Specialty Exclusives",
+    "Code": "CC",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      20,
+      50,
+      97,
+      100,
+      104,
+      123,
+      138,
+      146,
+      189,
+      200,
+      205,
+      250,
+      333,
+      350
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 20,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 50,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 97,
+        "Name": "Nick Kurtz"
+      },
+      {
+        "Number": 100,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 104,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 123,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 138,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 146,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 189,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 200,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 205,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 250,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 333,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 350,
+        "Name": "Mike Trout"
+      }
+    ]
+  },
+  {
+    "Name": "Funko Base Cards",
+    "Category": "Super Box and Specialty Exclusives",
+    "Code": "FBC",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      200,
+      250,
+      350,
+      420
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 200,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 250,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 350,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 420,
+        "Name": "Luis Arraez"
+      }
+    ]
+  },
+  {
+    "Name": "1991 Topps Baseball Chrome Base Cards",
+    "Category": "Super Box and Specialty Exclusives",
+    "Code": "T91C",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Adrian Beltr\u00E9"
+      },
+      {
+        "Number": 2,
+        "Name": "Junior Caminero"
+      },
+      {
+        "Number": 3,
+        "Name": "Corbin Carroll"
+      },
+      {
+        "Number": 4,
+        "Name": "Riley Greene"
+      },
+      {
+        "Number": 5,
+        "Name": "Bo Jackson"
+      },
+      {
+        "Number": 6,
+        "Name": "Jac Caglianone"
+      },
+      {
+        "Number": 7,
+        "Name": "Dansby Swanson"
+      },
+      {
+        "Number": 8,
+        "Name": "Cole Young"
+      },
+      {
+        "Number": 9,
+        "Name": "Vladimir Guerrero"
+      },
+      {
+        "Number": 10,
+        "Name": "David Ortiz"
+      },
+      {
+        "Number": 11,
+        "Name": "Owen Caissie"
+      },
+      {
+        "Number": 12,
+        "Name": "Chipper Jones"
+      },
+      {
+        "Number": 13,
+        "Name": "Albert Pujols"
+      },
+      {
+        "Number": 14,
+        "Name": "Nolan Ryan"
+      },
+      {
+        "Number": 15,
+        "Name": "Brady House"
+      },
+      {
+        "Number": 16,
+        "Name": "Gunnar Henderson"
+      },
+      {
+        "Number": 17,
+        "Name": "Jose Altuve"
+      },
+      {
+        "Number": 18,
+        "Name": "Yoshinobu Yamamoto"
+      },
+      {
+        "Number": 19,
+        "Name": "Bobby Witt Jr."
+      },
+      {
+        "Number": 20,
+        "Name": "Otto Kemp"
+      },
+      {
+        "Number": 21,
+        "Name": "Warming Bernabel"
+      },
+      {
+        "Number": 22,
+        "Name": "Mike Schmidt"
+      },
+      {
+        "Number": 23,
+        "Name": "Jhostynxon Garcia"
+      },
+      {
+        "Number": 24,
+        "Name": "Tarik Skubal"
+      },
+      {
+        "Number": 25,
+        "Name": "Ichiro"
+      },
+      {
+        "Number": 26,
+        "Name": "Rafael Devers"
+      },
+      {
+        "Number": 27,
+        "Name": "Colson Montgomery"
+      },
+      {
+        "Number": 28,
+        "Name": "Grant Taylor"
+      },
+      {
+        "Number": 29,
+        "Name": "Don Mattingly"
+      },
+      {
+        "Number": 30,
+        "Name": "Samuel Basallo"
+      },
+      {
+        "Number": 31,
+        "Name": "Andrew McCutchen"
+      },
+      {
+        "Number": 32,
+        "Name": "Ozzie Smith"
+      },
+      {
+        "Number": 33,
+        "Name": "Trea Turner"
+      },
+      {
+        "Number": 34,
+        "Name": "Jonah Tong"
+      },
+      {
+        "Number": 35,
+        "Name": "Jacob Wilson"
+      },
+      {
+        "Number": 36,
+        "Name": "C.J. Kayfus"
+      },
+      {
+        "Number": 37,
+        "Name": "Barry Larkin"
+      },
+      {
+        "Number": 38,
+        "Name": "Chase Burns"
+      },
+      {
+        "Number": 39,
+        "Name": "Paul Skenes"
+      },
+      {
+        "Number": 40,
+        "Name": "Yanquiel Fern\u00E1ndez"
+      },
+      {
+        "Number": 41,
+        "Name": "Pedro Martinez"
+      },
+      {
+        "Number": 42,
+        "Name": "Mike Trout"
+      },
+      {
+        "Number": 43,
+        "Name": "Ronald Acu\u00F1a Jr."
+      },
+      {
+        "Number": 44,
+        "Name": "Juan Soto"
+      },
+      {
+        "Number": 45,
+        "Name": "Nathan Church"
+      },
+      {
+        "Number": 46,
+        "Name": "Nolan Arenado"
+      },
+      {
+        "Number": 47,
+        "Name": "Shohei Ohtani"
+      },
+      {
+        "Number": 48,
+        "Name": "Nolan McLean"
+      },
+      {
+        "Number": 49,
+        "Name": "Mark McGwire"
+      },
+      {
+        "Number": 50,
+        "Name": "Yordan Alvarez"
+      },
+      {
+        "Number": 51,
+        "Name": "Ken Griffey Jr."
+      },
+      {
+        "Number": 52,
+        "Name": "Carson Whisenhunt"
+      },
+      {
+        "Number": 53,
+        "Name": "Craig Biggio"
+      },
+      {
+        "Number": 54,
+        "Name": "Jacob Misiorowski"
+      },
+      {
+        "Number": 55,
+        "Name": "Fernando Tatis Jr."
+      },
+      {
+        "Number": 56,
+        "Name": "Alex Freeland"
+      },
+      {
+        "Number": 57,
+        "Name": "Bryce Harper"
+      },
+      {
+        "Number": 58,
+        "Name": "Corey Seager"
+      },
+      {
+        "Number": 59,
+        "Name": "Christian Moore"
+      },
+      {
+        "Number": 60,
+        "Name": "Roman Anthony"
+      },
+      {
+        "Number": 61,
+        "Name": "Kyle Teel"
+      },
+      {
+        "Number": 62,
+        "Name": "Julio Rodr\u00EDguez"
+      },
+      {
+        "Number": 63,
+        "Name": "Cal Ripken Jr."
+      },
+      {
+        "Number": 64,
+        "Name": "Parker Messick"
+      },
+      {
+        "Number": 65,
+        "Name": "Byron Buxton"
+      },
+      {
+        "Number": 66,
+        "Name": "Frank Thomas"
+      },
+      {
+        "Number": 67,
+        "Name": "Shota Imanaga"
+      },
+      {
+        "Number": 68,
+        "Name": "Robin Yount"
+      },
+      {
+        "Number": 69,
+        "Name": "Jacob Melton"
+      },
+      {
+        "Number": 70,
+        "Name": "Brice Matthews"
+      },
+      {
+        "Number": 71,
+        "Name": "Jackson Chourio"
+      },
+      {
+        "Number": 72,
+        "Name": "Vladimir Guerrero Jr."
+      },
+      {
+        "Number": 73,
+        "Name": "Derek Jeter"
+      },
+      {
+        "Number": 74,
+        "Name": "Colby Thomas"
+      },
+      {
+        "Number": 75,
+        "Name": "Bubba Chandler"
+      },
+      {
+        "Number": 76,
+        "Name": "Matt Olson"
+      },
+      {
+        "Number": 77,
+        "Name": "Randy Johnson"
+      },
+      {
+        "Number": 78,
+        "Name": "James Wood"
+      },
+      {
+        "Number": 79,
+        "Name": "Wyatt Langford"
+      },
+      {
+        "Number": 80,
+        "Name": "Cal Raleigh"
+      },
+      {
+        "Number": 81,
+        "Name": "Mike Piazza"
+      },
+      {
+        "Number": 82,
+        "Name": "Aaron Judge"
+      },
+      {
+        "Number": 83,
+        "Name": "Kyle Tucker"
+      },
+      {
+        "Number": 84,
+        "Name": "Jos\u00E9 Ram\u00EDrez"
+      },
+      {
+        "Number": 85,
+        "Name": "Didier Fuentes"
+      },
+      {
+        "Number": 86,
+        "Name": "Ryan Ritter"
+      },
+      {
+        "Number": 87,
+        "Name": "Carson Williams"
+      },
+      {
+        "Number": 88,
+        "Name": "Sammy Sosa"
+      },
+      {
+        "Number": 89,
+        "Name": "Elly De La Cruz"
+      },
+      {
+        "Number": 90,
+        "Name": "Francisco Lindor"
+      },
+      {
+        "Number": 91,
+        "Name": "Pete Crow-Armstrong"
+      },
+      {
+        "Number": 92,
+        "Name": "Buster Posey"
+      },
+      {
+        "Number": 93,
+        "Name": "Miguel Cabrera"
+      },
+      {
+        "Number": 94,
+        "Name": "Cam Schlittler"
+      },
+      {
+        "Number": 95,
+        "Name": "Mookie Betts"
+      },
+      {
+        "Number": 96,
+        "Name": "Will Clark"
+      },
+      {
+        "Number": 97,
+        "Name": "Matt Chapman"
+      },
+      {
+        "Number": 98,
+        "Name": "Jeff Bagwell"
+      },
+      {
+        "Number": 99,
+        "Name": "Ryne Sandberg"
+      },
+      {
+        "Number": 100,
+        "Name": "Christian Yelich"
+      }
+    ]
+  },
+  {
+    "Name": "Iconic Topps Buyback Cards",
+    "Category": "Super Box and Specialty Exclusives",
+    "Code": "ITB",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [],
+    "ValidCards": []
+  },
+  {
+    "Name": "75 Years of Topps Baseball Gifts",
+    "Category": "Super Box and Specialty Exclusives",
+    "Code": "75Y",
+    "IsOwned": false,
+    "OwnedCards": [],
+    "ValidCardNumbers": [
+      2
+    ],
+    "ValidCards": [
+      {
+        "Number": 2,
+        "Name": "Tickets to the World Series"
+      }
+    ]
+  },
+  {
+    "Name": "First Pitch",
+    "Category": "Standard Inserts",
+    "Code": "FP",
+    "IsOwned": false,
+    "OwnedCards": [
+      2
+    ],
+    "ValidCardNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "ValidCards": [
+      {
+        "Number": 1,
+        "Name": "Shad Mayfield"
+      },
+      {
+        "Number": 2,
+        "Name": "Kelvin Sampson"
+      },
+      {
+        "Number": 3,
+        "Name": "Caroline Marks"
+      },
+      {
+        "Number": 4,
+        "Name": "Kevin Negandhi"
+      },
+      {
+        "Number": 5,
+        "Name": "Jesse Eisenberg"
+      },
+      {
+        "Number": 6,
+        "Name": "Tony Hawk"
+      },
+      {
+        "Number": 7,
+        "Name": "Jackie Hornung"
+      },
+      {
+        "Number": 8,
+        "Name": "Alysha Newman"
+      },
+      {
+        "Number": 9,
+        "Name": "Mannie Fresh"
+      }
+    ]
+  }
+]
