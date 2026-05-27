@@ -7,27 +7,31 @@ using UglyToad.PdfPig;
 
 const string FilePath = "collection.json";
 const string InsertSetsPath = "insert_sets.json";
-const string ChecklistPdfPath = "checklistInputs/2026_Topps_Series_1_Baseball_Checklist.pdf";
-const string OddsPdfPath = "checklistInputs/2026_Topps_Baseball_Series_1_Odds.pdf";
+
+var checklistDir = Environment.GetEnvironmentVariable("TOPPS_CHECKLIST_DIR") ?? "checklistInputs";
+var checklistPdfPath = Environment.GetEnvironmentVariable("TOPPS_CHECKLIST_PDF")
+	?? Path.Combine(checklistDir, "2026_Topps_Series_1_Baseball_Checklist.pdf");
+var oddsPdfPath = Environment.GetEnvironmentVariable("TOPPS_ODDS_PDF")
+	?? Path.Combine(checklistDir, "2026_Topps_Baseball_Series_1_Odds.pdf");
 var jsonOptions = new JsonSerializerOptions { WriteIndented = true };
-var cards = LoadOrCreateCards(FilePath, jsonOptions);
+var cards = LoadOrCreateCards(FilePath, jsonOptions, checklistPdfPath);
 var insertSets = LoadOrCreateInsertSets(InsertSetsPath, jsonOptions);
 if (NormalizeInsertSets(insertSets))
 	{
 	SaveInsertSets(InsertSetsPath, insertSets, jsonOptions);
 }
-if (HydrateInsertSetNumbersFromChecklist(insertSets))
+if (HydrateInsertSetNumbersFromChecklist(insertSets, checklistPdfPath))
 {
 	SaveInsertSets(InsertSetsPath, insertSets, jsonOptions);
 }
 
 NormalizeCards(cards);
-if (HydratePlaceholderNamesFromChecklist(cards))
+if (HydratePlaceholderNamesFromChecklist(cards, checklistPdfPath))
 {
 	SaveCards(FilePath, cards, jsonOptions);
 }
 
-var oddsEntries = LoadOddsFromPdf(OddsPdfPath);
+var oddsEntries = LoadOddsFromPdf(oddsPdfPath);
 var autoStatsPanel = true;
 
 DrawArcadeHeader(cards, oddsEntries);
@@ -333,7 +337,7 @@ while (true)
 	}
 }
 
-static List<Card> LoadOrCreateCards(string path, JsonSerializerOptions options)
+static List<Card> LoadOrCreateCards(string path, JsonSerializerOptions options, string checklistPdfPath)
 {
 	if (File.Exists(path))
 	{
@@ -359,7 +363,7 @@ static List<Card> LoadOrCreateCards(string path, JsonSerializerOptions options)
 		}
 	}
 
-	var initializedCards = InitializeFromPdf();
+	var initializedCards = InitializeFromPdf(checklistPdfPath);
 	SaveCards(path, initializedCards, options);
 	return initializedCards;
 }
@@ -395,15 +399,15 @@ static List<InsertSet> LoadOrCreateInsertSets(string path, JsonSerializerOptions
 	return defaults;
 }
 
-static List<Card> InitializeFromPdf()
+static List<Card> InitializeFromPdf(string checklistPdfPath)
 {
 	var cards = Enumerable.Range(1, 350)
 		.Select(id => new Card { Id = id, PlayerName = $"Card {id}", IsOwned = false })
 		.ToList();
 
-	if (!TryExtractChecklistNames(out var namesById))
+	if (!TryExtractChecklistNames(checklistPdfPath, out var namesById))
 	{
-		Console.WriteLine($"Checklist names unavailable from {ChecklistPdfPath}. Using placeholder names.");
+		Console.WriteLine($"Checklist names unavailable from {checklistPdfPath}. Using placeholder names.");
 		return cards;
 	}
 
@@ -420,7 +424,7 @@ static List<Card> InitializeFromPdf()
 	return cards;
 }
 
-static bool HydratePlaceholderNamesFromChecklist(List<Card> cards)
+static bool HydratePlaceholderNamesFromChecklist(List<Card> cards, string checklistPdfPath)
 {
 	var placeholders = cards.Where(c => IsPlaceholderName(c.PlayerName, c.Id)).ToList();
 	if (placeholders.Count == 0)
@@ -428,7 +432,7 @@ static bool HydratePlaceholderNamesFromChecklist(List<Card> cards)
 		return false;
 	}
 
-	if (!TryExtractChecklistNames(out var namesById))
+	if (!TryExtractChecklistNames(checklistPdfPath, out var namesById))
 	{
 		return false;
 	}
@@ -451,20 +455,20 @@ static bool HydratePlaceholderNamesFromChecklist(List<Card> cards)
 	return updated > 0;
 }
 
-static bool TryExtractChecklistNames(out Dictionary<int, string> namesById)
+static bool TryExtractChecklistNames(string checklistPdfPath, out Dictionary<int, string> namesById)
 {
 	namesById = new Dictionary<int, string>();
 
-	if (!File.Exists(ChecklistPdfPath))
+	if (!File.Exists(checklistPdfPath))
 	{
-		Console.WriteLine($"Checklist PDF not found: {ChecklistPdfPath}.");
+		Console.WriteLine($"Checklist PDF not found: {checklistPdfPath}.");
 		return false;
 	}
 
 	try
 	{
 		var allText = new StringBuilder();
-		using var document = PdfDocument.Open(ChecklistPdfPath);
+		using var document = PdfDocument.Open(checklistPdfPath);
 		foreach (var page in document.GetPages())
 		{
 			allText.AppendLine(page.Text);
@@ -476,7 +480,7 @@ static bool TryExtractChecklistNames(out Dictionary<int, string> namesById)
 			return true;
 		}
 
-		if (TryReadTextWithPdftotext(out var pdftotextOutput))
+		if (TryReadTextWithPdftotext(checklistPdfPath, out var pdftotextOutput))
 		{
 			namesById = ExtractChecklistNamesFromText(pdftotextOutput);
 			if (namesById.Count > 0)
@@ -491,7 +495,7 @@ static bool TryExtractChecklistNames(out Dictionary<int, string> namesById)
 	{
 		Console.WriteLine($"Failed to read checklist PDF: {ex.Message}");
 
-		if (TryReadTextWithPdftotext(out var pdftotextOutput))
+		if (TryReadTextWithPdftotext(checklistPdfPath, out var pdftotextOutput))
 		{
 			namesById = ExtractChecklistNamesFromText(pdftotextOutput);
 			if (namesById.Count > 0)
@@ -546,7 +550,7 @@ static Dictionary<int, string> ExtractChecklistNamesFromText(string text)
 	return namesById;
 }
 
-static bool TryReadTextWithPdftotext(out string output)
+static bool TryReadTextWithPdftotext(string pdfPath, out string output)
 {
 	output = string.Empty;
 
@@ -561,7 +565,7 @@ static bool TryReadTextWithPdftotext(out string output)
 			CreateNoWindow = true
 		};
 
-		startInfo.ArgumentList.Add(ChecklistPdfPath);
+		startInfo.ArgumentList.Add(pdfPath);
 		startInfo.ArgumentList.Add("-");
 
 		using var process = Process.Start(startInfo);
@@ -581,9 +585,9 @@ static bool TryReadTextWithPdftotext(out string output)
 	}
 }
 
-static bool HydrateInsertSetNumbersFromChecklist(List<InsertSet> insertSets)
+static bool HydrateInsertSetNumbersFromChecklist(List<InsertSet> insertSets, string checklistPdfPath)
 {
-	if (!TryExtractInsertSetCardsFromChecklist(out var cardsByCode))
+	if (!TryExtractInsertSetCardsFromChecklist(checklistPdfPath, out var cardsByCode))
 	{
 		return false;
 	}
@@ -623,11 +627,11 @@ static bool HydrateInsertSetNumbersFromChecklist(List<InsertSet> insertSets)
 	return changed;
 }
 
-static bool TryExtractInsertSetCardsFromChecklist(out Dictionary<string, Dictionary<int, string>> cardsByCode)
+static bool TryExtractInsertSetCardsFromChecklist(string checklistPdfPath, out Dictionary<string, Dictionary<int, string>> cardsByCode)
 {
 	cardsByCode = new Dictionary<string, Dictionary<int, string>>(StringComparer.OrdinalIgnoreCase);
 
-	if (!TryReadTextWithPdftotext(out var text))
+	if (!TryReadTextWithPdftotext(checklistPdfPath, out var text))
 	{
 		return false;
 	}
