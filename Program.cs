@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using UglyToad.PdfPig;
 
@@ -337,10 +338,24 @@ static List<Card> LoadOrCreateCards(string path, JsonSerializerOptions options)
 	if (File.Exists(path))
 	{
 		var json = File.ReadAllText(path);
-		var loaded = JsonSerializer.Deserialize<List<Card>>(json, options);
-		if (loaded is not null)
+		if (json.TrimStart().StartsWith('{'))
 		{
-			return loaded;
+			var file = JsonSerializer.Deserialize<CollectionFile>(json, options);
+			if (file?.Cards is not null)
+			{
+				return file.Cards;
+			}
+		}
+		else
+		{
+			// Migrate legacy bare-array format to v1 wrapper
+			var loaded = JsonSerializer.Deserialize<List<Card>>(json, options);
+			if (loaded is not null)
+			{
+				SaveCards(path, loaded, options);
+				Console.WriteLine("Collection migrated to schema v1.");
+				return loaded;
+			}
 		}
 	}
 
@@ -354,10 +369,24 @@ static List<InsertSet> LoadOrCreateInsertSets(string path, JsonSerializerOptions
 	if (File.Exists(path))
 	{
 		var json = File.ReadAllText(path);
-		var loaded = JsonSerializer.Deserialize<List<InsertSet>>(json, options);
-		if (loaded is not null)
+		if (json.TrimStart().StartsWith('{'))
 		{
-			return loaded;
+			var file = JsonSerializer.Deserialize<InsertSetFile>(json, options);
+			if (file?.InsertSets is not null)
+			{
+				return file.InsertSets;
+			}
+		}
+		else
+		{
+			// Migrate legacy bare-array format to v1 wrapper
+			var loaded = JsonSerializer.Deserialize<List<InsertSet>>(json, options);
+			if (loaded is not null)
+			{
+				SaveInsertSets(path, loaded, options);
+				Console.WriteLine("Insert sets migrated to schema v1.");
+				return loaded;
+			}
 		}
 	}
 
@@ -2208,13 +2237,15 @@ static string FormatCardLabel(Card card)
 
 static void SaveCards(string path, List<Card> cards, JsonSerializerOptions options)
 {
-	var json = JsonSerializer.Serialize(cards, options);
+	var file = new CollectionFile { Cards = cards };
+	var json = JsonSerializer.Serialize(file, options);
 	AtomicSave(path, json);
 }
 
 static void SaveInsertSets(string path, List<InsertSet> insertSets, JsonSerializerOptions options)
 {
-	var json = JsonSerializer.Serialize(insertSets, options);
+	var file = new InsertSetFile { InsertSets = insertSets };
+	var json = JsonSerializer.Serialize(file, options);
 	AtomicSave(path, json);
 }
 
@@ -2335,4 +2366,22 @@ class InsertCardInfo
 {
 	public int Number { get; set; }
 	public string Name { get; set; } = string.Empty;
+}
+
+class CollectionFile
+{
+	[JsonPropertyName("_schemaVersion")]
+	public int SchemaVersion { get; set; } = 1;
+
+	[JsonPropertyName("cards")]
+	public List<Card> Cards { get; set; } = new();
+}
+
+class InsertSetFile
+{
+	[JsonPropertyName("_schemaVersion")]
+	public int SchemaVersion { get; set; } = 1;
+
+	[JsonPropertyName("insertSets")]
+	public List<InsertSet> InsertSets { get; set; } = new();
 }
