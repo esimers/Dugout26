@@ -2209,13 +2209,28 @@ static string FormatCardLabel(Card card)
 static void SaveCards(string path, List<Card> cards, JsonSerializerOptions options)
 {
 	var json = JsonSerializer.Serialize(cards, options);
-	File.WriteAllText(path, json);
+	AtomicSave(path, json);
 }
 
 static void SaveInsertSets(string path, List<InsertSet> insertSets, JsonSerializerOptions options)
 {
 	var json = JsonSerializer.Serialize(insertSets, options);
-	File.WriteAllText(path, json);
+	AtomicSave(path, json);
+}
+
+static void AtomicSave(string path, string json)
+{
+	var backup = path + ".bak";
+	var tmp = path + ".tmp";
+
+	File.WriteAllText(tmp, json, Encoding.UTF8);
+
+	if (File.Exists(path))
+	{
+		File.Copy(path, backup, overwrite: true);
+	}
+
+	File.Move(tmp, path, overwrite: true);
 }
 
 static HashSet<int> ParseIds(string input)
