@@ -71,4 +71,78 @@ public class CommandHandlerTests
 		Assert.Equal("Retail", categoryFilter);
 		Assert.Equal("Titans", nameFilter);
 	}
+
+	[Fact]
+	public void ResetCollectionData_ResetsCardsAndSetsOnDoubleConfirmation()
+	{
+		var cards = new List<Card>
+		{
+			new Card { Id = 1, PlayerName = "Judge", IsOwned = true, Variants = new List<CardVariant> { new CardVariant { Name = "Gold", IsOwned = true } } }
+		};
+		var insertSets = new List<InsertSet>
+		{
+			new InsertSet { Name = "Titans", Code = "TOG", IsOwned = true, OwnedCards = new List<int> { 1, 2 } }
+		};
+
+		var tmpCards = Path.GetTempFileName();
+		var tmpSets = Path.GetTempFileName();
+		var options = new System.Text.Json.JsonSerializerOptions { WriteIndented = true };
+
+		try
+		{
+			var result = CommandHandler.ResetCollectionData(
+				cards,
+				insertSets,
+				tmpCards,
+				tmpSets,
+				options,
+				confirmPrompt: prompt => true,
+				stringPrompt: prompt => "RESET");
+
+			Assert.True(result);
+			Assert.False(cards[0].IsOwned);
+			Assert.Empty(cards[0].Variants);
+			Assert.False(insertSets[0].IsOwned);
+			Assert.Empty(insertSets[0].OwnedCards);
+		}
+		finally
+		{
+			if (File.Exists(tmpCards)) File.Delete(tmpCards);
+			if (File.Exists(tmpSets)) File.Delete(tmpSets);
+		}
+	}
+
+	[Fact]
+	public void ResetCollectionData_AbortsIfSecondConfirmationFails()
+	{
+		var cards = new List<Card>
+		{
+			new Card { Id = 1, PlayerName = "Judge", IsOwned = true }
+		};
+		var insertSets = new List<InsertSet>();
+		var tmpCards = Path.GetTempFileName();
+		var tmpSets = Path.GetTempFileName();
+		var options = new System.Text.Json.JsonSerializerOptions { WriteIndented = true };
+
+		try
+		{
+			var result = CommandHandler.ResetCollectionData(
+				cards,
+				insertSets,
+				tmpCards,
+				tmpSets,
+				options,
+				confirmPrompt: prompt => true,
+				stringPrompt: prompt => "wrong");
+
+			Assert.False(result);
+			Assert.True(cards[0].IsOwned);
+		}
+		finally
+		{
+			if (File.Exists(tmpCards)) File.Delete(tmpCards);
+			if (File.Exists(tmpSets)) File.Delete(tmpSets);
+		}
+	}
 }
+

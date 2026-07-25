@@ -86,6 +86,22 @@ dotnet run --project Dugout26.csproj
 
 At the `DUGOUT> ` prompt, type `menu` or `m` to launch the interactive arrow-key selection prompt, or type `help` for command reference.
 
+### ⚠️ Starting Fresh (Resetting Collection Data)
+
+> [!CAUTION]
+> **Pre-Populated Collection Notice**  
+> This repository ships pre-loaded with sample collection data in `collection.json` and `insert_sets.json`.
+>
+> If you want to start with a completely clean slate (0 base cards, 0 parallel hits, 0 insert sets owned):
+> 1. Launch the application (`dotnet run --project Dugout26.csproj`).
+> 2. Run the `reset` command at the prompt:
+>    ```text
+>    DUGOUT> reset
+>    ```
+> 3. **Double Confirmation Safeguard**: To prevent accidental data loss, the application will require **two separate confirmations**. You will be asked to confirm first, and then prompted to type `RESET` to permanently wipe all ownership data.
+> 
+> *Warning: Once reset is confirmed, your collection history is permanently cleared and cannot be recovered.*
+
 ### 2. Everyday Collecting Workflow
 1. **Ripping Packs**: After opening packs, log your new base cards:
    ```text

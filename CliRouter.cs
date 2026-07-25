@@ -379,6 +379,16 @@ public static class CliRouter
 				ConsoleUi.PrintHelp();
 				break;
 
+			case "reset":
+			case "clear":
+			case "fresh":
+				if (CommandHandler.ExecuteResetCollection(cards, insertSets, filePath, insertSetsPath, jsonOptions) && autoStatsPanel)
+				{
+					StatsRenderer.DrawStatsPanel(cards, oddsEntries, insertSets);
+				}
+				break;
+
+
 			case "exit":
 			case "quit":
 			case "q":
@@ -395,3 +405,4 @@ public static class CliRouter
 		return true;
 	}
 }
+

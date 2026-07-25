@@ -682,4 +682,66 @@ public static class CommandHandler
 
 		return $"{baseCode}{index}";
 	}
+
+	public static bool ExecuteResetCollection(
+		List<Card> cards,
+		List<InsertSet> insertSets,
+		string filePath,
+		string insertSetsPath,
+		System.Text.Json.JsonSerializerOptions jsonOptions)
+	{
+		return ResetCollectionData(cards, insertSets, filePath, insertSetsPath, jsonOptions);
+	}
+
+
+	public static bool ResetCollectionData(
+		List<Card> cards,
+		List<InsertSet> insertSets,
+		string filePath,
+		string insertSetsPath,
+		System.Text.Json.JsonSerializerOptions jsonOptions,
+		Func<string, bool>? confirmPrompt = null,
+		Func<string, string>? stringPrompt = null)
+	{
+		Spectre.Console.AnsiConsole.MarkupLine("[bold red]⚠️ WARNING: You are about to reset ALL collection data (Base Cards, Parallels, Insert Sets)![/]");
+		var confirm1 = confirmPrompt is not null
+			? confirmPrompt("Are you sure you want to start fresh and reset all collected cards?")
+			: Spectre.Console.AnsiConsole.Confirm("[bold yellow]Are you sure you want to start fresh and reset all collected cards?[/]", defaultValue: false);
+
+		if (!confirm1)
+		{
+			Spectre.Console.AnsiConsole.MarkupLine("[yellow]Reset cancelled. Your collection data is intact.[/]");
+			return false;
+		}
+
+		Spectre.Console.AnsiConsole.MarkupLine("[bold red]🚨 FINAL WARNING: ALL collection data will be PERMANENTLY ERASED. There is NO way to get the data back once deleted![/]");
+		var confirm2 = stringPrompt is not null
+			? stringPrompt("Type RESET to confirm")
+			: Spectre.Console.AnsiConsole.Ask<string>("[bold red]Type 'RESET' to permanently delete all owned cards and start fresh:[/]");
+
+		if (!confirm2.Trim().Equals("RESET", StringComparison.Ordinal))
+		{
+			Spectre.Console.AnsiConsole.MarkupLine("[yellow]Reset cancelled. Confirmation text did not match 'RESET'. Your collection is safe.[/]");
+			return false;
+		}
+
+		foreach (var card in cards)
+		{
+			card.IsOwned = false;
+			card.Variants.Clear();
+		}
+
+		foreach (var set in insertSets)
+		{
+			set.IsOwned = false;
+			set.OwnedCards.Clear();
+		}
+
+		StorageService.SaveCards(filePath, cards, jsonOptions);
+		StorageService.SaveInsertSets(insertSetsPath, insertSets, jsonOptions);
+
+		Spectre.Console.AnsiConsole.MarkupLine("[bold green]✅ COLLECTION RESET SUCCESSFUL! All cards and insert sets have been reset to 0.[/]");
+		return true;
+	}
 }
+

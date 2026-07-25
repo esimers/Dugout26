@@ -161,6 +161,7 @@ public static class ConsoleUi
 				"🏟️ View Team Card Report (teams)",
 				"🎲 View Parallel Odds Board (odds)",
 				"❓ Help & Command Reference (help)",
+				"⚠️ Reset All Data to Start Fresh (reset)",
 				"❌ Exit Application (quit)"
 			});
 
@@ -177,6 +178,7 @@ public static class ConsoleUi
 		if (choice.StartsWith("🏟️")) return "teams";
 		if (choice.StartsWith("🎲")) return "odds";
 		if (choice.StartsWith("❓")) return "help";
+		if (choice.StartsWith("⚠️")) return "reset";
 		return "quit";
 	}
 
@@ -203,7 +205,9 @@ public static class ConsoleUi
 		table.AddRow("[bold green]stats[/]", "", "Render Arcade Stats Panel dashboard & progress bars");
 		table.AddRow("[bold green]teams[/]", "", "Show MLB 30-team card coverage report");
 		table.AddRow("[bold green]odds[/]", "", "Display top pull odds catalog from Topps PDFs");
+		table.AddRow("[bold red]reset[/]", "[bold]clear, fresh[/]", "Reset all collection data to start fresh (requires 2x confirmation)");
 		table.AddRow("[bold green]quit[/]", "[bold]exit, q[/]", "Save collection and exit");
+
 
 		if (animate)
 		{
