@@ -1,2102 +1,4205 @@
-[
-  {
-    "Id": 1,
-    "PlayerName": "Aaron Judge",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 2,
-    "PlayerName": "Daulton Varsho",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 3,
-    "PlayerName": "Luke Keaschall",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 4,
-    "PlayerName": "Jonah Tong",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 5,
-    "PlayerName": "Nico Hoerner",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 6,
-    "PlayerName": "Blaze Alexander",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 7,
-    "PlayerName": "Patrick Bailey",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 8,
-    "PlayerName": "Heliot Ramos",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 9,
-    "PlayerName": "Nick Pivetta",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 10,
-    "PlayerName": "Jacob Misiorowski",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 11,
-    "PlayerName": "Pete Alonso",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 12,
-    "PlayerName": "Jordan Beck",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 13,
-    "PlayerName": "Dylan Smith",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 14,
-    "PlayerName": "MacKenzie Gore",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 15,
-    "PlayerName": "Payton Tolle",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 16,
-    "PlayerName": "Casey Mize",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 17,
-    "PlayerName": "Nick Castellanos",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 18,
-    "PlayerName": "Ryan Ritter",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 19,
-    "PlayerName": "Dean Kremer",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 20,
-    "PlayerName": "Vladimir Guerrero Jr.",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 21,
-    "PlayerName": "Kyle Backhus",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 22,
-    "PlayerName": "Clayton Kershaw",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 23,
-    "PlayerName": "Zach McKinstry",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 24,
-    "PlayerName": "Nathan Church",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 25,
-    "PlayerName": "Carson Williams",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 26,
-    "PlayerName": "Brendan Donovan",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 27,
-    "PlayerName": "Matt Shaw",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 28,
-    "PlayerName": "Elias D\u00EDaz",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 29,
-    "PlayerName": "Landen Roupp",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 30,
-    "PlayerName": "Sean Murphy",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 31,
-    "PlayerName": "Bailey Ober",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 32,
-    "PlayerName": "Shinnosuke Ogasawara",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 33,
-    "PlayerName": "Xander Bogaerts",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 34,
-    "PlayerName": "Kansas City Royals",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 35,
-    "PlayerName": "C.J. Kayfus",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 36,
-    "PlayerName": "Andry Lara",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 37,
-    "PlayerName": "Jakob Marsee",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 38,
-    "PlayerName": "Aaron Judge",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 39,
-    "PlayerName": "Matt Olson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 40,
-    "PlayerName": "Sonny Gray",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 41,
-    "PlayerName": "Mookie Betts",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 42,
-    "PlayerName": "Bradgley Rodriguez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 43,
-    "PlayerName": "Nolan Schanuel",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 44,
-    "PlayerName": "Shane Smith",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 45,
-    "PlayerName": "Brandon Pfaadt",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 46,
-    "PlayerName": "Gunnar Henderson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 47,
-    "PlayerName": "Arizona Diamondbacks",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 48,
-    "PlayerName": "Stephen Kolek",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 49,
-    "PlayerName": "Grant Taylor",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 50,
-    "PlayerName": "Ronald Acu\u00F1a Jr.",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 51,
-    "PlayerName": "Matthew Boyd",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 52,
-    "PlayerName": "Francisco Lindor",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 53,
-    "PlayerName": "Garrett Crochet",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 54,
-    "PlayerName": "Joe Ryan",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 55,
-    "PlayerName": "Warming Bernabel",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 56,
-    "PlayerName": "Lenyn Sosa",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 57,
-    "PlayerName": "Casey Schmitt",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 58,
-    "PlayerName": "Kris Bubic",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 59,
-    "PlayerName": "Daniel Schneemann",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 60,
-    "PlayerName": "Rhett Lowder",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 61,
-    "PlayerName": "Kerry Carpenter",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 62,
-    "PlayerName": "Bryan Woo",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 63,
-    "PlayerName": "Jes\u00FAs Luzardo",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 64,
-    "PlayerName": "Drew Rasmussen",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 65,
-    "PlayerName": "Masataka Yoshida",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 66,
-    "PlayerName": "Roki Sasaki",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 67,
-    "PlayerName": "Parker Messick",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 68,
-    "PlayerName": "Trevor Larnach",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 69,
-    "PlayerName": "Logan Webb",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 70,
-    "PlayerName": "Bob Seymour",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 71,
-    "PlayerName": "Gabriel Moreno",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 72,
-    "PlayerName": "Coby Mayo",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 73,
-    "PlayerName": "Jimmy Crooks",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 74,
-    "PlayerName": "Alex Freeland",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 75,
-    "PlayerName": "Camilo Doval",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 76,
-    "PlayerName": "Jacob Lopez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 77,
-    "PlayerName": "Spencer Horwitz",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 78,
-    "PlayerName": "Jonah Heim",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 79,
-    "PlayerName": "Spencer Strider",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 80,
-    "PlayerName": "Trevor Rogers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 81,
-    "PlayerName": "Matt McLain",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 82,
-    "PlayerName": "Carlos Rod\u00F3n",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 83,
-    "PlayerName": "Jhoan Duran",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 84,
-    "PlayerName": "Shohei Ohtani",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 85,
-    "PlayerName": "Kody Clemens",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 86,
-    "PlayerName": "Dylan Crews",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 87,
-    "PlayerName": "Jeffrey Springs",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 88,
-    "PlayerName": "Jos\u00E9 Caballero",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 89,
-    "PlayerName": "Houston Astros",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 90,
-    "PlayerName": "Yoshinobu Yamamoto",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 91,
-    "PlayerName": "Jurickson Profar",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 92,
-    "PlayerName": "Jackson Holliday",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 93,
-    "PlayerName": "Pavin Smith",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 94,
-    "PlayerName": "Yu Darvish",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 95,
-    "PlayerName": "C\u00E9sar Prieto",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 96,
-    "PlayerName": "Corey Seager",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 97,
-    "PlayerName": "Nick Kurtz",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 98,
-    "PlayerName": "Josh Jung",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 99,
-    "PlayerName": "Jacob deGrom",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 100,
-    "PlayerName": "Paul Skenes",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 101,
-    "PlayerName": "Ceddanne Rafaela",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 102,
-    "PlayerName": "Juan Burgos",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 103,
-    "PlayerName": "Dalton Rushing",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 104,
-    "PlayerName": "Samuel Basallo",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 105,
-    "PlayerName": "Brice Turang",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 106,
-    "PlayerName": "Kyle Freeland",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 107,
-    "PlayerName": "Milwaukee Brewers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 108,
-    "PlayerName": "Sawyer Gipson-Long",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 109,
-    "PlayerName": "Ben Lively",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 110,
-    "PlayerName": "Evan Carter",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 111,
-    "PlayerName": "Cam Schlittler",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 112,
-    "PlayerName": "Carson Seymour",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 113,
-    "PlayerName": "Toronto Blue Jays",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 114,
-    "PlayerName": "Ryne Nelson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 115,
-    "PlayerName": "Royce Lewis",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 116,
-    "PlayerName": "Yanquiel Fern\u00E1ndez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 117,
-    "PlayerName": "Jes\u00FAs Luzardo",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 118,
-    "PlayerName": "Ronald Acu\u00F1a Jr.",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 119,
-    "PlayerName": "Nick Gonzales",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 120,
-    "PlayerName": "Luinder Avila",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 121,
-    "PlayerName": "Will Vest",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 122,
-    "PlayerName": "Nick Kurtz",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 123,
-    "PlayerName": "Francisco Lindor",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 124,
-    "PlayerName": "Taylor Trammell",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 125,
-    "PlayerName": "Kristian Campbell",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 126,
-    "PlayerName": "Pete Crow-Armstrong",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 127,
-    "PlayerName": "Ke\u0027Bryan Hayes",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 128,
-    "PlayerName": "F\u00E9lix Bautista",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 129,
-    "PlayerName": "Cole Young",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 130,
-    "PlayerName": "Max Fried",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 131,
-    "PlayerName": "Andrew McCutchen",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 132,
-    "PlayerName": "Brice Matthews",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 133,
-    "PlayerName": "Ben Rice",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 134,
-    "PlayerName": "Joe Rock",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 135,
-    "PlayerName": "Alex Bregman",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 136,
-    "PlayerName": "Ezequiel Tovar",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 137,
-    "PlayerName": "Sean Burke",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 138,
-    "PlayerName": "Jac Caglianone",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 139,
-    "PlayerName": "Jo Adell",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 140,
-    "PlayerName": "Cal Raleigh",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 141,
-    "PlayerName": "Trevor Megill",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 142,
-    "PlayerName": "Luke Raley",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 143,
-    "PlayerName": "Zach Maxwell",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 144,
-    "PlayerName": "Javier B\u00E1ez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 145,
-    "PlayerName": "Kenedy Corona",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 146,
-    "PlayerName": "Julio Rodr\u00EDguez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 147,
-    "PlayerName": "Christian Moore",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 148,
-    "PlayerName": "Jacob Melton",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 149,
-    "PlayerName": "Travis Adams",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 150,
-    "PlayerName": "Elly De La Cruz",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 151,
-    "PlayerName": "Nico Hoerner",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 152,
-    "PlayerName": "CJ Abrams",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 153,
-    "PlayerName": "J.T. Ginn",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 154,
-    "PlayerName": "Christian Yelich",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 155,
-    "PlayerName": "Drew Gilbert",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 156,
-    "PlayerName": "Dominic Canzone",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 157,
-    "PlayerName": "Colson Montgomery",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 158,
-    "PlayerName": "Daniel Palencia",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 159,
-    "PlayerName": "Ronny Mauricio",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 160,
-    "PlayerName": "Victor Robles",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 161,
-    "PlayerName": "Michael McGreevy",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 162,
-    "PlayerName": "Jorge Soler",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 163,
-    "PlayerName": "Brandyn Garcia",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 164,
-    "PlayerName": "Brenton Doyle",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 165,
-    "PlayerName": "Ian Seymour",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 166,
-    "PlayerName": "Colton Cowser",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 167,
-    "PlayerName": "Wikelman Gonz\u00E1lez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 168,
-    "PlayerName": "Julio Rodr\u00EDguez",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 169,
-    "PlayerName": "Josh Smith",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 170,
-    "PlayerName": "Brady House",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 171,
-    "PlayerName": "Will Benson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 172,
-    "PlayerName": "Maximo Acosta",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 173,
-    "PlayerName": "Yusei Kikuchi",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 174,
-    "PlayerName": "Tyler Stephenson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 175,
-    "PlayerName": "Eric Lauer",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 176,
-    "PlayerName": "Will Warren",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 177,
-    "PlayerName": "Brayan Bello",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 178,
-    "PlayerName": "Shota Imanaga",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 179,
-    "PlayerName": "Mason Miller",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 180,
-    "PlayerName": "Willson Contreras",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 181,
-    "PlayerName": "Adam Frazier",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 182,
-    "PlayerName": "Grant Holmes",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 183,
-    "PlayerName": "Josh Lowe",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 184,
-    "PlayerName": "Carson Whisenhunt",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 185,
-    "PlayerName": "Tomoyuki Sugano",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 186,
-    "PlayerName": "Quinn Priester",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 187,
-    "PlayerName": "Otto Kemp",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 188,
-    "PlayerName": "Bo Naylor",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 189,
-    "PlayerName": "Roman Anthony",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 190,
-    "PlayerName": "Michael Wacha",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 191,
-    "PlayerName": "Mauricio Dub\u00F3n",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 192,
-    "PlayerName": "William Contreras",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 193,
-    "PlayerName": "Nolan Arenado",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 194,
-    "PlayerName": "Otto Lopez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 195,
-    "PlayerName": "Mickey Moniak",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 196,
-    "PlayerName": "Pete Crow-Armstrong",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 197,
-    "PlayerName": "Bryce Harper",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 198,
-    "PlayerName": "Boston Red Sox",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 199,
-    "PlayerName": "Tyler Freeman",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 200,
-    "PlayerName": "Shohei Ohtani",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 201,
-    "PlayerName": "Kyle Teel",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 202,
-    "PlayerName": "Isaac Collins",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 203,
-    "PlayerName": "Yoshinobu Yamamoto",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 204,
-    "PlayerName": "Jacob Wilson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 205,
-    "PlayerName": "Bobby Witt Jr.",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 206,
-    "PlayerName": "Jack Perkins",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 207,
-    "PlayerName": "Joey Bart",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 208,
-    "PlayerName": "Jack Leiter",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 209,
-    "PlayerName": "Riley Greene",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 210,
-    "PlayerName": "Jacob Young",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 211,
-    "PlayerName": "Vinnie Pasquantino",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 212,
-    "PlayerName": "Troy Melton",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 213,
-    "PlayerName": "Colby Thomas",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 214,
-    "PlayerName": "Nolan McLean",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 215,
-    "PlayerName": "David Peterson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 216,
-    "PlayerName": "Gavin Sheets",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 217,
-    "PlayerName": "Chad Patrick",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 218,
-    "PlayerName": "Andrew Abbott",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 219,
-    "PlayerName": "Rafael Devers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 220,
-    "PlayerName": "Austin Wells",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 221,
-    "PlayerName": "Victor Scott II",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 222,
-    "PlayerName": "Tommy Edman",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 223,
-    "PlayerName": "Vinnie Pasquantino",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 224,
-    "PlayerName": "Cody Freeman",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 225,
-    "PlayerName": "Max Schuemann",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 226,
-    "PlayerName": "Ben Williamson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 227,
-    "PlayerName": "Brandon Walter",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 228,
-    "PlayerName": "David Bednar",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 229,
-    "PlayerName": "Jackson Merrill",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 230,
-    "PlayerName": "Zach Neto",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 231,
-    "PlayerName": "Bryan Abreu",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 232,
-    "PlayerName": "Chad Stevens",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 233,
-    "PlayerName": "Owen Caissie",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 234,
-    "PlayerName": "Carlos Est\u00E9vez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 235,
-    "PlayerName": "Logan Gilbert",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 236,
-    "PlayerName": "Jac Caglianone",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 237,
-    "PlayerName": "Jonathan India",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 238,
-    "PlayerName": "Austin Riley",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 239,
-    "PlayerName": "Devin Williams",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 240,
-    "PlayerName": "Jacob Wilson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 241,
-    "PlayerName": "Addison Barger",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 242,
-    "PlayerName": "Mike Yastrzemski",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 243,
-    "PlayerName": "Didier Fuentes",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 244,
-    "PlayerName": "Angel Mart\u00EDnez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 245,
-    "PlayerName": "Keibert Ruiz",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 246,
-    "PlayerName": "Oneil Cruz",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 247,
-    "PlayerName": "Will Banfield",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 248,
-    "PlayerName": "Ryan McMahon",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 249,
-    "PlayerName": "Carlos Cortes",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 250,
-    "PlayerName": "Bryce Harper",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 251,
-    "PlayerName": "Teoscar Hern\u00E1ndez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 252,
-    "PlayerName": "Max Muncy",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 253,
-    "PlayerName": "Lucas Giolito",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 254,
-    "PlayerName": "Gavin Williams",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 255,
-    "PlayerName": "Byron Buxton",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 256,
-    "PlayerName": "Los Angeles Dodgers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 257,
-    "PlayerName": "Geraldo Perdomo",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 258,
-    "PlayerName": "Texas Rangers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 259,
-    "PlayerName": "Luis Morales",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 260,
-    "PlayerName": "Roman Anthony",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 261,
-    "PlayerName": "Zack Wheeler",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 262,
-    "PlayerName": "Detroit Tigers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 263,
-    "PlayerName": "Joey Loperfido",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 264,
-    "PlayerName": "Hunter Brown",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 265,
-    "PlayerName": "Shohei Ohtani",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 266,
-    "PlayerName": "Washington Nationals",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 267,
-    "PlayerName": "Willy Adames",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 268,
-    "PlayerName": "Cam Devanney",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 269,
-    "PlayerName": "Marcelo Mayer",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 270,
-    "PlayerName": "Max Fried",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 271,
-    "PlayerName": "Reid Detmers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 272,
-    "PlayerName": "Jos\u00E9 Berr\u00EDos",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 273,
-    "PlayerName": "Mason Barnett",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 274,
-    "PlayerName": "Hunter Goodman",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 275,
-    "PlayerName": "Luisangel Acu\u00F1a",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 276,
-    "PlayerName": "Clay Holmes",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 277,
-    "PlayerName": "Jeremiah Jackson",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 278,
-    "PlayerName": "Jose Altuve",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 279,
-    "PlayerName": "Dane Myers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 280,
-    "PlayerName": "Pedro Pag\u00E9s",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 281,
-    "PlayerName": "Davis Martin",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 282,
-    "PlayerName": "Brady Singer",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 283,
-    "PlayerName": "Bubba Chandler",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 284,
-    "PlayerName": "Jos\u00E9 Ram\u00EDrez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 285,
-    "PlayerName": "Eury P\u00E9rez",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 286,
-    "PlayerName": "Anthony Seigler",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 287,
-    "PlayerName": "Agust\u00EDn Ram\u00EDrez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 288,
-    "PlayerName": "Edward Cabrera",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 289,
-    "PlayerName": "Edmundo Sosa",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 290,
-    "PlayerName": "Ronny Henriquez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 291,
-    "PlayerName": "New York Mets",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 292,
-    "PlayerName": "San Diego Padres",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 293,
-    "PlayerName": "Kyle Stowers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 294,
-    "PlayerName": "Romy Gonzalez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 295,
-    "PlayerName": "Philadelphia Phillies",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 296,
-    "PlayerName": "Hayden Birdsong",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 297,
-    "PlayerName": "Caleb Durbin",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 298,
-    "PlayerName": "Matt Strahm",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 299,
-    "PlayerName": "Lazaro Estrada",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 300,
-    "PlayerName": "Tarik Skubal",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 301,
-    "PlayerName": "Alejandro Kirk",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 302,
-    "PlayerName": "Aaron Judge",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 303,
-    "PlayerName": "Andrew Vaughn",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 304,
-    "PlayerName": "Oakland Athletics",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 305,
-    "PlayerName": "Shea Langeliers",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 306,
-    "PlayerName": "Spencer Schwellenbach",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 307,
-    "PlayerName": "Jeremy Pe\u00F1a",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 308,
-    "PlayerName": "Anthony Volpe",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 309,
-    "PlayerName": "Kyle Manzardo",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 310,
-    "PlayerName": "Michael Harris II",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 311,
-    "PlayerName": "Kevin Gausman",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 312,
-    "PlayerName": "Chase Burns",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 313,
-    "PlayerName": "Ryan Pepiot",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 314,
-    "PlayerName": "Corbin Carroll",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 315,
-    "PlayerName": "Ryan Jeffers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 316,
-    "PlayerName": "Jhostynxon Garcia",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 317,
-    "PlayerName": "Troy Johnston",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 318,
-    "PlayerName": "Adolis Garc\u00EDa",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 319,
-    "PlayerName": "Jos\u00E9 Soriano",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 320,
-    "PlayerName": "Chicago Cubs",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 321,
-    "PlayerName": "Pierson Ohl",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 322,
-    "PlayerName": "Trea Turner",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 323,
-    "PlayerName": "Jake Fraley",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 324,
-    "PlayerName": "Lawrence Butler",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 325,
-    "PlayerName": "Cristopher S\u00E1nchez",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 326,
-    "PlayerName": "Jonathan Aranda",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 327,
-    "PlayerName": "Tarik Skubal",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 328,
-    "PlayerName": "Junior Caminero",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 329,
-    "PlayerName": "Miguel Vargas",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 330,
-    "PlayerName": "Tristan Peters",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 331,
-    "PlayerName": "Bryce Miller",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 332,
-    "PlayerName": "Sean Manaea",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 333,
-    "PlayerName": "Fernando Tatis Jr.",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 334,
-    "PlayerName": "Kyle Karros",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 335,
-    "PlayerName": "Brandon Marsh",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 336,
-    "PlayerName": "Kumar Rocker",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 337,
-    "PlayerName": "Francisco Alvarez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 338,
-    "PlayerName": "TJ Friedl",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 339,
-    "PlayerName": "Dylan Beavers",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 340,
-    "PlayerName": "Blake Snell",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 341,
-    "PlayerName": "Giancarlo Stanton",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 342,
-    "PlayerName": "Chandler Simpson",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 343,
-    "PlayerName": "Ram\u00F3n Ur\u00EDas",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 344,
-    "PlayerName": "Carlos Narv\u00E1ez",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 345,
-    "PlayerName": "Andrew Benintendi",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 346,
-    "PlayerName": "Tristin English",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 347,
-    "PlayerName": "Brett Baty",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 348,
-    "PlayerName": "Michael Busch",
-    "IsOwned": true,
-    "Variants": []
-  },
-  {
-    "Id": 349,
-    "PlayerName": "James Wood",
-    "IsOwned": false,
-    "Variants": []
-  },
-  {
-    "Id": 350,
-    "PlayerName": "Mike Trout",
-    "IsOwned": true,
-    "Variants": []
-  }
-]
+﻿{
+  "_schemaVersion": 1,
+  "cards": [
+    {
+      "Id": 1,
+      "PlayerName": "Aaron Judge",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 2,
+      "PlayerName": "Daulton Varsho",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 3,
+      "PlayerName": "Luke Keaschall",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 4,
+      "PlayerName": "Jonah Tong",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 5,
+      "PlayerName": "Nico Hoerner",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 6,
+      "PlayerName": "Blaze Alexander",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 7,
+      "PlayerName": "Patrick Bailey",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 8,
+      "PlayerName": "Heliot Ramos",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 9,
+      "PlayerName": "Nick Pivetta",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 10,
+      "PlayerName": "Jacob Misiorowski",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 11,
+      "PlayerName": "Pete Alonso",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 12,
+      "PlayerName": "Jordan Beck",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 13,
+      "PlayerName": "Dylan Smith",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 14,
+      "PlayerName": "MacKenzie Gore",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 15,
+      "PlayerName": "Payton Tolle",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 16,
+      "PlayerName": "Casey Mize",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 17,
+      "PlayerName": "Nick Castellanos",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 18,
+      "PlayerName": "Ryan Ritter",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 19,
+      "PlayerName": "Dean Kremer",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 20,
+      "PlayerName": "Vladimir Guerrero Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 21,
+      "PlayerName": "Kyle Backhus",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 22,
+      "PlayerName": "Clayton Kershaw",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 23,
+      "PlayerName": "Zach McKinstry",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 24,
+      "PlayerName": "Nathan Church",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 25,
+      "PlayerName": "Carson Williams",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 26,
+      "PlayerName": "Brendan Donovan",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 27,
+      "PlayerName": "Matt Shaw",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 28,
+      "PlayerName": "Elias D\u00EDaz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 29,
+      "PlayerName": "Landen Roupp",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 30,
+      "PlayerName": "Sean Murphy",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 31,
+      "PlayerName": "Bailey Ober",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 32,
+      "PlayerName": "Shinnosuke Ogasawara",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 33,
+      "PlayerName": "Xander Bogaerts",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 34,
+      "PlayerName": "Kansas City Royals",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 35,
+      "PlayerName": "C.J. Kayfus",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 36,
+      "PlayerName": "Andry Lara",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 37,
+      "PlayerName": "Jakob Marsee",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 38,
+      "PlayerName": "Aaron Judge",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 39,
+      "PlayerName": "Matt Olson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 40,
+      "PlayerName": "Sonny Gray",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 41,
+      "PlayerName": "Mookie Betts",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 42,
+      "PlayerName": "Bradgley Rodriguez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 43,
+      "PlayerName": "Nolan Schanuel",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 44,
+      "PlayerName": "Shane Smith",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 45,
+      "PlayerName": "Brandon Pfaadt",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 46,
+      "PlayerName": "Gunnar Henderson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 47,
+      "PlayerName": "Arizona Diamondbacks",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 48,
+      "PlayerName": "Stephen Kolek",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 49,
+      "PlayerName": "Grant Taylor",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 50,
+      "PlayerName": "Ronald Acu\u00F1a Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 51,
+      "PlayerName": "Matthew Boyd",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 52,
+      "PlayerName": "Francisco Lindor",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 53,
+      "PlayerName": "Garrett Crochet",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 54,
+      "PlayerName": "Joe Ryan",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 55,
+      "PlayerName": "Warming Bernabel",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 56,
+      "PlayerName": "Lenyn Sosa",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 57,
+      "PlayerName": "Casey Schmitt",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 58,
+      "PlayerName": "Kris Bubic",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 59,
+      "PlayerName": "Daniel Schneemann",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 60,
+      "PlayerName": "Rhett Lowder",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 61,
+      "PlayerName": "Kerry Carpenter",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 62,
+      "PlayerName": "Bryan Woo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 63,
+      "PlayerName": "Jes\u00FAs Luzardo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 64,
+      "PlayerName": "Drew Rasmussen",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 65,
+      "PlayerName": "Masataka Yoshida",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 66,
+      "PlayerName": "Roki Sasaki",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 67,
+      "PlayerName": "Parker Messick",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 68,
+      "PlayerName": "Trevor Larnach",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 69,
+      "PlayerName": "Logan Webb",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 70,
+      "PlayerName": "Bob Seymour",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 71,
+      "PlayerName": "Gabriel Moreno",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 72,
+      "PlayerName": "Coby Mayo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 73,
+      "PlayerName": "Jimmy Crooks",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 74,
+      "PlayerName": "Alex Freeland",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 75,
+      "PlayerName": "Camilo Doval",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 76,
+      "PlayerName": "Jacob Lopez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 77,
+      "PlayerName": "Spencer Horwitz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 78,
+      "PlayerName": "Jonah Heim",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 79,
+      "PlayerName": "Spencer Strider",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 80,
+      "PlayerName": "Trevor Rogers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 81,
+      "PlayerName": "Matt McLain",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 82,
+      "PlayerName": "Carlos Rod\u00F3n",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 83,
+      "PlayerName": "Jhoan Duran",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 84,
+      "PlayerName": "Shohei Ohtani",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 85,
+      "PlayerName": "Kody Clemens",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 86,
+      "PlayerName": "Dylan Crews",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 87,
+      "PlayerName": "Jeffrey Springs",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 88,
+      "PlayerName": "Jos\u00E9 Caballero",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 89,
+      "PlayerName": "Houston Astros",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 90,
+      "PlayerName": "Yoshinobu Yamamoto",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 91,
+      "PlayerName": "Jurickson Profar",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 92,
+      "PlayerName": "Jackson Holliday",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 93,
+      "PlayerName": "Pavin Smith",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 94,
+      "PlayerName": "Yu Darvish",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 95,
+      "PlayerName": "C\u00E9sar Prieto",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 96,
+      "PlayerName": "Corey Seager",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 97,
+      "PlayerName": "Nick Kurtz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 98,
+      "PlayerName": "Josh Jung",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 99,
+      "PlayerName": "Jacob deGrom",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 100,
+      "PlayerName": "Paul Skenes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 101,
+      "PlayerName": "Ceddanne Rafaela",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 102,
+      "PlayerName": "Juan Burgos",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 103,
+      "PlayerName": "Dalton Rushing",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 104,
+      "PlayerName": "Samuel Basallo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 105,
+      "PlayerName": "Brice Turang",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 106,
+      "PlayerName": "Kyle Freeland",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 107,
+      "PlayerName": "Milwaukee Brewers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 108,
+      "PlayerName": "Sawyer Gipson-Long",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 109,
+      "PlayerName": "Ben Lively",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 110,
+      "PlayerName": "Evan Carter",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 111,
+      "PlayerName": "Cam Schlittler",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 112,
+      "PlayerName": "Carson Seymour",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 113,
+      "PlayerName": "Toronto Blue Jays",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 114,
+      "PlayerName": "Ryne Nelson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 115,
+      "PlayerName": "Royce Lewis",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 116,
+      "PlayerName": "Yanquiel Fern\u00E1ndez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 117,
+      "PlayerName": "Jes\u00FAs Luzardo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 118,
+      "PlayerName": "Ronald Acu\u00F1a Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 119,
+      "PlayerName": "Nick Gonzales",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 120,
+      "PlayerName": "Luinder Avila",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 121,
+      "PlayerName": "Will Vest",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 122,
+      "PlayerName": "Nick Kurtz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 123,
+      "PlayerName": "Francisco Lindor",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 124,
+      "PlayerName": "Taylor Trammell",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 125,
+      "PlayerName": "Kristian Campbell",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 126,
+      "PlayerName": "Pete Crow-Armstrong",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 127,
+      "PlayerName": "Ke\u0027Bryan Hayes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 128,
+      "PlayerName": "F\u00E9lix Bautista",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 129,
+      "PlayerName": "Cole Young",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 130,
+      "PlayerName": "Max Fried",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 131,
+      "PlayerName": "Andrew McCutchen",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 132,
+      "PlayerName": "Brice Matthews",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 133,
+      "PlayerName": "Ben Rice",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 134,
+      "PlayerName": "Joe Rock",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 135,
+      "PlayerName": "Alex Bregman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 136,
+      "PlayerName": "Ezequiel Tovar",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 137,
+      "PlayerName": "Sean Burke",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 138,
+      "PlayerName": "Jac Caglianone",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 139,
+      "PlayerName": "Jo Adell",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 140,
+      "PlayerName": "Cal Raleigh",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 141,
+      "PlayerName": "Trevor Megill",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 142,
+      "PlayerName": "Luke Raley",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 143,
+      "PlayerName": "Zach Maxwell",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 144,
+      "PlayerName": "Javier B\u00E1ez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 145,
+      "PlayerName": "Kenedy Corona",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 146,
+      "PlayerName": "Julio Rodr\u00EDguez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 147,
+      "PlayerName": "Christian Moore",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 148,
+      "PlayerName": "Jacob Melton",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 149,
+      "PlayerName": "Travis Adams",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 150,
+      "PlayerName": "Elly De La Cruz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 151,
+      "PlayerName": "Nico Hoerner",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 152,
+      "PlayerName": "CJ Abrams",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 153,
+      "PlayerName": "J.T. Ginn",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 154,
+      "PlayerName": "Christian Yelich",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 155,
+      "PlayerName": "Drew Gilbert",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 156,
+      "PlayerName": "Dominic Canzone",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 157,
+      "PlayerName": "Colson Montgomery",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 158,
+      "PlayerName": "Daniel Palencia",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 159,
+      "PlayerName": "Ronny Mauricio",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 160,
+      "PlayerName": "Victor Robles",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 161,
+      "PlayerName": "Michael McGreevy",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 162,
+      "PlayerName": "Jorge Soler",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 163,
+      "PlayerName": "Brandyn Garcia",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 164,
+      "PlayerName": "Brenton Doyle",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 165,
+      "PlayerName": "Ian Seymour",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 166,
+      "PlayerName": "Colton Cowser",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 167,
+      "PlayerName": "Wikelman Gonz\u00E1lez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 168,
+      "PlayerName": "Julio Rodr\u00EDguez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 169,
+      "PlayerName": "Josh Smith",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 170,
+      "PlayerName": "Brady House",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 171,
+      "PlayerName": "Will Benson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 172,
+      "PlayerName": "Maximo Acosta",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 173,
+      "PlayerName": "Yusei Kikuchi",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 174,
+      "PlayerName": "Tyler Stephenson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 175,
+      "PlayerName": "Eric Lauer",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 176,
+      "PlayerName": "Will Warren",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 177,
+      "PlayerName": "Brayan Bello",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 178,
+      "PlayerName": "Shota Imanaga",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 179,
+      "PlayerName": "Mason Miller",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 180,
+      "PlayerName": "Willson Contreras",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 181,
+      "PlayerName": "Adam Frazier",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 182,
+      "PlayerName": "Grant Holmes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 183,
+      "PlayerName": "Josh Lowe",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 184,
+      "PlayerName": "Carson Whisenhunt",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 185,
+      "PlayerName": "Tomoyuki Sugano",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 186,
+      "PlayerName": "Quinn Priester",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 187,
+      "PlayerName": "Otto Kemp",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 188,
+      "PlayerName": "Bo Naylor",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 189,
+      "PlayerName": "Roman Anthony",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 190,
+      "PlayerName": "Michael Wacha",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 191,
+      "PlayerName": "Mauricio Dub\u00F3n",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 192,
+      "PlayerName": "William Contreras",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 193,
+      "PlayerName": "Nolan Arenado",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 194,
+      "PlayerName": "Otto Lopez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 195,
+      "PlayerName": "Mickey Moniak",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 196,
+      "PlayerName": "Pete Crow-Armstrong",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 197,
+      "PlayerName": "Bryce Harper",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 198,
+      "PlayerName": "Boston Red Sox",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 199,
+      "PlayerName": "Tyler Freeman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 200,
+      "PlayerName": "Shohei Ohtani",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 201,
+      "PlayerName": "Kyle Teel",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 202,
+      "PlayerName": "Isaac Collins",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 203,
+      "PlayerName": "Yoshinobu Yamamoto",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 204,
+      "PlayerName": "Jacob Wilson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 205,
+      "PlayerName": "Bobby Witt Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 206,
+      "PlayerName": "Jack Perkins",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 207,
+      "PlayerName": "Joey Bart",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 208,
+      "PlayerName": "Jack Leiter",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 209,
+      "PlayerName": "Riley Greene",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 210,
+      "PlayerName": "Jacob Young",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 211,
+      "PlayerName": "Vinnie Pasquantino",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 212,
+      "PlayerName": "Troy Melton",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 213,
+      "PlayerName": "Colby Thomas",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 214,
+      "PlayerName": "Nolan McLean",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 215,
+      "PlayerName": "David Peterson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 216,
+      "PlayerName": "Gavin Sheets",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 217,
+      "PlayerName": "Chad Patrick",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 218,
+      "PlayerName": "Andrew Abbott",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 219,
+      "PlayerName": "Rafael Devers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 220,
+      "PlayerName": "Austin Wells",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 221,
+      "PlayerName": "Victor Scott II",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 222,
+      "PlayerName": "Tommy Edman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 223,
+      "PlayerName": "Vinnie Pasquantino",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 224,
+      "PlayerName": "Cody Freeman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 225,
+      "PlayerName": "Max Schuemann",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 226,
+      "PlayerName": "Ben Williamson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 227,
+      "PlayerName": "Brandon Walter",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 228,
+      "PlayerName": "David Bednar",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 229,
+      "PlayerName": "Jackson Merrill",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 230,
+      "PlayerName": "Zach Neto",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 231,
+      "PlayerName": "Bryan Abreu",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 232,
+      "PlayerName": "Chad Stevens",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 233,
+      "PlayerName": "Owen Caissie",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 234,
+      "PlayerName": "Carlos Est\u00E9vez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 235,
+      "PlayerName": "Logan Gilbert",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 236,
+      "PlayerName": "Jac Caglianone",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 237,
+      "PlayerName": "Jonathan India",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 238,
+      "PlayerName": "Austin Riley",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 239,
+      "PlayerName": "Devin Williams",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 240,
+      "PlayerName": "Jacob Wilson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 241,
+      "PlayerName": "Addison Barger",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 242,
+      "PlayerName": "Mike Yastrzemski",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 243,
+      "PlayerName": "Didier Fuentes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 244,
+      "PlayerName": "Angel Mart\u00EDnez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 245,
+      "PlayerName": "Keibert Ruiz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 246,
+      "PlayerName": "Oneil Cruz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 247,
+      "PlayerName": "Will Banfield",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 248,
+      "PlayerName": "Ryan McMahon",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 249,
+      "PlayerName": "Carlos Cortes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 250,
+      "PlayerName": "Bryce Harper",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 251,
+      "PlayerName": "Teoscar Hern\u00E1ndez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 252,
+      "PlayerName": "Max Muncy",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 253,
+      "PlayerName": "Lucas Giolito",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 254,
+      "PlayerName": "Gavin Williams",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 255,
+      "PlayerName": "Byron Buxton",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 256,
+      "PlayerName": "Los Angeles Dodgers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 257,
+      "PlayerName": "Geraldo Perdomo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 258,
+      "PlayerName": "Texas Rangers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 259,
+      "PlayerName": "Luis Morales",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 260,
+      "PlayerName": "Roman Anthony",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 261,
+      "PlayerName": "Zack Wheeler",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 262,
+      "PlayerName": "Detroit Tigers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 263,
+      "PlayerName": "Joey Loperfido",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 264,
+      "PlayerName": "Hunter Brown",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 265,
+      "PlayerName": "Shohei Ohtani",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 266,
+      "PlayerName": "Washington Nationals",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 267,
+      "PlayerName": "Willy Adames",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 268,
+      "PlayerName": "Cam Devanney",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 269,
+      "PlayerName": "Marcelo Mayer",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 270,
+      "PlayerName": "Max Fried",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 271,
+      "PlayerName": "Reid Detmers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 272,
+      "PlayerName": "Jos\u00E9 Berr\u00EDos",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 273,
+      "PlayerName": "Mason Barnett",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 274,
+      "PlayerName": "Hunter Goodman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 275,
+      "PlayerName": "Luisangel Acu\u00F1a",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 276,
+      "PlayerName": "Clay Holmes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 277,
+      "PlayerName": "Jeremiah Jackson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 278,
+      "PlayerName": "Jose Altuve",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 279,
+      "PlayerName": "Dane Myers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 280,
+      "PlayerName": "Pedro Pag\u00E9s",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 281,
+      "PlayerName": "Davis Martin",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 282,
+      "PlayerName": "Brady Singer",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 283,
+      "PlayerName": "Bubba Chandler",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 284,
+      "PlayerName": "Jos\u00E9 Ram\u00EDrez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 285,
+      "PlayerName": "Eury P\u00E9rez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 286,
+      "PlayerName": "Anthony Seigler",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 287,
+      "PlayerName": "Agust\u00EDn Ram\u00EDrez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 288,
+      "PlayerName": "Edward Cabrera",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 289,
+      "PlayerName": "Edmundo Sosa",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 290,
+      "PlayerName": "Ronny Henriquez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 291,
+      "PlayerName": "New York Mets",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 292,
+      "PlayerName": "San Diego Padres",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 293,
+      "PlayerName": "Kyle Stowers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 294,
+      "PlayerName": "Romy Gonzalez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 295,
+      "PlayerName": "Philadelphia Phillies",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 296,
+      "PlayerName": "Hayden Birdsong",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 297,
+      "PlayerName": "Caleb Durbin",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 298,
+      "PlayerName": "Matt Strahm",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 299,
+      "PlayerName": "Lazaro Estrada",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 300,
+      "PlayerName": "Tarik Skubal",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 301,
+      "PlayerName": "Alejandro Kirk",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 302,
+      "PlayerName": "Aaron Judge",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 303,
+      "PlayerName": "Andrew Vaughn",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 304,
+      "PlayerName": "Oakland Athletics",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 305,
+      "PlayerName": "Shea Langeliers",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 306,
+      "PlayerName": "Spencer Schwellenbach",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 307,
+      "PlayerName": "Jeremy Pe\u00F1a",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 308,
+      "PlayerName": "Anthony Volpe",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 309,
+      "PlayerName": "Kyle Manzardo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 310,
+      "PlayerName": "Michael Harris II",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 311,
+      "PlayerName": "Kevin Gausman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 312,
+      "PlayerName": "Chase Burns",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 313,
+      "PlayerName": "Ryan Pepiot",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 314,
+      "PlayerName": "Corbin Carroll",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 315,
+      "PlayerName": "Ryan Jeffers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 316,
+      "PlayerName": "Jhostynxon Garcia",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 317,
+      "PlayerName": "Troy Johnston",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 318,
+      "PlayerName": "Adolis Garc\u00EDa",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 319,
+      "PlayerName": "Jos\u00E9 Soriano",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 320,
+      "PlayerName": "Chicago Cubs",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 321,
+      "PlayerName": "Pierson Ohl",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 322,
+      "PlayerName": "Trea Turner",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 323,
+      "PlayerName": "Jake Fraley",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 324,
+      "PlayerName": "Lawrence Butler",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 325,
+      "PlayerName": "Cristopher S\u00E1nchez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 326,
+      "PlayerName": "Jonathan Aranda",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 327,
+      "PlayerName": "Tarik Skubal",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 328,
+      "PlayerName": "Junior Caminero",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 329,
+      "PlayerName": "Miguel Vargas",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 330,
+      "PlayerName": "Tristan Peters",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 331,
+      "PlayerName": "Bryce Miller",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 332,
+      "PlayerName": "Sean Manaea",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 333,
+      "PlayerName": "Fernando Tatis Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 334,
+      "PlayerName": "Kyle Karros",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 335,
+      "PlayerName": "Brandon Marsh",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 336,
+      "PlayerName": "Kumar Rocker",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 337,
+      "PlayerName": "Francisco Alvarez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 338,
+      "PlayerName": "TJ Friedl",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 339,
+      "PlayerName": "Dylan Beavers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 340,
+      "PlayerName": "Blake Snell",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 341,
+      "PlayerName": "Giancarlo Stanton",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 342,
+      "PlayerName": "Chandler Simpson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 343,
+      "PlayerName": "Ram\u00F3n Ur\u00EDas",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 344,
+      "PlayerName": "Carlos Narv\u00E1ez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 345,
+      "PlayerName": "Andrew Benintendi",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 346,
+      "PlayerName": "Tristin English",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 347,
+      "PlayerName": "Brett Baty",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 348,
+      "PlayerName": "Michael Busch",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 349,
+      "PlayerName": "James Wood",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 350,
+      "PlayerName": "Mike Trout",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 351,
+      "PlayerName": "Dillon Dingler",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 352,
+      "PlayerName": "Spencer Torkelson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 353,
+      "PlayerName": "St. Louis Cardinals",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 354,
+      "PlayerName": "Gabriel Arias",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 355,
+      "PlayerName": "Nathan Eovaldi",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 356,
+      "PlayerName": "Vladimir Guerrero Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 357,
+      "PlayerName": "Gavin Lux",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 358,
+      "PlayerName": "Adley Rutschman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 359,
+      "PlayerName": "Adael Amador",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 360,
+      "PlayerName": "Ben Joyce",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 361,
+      "PlayerName": "Davis Schneider",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 362,
+      "PlayerName": "Luis Severino",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 363,
+      "PlayerName": "J.T. Realmuto",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 364,
+      "PlayerName": "Luis Garc\u00EDa Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 365,
+      "PlayerName": "Spencer Steer",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 366,
+      "PlayerName": "Isaac Paredes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 367,
+      "PlayerName": "Robbie Ray",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 368,
+      "PlayerName": "Kyle Tucker",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 369,
+      "PlayerName": "Julio Rodr\u00EDguez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 370,
+      "PlayerName": "Brayan Rocchio",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 371,
+      "PlayerName": "Brent Rooker",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 372,
+      "PlayerName": "Sal Stewart",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 373,
+      "PlayerName": "Cam Smith",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 374,
+      "PlayerName": "Kevin Alc\u00E1ntara",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 375,
+      "PlayerName": "Denzel Clarke",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 376,
+      "PlayerName": "Christian Encarnacion-Strand",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 377,
+      "PlayerName": "Alec Bohm",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 378,
+      "PlayerName": "Kyren Paris",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 379,
+      "PlayerName": "Blake Perkins",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 380,
+      "PlayerName": "Framber Valdez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 381,
+      "PlayerName": "Brian Van Belle",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 382,
+      "PlayerName": "Hunter Greene",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 383,
+      "PlayerName": "Wyatt Langford",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 384,
+      "PlayerName": "Taijuan Walker",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 385,
+      "PlayerName": "Nick Raquet",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 386,
+      "PlayerName": "Luis Curvelo",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 387,
+      "PlayerName": "Drew Sommers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 388,
+      "PlayerName": "Yandy D\u00EDaz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 389,
+      "PlayerName": "Nick Allen",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 390,
+      "PlayerName": "Jack Dreyer",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 391,
+      "PlayerName": "Justin Wrobleski",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 392,
+      "PlayerName": "Xavier Edwards",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 393,
+      "PlayerName": "Jazz Chisholm Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 394,
+      "PlayerName": "Eric Wagaman",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 395,
+      "PlayerName": "Josh Naylor",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 396,
+      "PlayerName": "Raisel Iglesias",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 397,
+      "PlayerName": "Jordan Lawlar",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 398,
+      "PlayerName": "Hunter Barco",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 399,
+      "PlayerName": "Javier Sanoja",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 400,
+      "PlayerName": "Pete Alonso",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 401,
+      "PlayerName": "Eduarniel N\u00FA\u00F1ez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 402,
+      "PlayerName": "Anthony Santander",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 403,
+      "PlayerName": "Bryce Johnson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 404,
+      "PlayerName": "Parker Meadows",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 405,
+      "PlayerName": "PJ Poulin",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 406,
+      "PlayerName": "Bryce Eldridge",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 407,
+      "PlayerName": "Hurston Waldrep",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 408,
+      "PlayerName": "Tampa Bay Rays",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 409,
+      "PlayerName": "Logan Henderson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 410,
+      "PlayerName": "Hayden Harris",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 411,
+      "PlayerName": "Mike Tauchman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 412,
+      "PlayerName": "Robert Stephenson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 413,
+      "PlayerName": "Mike Burrows",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 414,
+      "PlayerName": "Andy Pages",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 415,
+      "PlayerName": "Justin Verlander",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 416,
+      "PlayerName": "Austin Martin",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 417,
+      "PlayerName": "Eduardo Rodriguez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 418,
+      "PlayerName": "Cade Cavalli",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 419,
+      "PlayerName": "Jared Jones",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 420,
+      "PlayerName": "Luis Arraez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 421,
+      "PlayerName": "Taylor Walls",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 422,
+      "PlayerName": "Shane Bieber",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 423,
+      "PlayerName": "Luis Robert Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 424,
+      "PlayerName": "Zack Gelof",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 425,
+      "PlayerName": "Trent Grisham",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 426,
+      "PlayerName": "Matt Wallner",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 427,
+      "PlayerName": "Chris Sale",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 428,
+      "PlayerName": "Kris Bryant",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 429,
+      "PlayerName": "Logan Allen",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 430,
+      "PlayerName": "Tyler Locklear",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 431,
+      "PlayerName": "Randy Arozarena",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 432,
+      "PlayerName": "Ryan Feltner",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 433,
+      "PlayerName": "Tyler O\u0027Neill",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 434,
+      "PlayerName": "Graham Pauley",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 435,
+      "PlayerName": "Denzer Guzman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 436,
+      "PlayerName": "Mitch Keller",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 437,
+      "PlayerName": "Nick Castellanos",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 438,
+      "PlayerName": "Jake Cronenworth",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 439,
+      "PlayerName": "Gleyber Torres",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 440,
+      "PlayerName": "Ranger Su\u00E1rez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 441,
+      "PlayerName": "Lars Nootbaar",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 442,
+      "PlayerName": "Ryan O\u0027Hearn",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 443,
+      "PlayerName": "Kazuma Okamoto",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 444,
+      "PlayerName": "Tanner Gordon",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 445,
+      "PlayerName": "Michael Massey",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 446,
+      "PlayerName": "Eugenio Su\u00E1rez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 447,
+      "PlayerName": "Joe Boyle",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 448,
+      "PlayerName": "Jackson Chourio",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 449,
+      "PlayerName": "Sandy Alcantara",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 450,
+      "PlayerName": "Gerrit Cole",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 451,
+      "PlayerName": "Jake Burger",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 452,
+      "PlayerName": "Nick Loftin",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 453,
+      "PlayerName": "Chase Dollander",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 454,
+      "PlayerName": "Josh Hader",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 455,
+      "PlayerName": "George Springer",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 456,
+      "PlayerName": "Justin Dean",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 457,
+      "PlayerName": "Nick Yorke",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 458,
+      "PlayerName": "Chase DeLauter",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 459,
+      "PlayerName": "Ketel Marte",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 460,
+      "PlayerName": "Adrian Del Castillo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 461,
+      "PlayerName": "Noah Cameron",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 462,
+      "PlayerName": "Andr\u00E9s Chaparro",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 463,
+      "PlayerName": "Aaron Nola",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 464,
+      "PlayerName": "Triston Casas",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 465,
+      "PlayerName": "Lourdes Gurriel Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 466,
+      "PlayerName": "Trevor McDonald",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 467,
+      "PlayerName": "Pittsburgh Pirates",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 468,
+      "PlayerName": "Yordan Alvarez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 469,
+      "PlayerName": "Jonathan Pintaro",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 470,
+      "PlayerName": "Brandon Nimmo",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 471,
+      "PlayerName": "J.P. Crawford",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 472,
+      "PlayerName": "Christian Koss",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 473,
+      "PlayerName": "Bo Bichette",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 474,
+      "PlayerName": "Joel Peguero",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 475,
+      "PlayerName": "Shane Baz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 476,
+      "PlayerName": "Card 476",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 477,
+      "PlayerName": "Jes\u00FAs S\u00E1nchez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 478,
+      "PlayerName": "Tyler Wells",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 479,
+      "PlayerName": "Aaron Judge",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 480,
+      "PlayerName": "Luis Torrens",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 481,
+      "PlayerName": "Tyrone Taylor",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 482,
+      "PlayerName": "Alek Thomas",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 483,
+      "PlayerName": "Logan O\u0027Hoppe",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 484,
+      "PlayerName": "Cole Ragans",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 485,
+      "PlayerName": "Jake Mangum",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 486,
+      "PlayerName": "Justin Steele",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 487,
+      "PlayerName": "Jake Irvin",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 488,
+      "PlayerName": "Cincinnati Reds",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 489,
+      "PlayerName": "James Outman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 490,
+      "PlayerName": "Oswaldo Cabrera",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 491,
+      "PlayerName": "Minnesota Twins",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 492,
+      "PlayerName": "Cleveland Guardians",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 493,
+      "PlayerName": "George Kirby",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 494,
+      "PlayerName": "Jake Palisch",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 495,
+      "PlayerName": "Christian Walker",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 496,
+      "PlayerName": "San Francisco Giants",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 497,
+      "PlayerName": "Kyle Leahy",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 498,
+      "PlayerName": "Ryan Helsley",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 499,
+      "PlayerName": "James Wood",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 500,
+      "PlayerName": "Shohei Ohtani",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 501,
+      "PlayerName": "Connelly Early",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 502,
+      "PlayerName": "Miguel Rojas",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 503,
+      "PlayerName": "Munetaka Murakami",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 504,
+      "PlayerName": "Tanner Houck",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 505,
+      "PlayerName": "Ernie Clement",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 506,
+      "PlayerName": "Edwin D\u00EDaz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 507,
+      "PlayerName": "Luis Castillo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 508,
+      "PlayerName": "Colorado Rockies",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 509,
+      "PlayerName": "Pablo L\u00F3pez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 510,
+      "PlayerName": "Philip Abner",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 511,
+      "PlayerName": "Jayvien Sandridge",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 512,
+      "PlayerName": "Simeon Woods Richardson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 513,
+      "PlayerName": "Tatsuya Imai",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 514,
+      "PlayerName": "Zac Veen",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 515,
+      "PlayerName": "Blaze Alexander",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 516,
+      "PlayerName": "Korey Lee",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 517,
+      "PlayerName": "Mike Trout",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 518,
+      "PlayerName": "Brandon Woodruff",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 519,
+      "PlayerName": "Ram\u00F3n Laureano",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 520,
+      "PlayerName": "Andrew Alvarez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 521,
+      "PlayerName": "Henry Davis",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 522,
+      "PlayerName": "Miami Marlins",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 523,
+      "PlayerName": "Heston Kjerstad",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 524,
+      "PlayerName": "Emmet Sheehan",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 525,
+      "PlayerName": "Seattle Mariners",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 526,
+      "PlayerName": "Masyn Winn",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 527,
+      "PlayerName": "Maikel Garcia",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 528,
+      "PlayerName": "Jared Triolo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 529,
+      "PlayerName": "Griffin Conine",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 530,
+      "PlayerName": "Carter Jensen",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 531,
+      "PlayerName": "Alejandro Carrillo",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 532,
+      "PlayerName": "Jackson Jobe",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 533,
+      "PlayerName": "Jasson Dom\u00EDnguez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 534,
+      "PlayerName": "Brandon Sproat",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 535,
+      "PlayerName": "Javier Assad",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 536,
+      "PlayerName": "Trevor Story",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 537,
+      "PlayerName": "Jameson Taillon",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 538,
+      "PlayerName": "Tommy Nance",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 539,
+      "PlayerName": "Lucas Erceg",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 540,
+      "PlayerName": "Ryan Walker",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 541,
+      "PlayerName": "Jung Hoo Lee",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 542,
+      "PlayerName": "Joey Ortiz",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 543,
+      "PlayerName": "Jonny DeLuca",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 544,
+      "PlayerName": "Kutter Crawford",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 545,
+      "PlayerName": "Austin Hedges",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 546,
+      "PlayerName": "Nick Fortes",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 547,
+      "PlayerName": "Dylan Cease",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 548,
+      "PlayerName": "Steven Kwan",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 549,
+      "PlayerName": "Daylen Lile",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 550,
+      "PlayerName": "Dansby Swanson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 551,
+      "PlayerName": "Taylor Ward",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 552,
+      "PlayerName": "Merrill Kelly",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 553,
+      "PlayerName": "Elly De La Cruz",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 554,
+      "PlayerName": "Ezequiel Duran",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 555,
+      "PlayerName": "Cade Povich",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 556,
+      "PlayerName": "Lance McCullers Jr.",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 557,
+      "PlayerName": "Kyle Higashioka",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 558,
+      "PlayerName": "Michael King",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 559,
+      "PlayerName": "JP Sears",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 560,
+      "PlayerName": "Jarren Duran",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 561,
+      "PlayerName": "Matt Chapman",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 562,
+      "PlayerName": "Bryson Stott",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 563,
+      "PlayerName": "Ji Hwan Bae",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 564,
+      "PlayerName": "Tyler Soderstrom",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 565,
+      "PlayerName": "Jordan Walker",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 566,
+      "PlayerName": "Jack Little",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 567,
+      "PlayerName": "Thomas Saggese",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 568,
+      "PlayerName": "Ozzie Albies",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 569,
+      "PlayerName": "Max Scherzer",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 570,
+      "PlayerName": "Rolddy Mu\u00F1oz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 571,
+      "PlayerName": "Kik\u00E9 Hern\u00E1ndez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 572,
+      "PlayerName": "Alan Rangel",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 573,
+      "PlayerName": "Alec Burleson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 574,
+      "PlayerName": "Andr\u00E9s Mu\u00F1oz",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 575,
+      "PlayerName": "Jake Meyers",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 576,
+      "PlayerName": "Jarren Duran",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 577,
+      "PlayerName": "Grayson Rodriguez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 578,
+      "PlayerName": "Heriberto Hern\u00E1ndez",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 579,
+      "PlayerName": "Brandon Lowe",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 580,
+      "PlayerName": "Marcell Ozuna",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 581,
+      "PlayerName": "Chase Meidroth",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 582,
+      "PlayerName": "Robert Hassell III",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 583,
+      "PlayerName": "Josh Simpson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 584,
+      "PlayerName": "Mois\u00E9s Ballesteros",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 585,
+      "PlayerName": "Ian Happ",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 586,
+      "PlayerName": "Marcus Semien",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 587,
+      "PlayerName": "Nolan Gorman",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 588,
+      "PlayerName": "Andr\u00E9s Gim\u00E9nez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 589,
+      "PlayerName": "Braxton Ashcraft",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 590,
+      "PlayerName": "Austin Wynns",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 591,
+      "PlayerName": "Jahmai Jones",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 592,
+      "PlayerName": "Joc Pederson",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 593,
+      "PlayerName": "Sal Frelick",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 594,
+      "PlayerName": "Luis Gil",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 595,
+      "PlayerName": "McCade Brown",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 596,
+      "PlayerName": "Liam Hicks",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 597,
+      "PlayerName": "Paul Goldschmidt",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 598,
+      "PlayerName": "Jack Winkler",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 599,
+      "PlayerName": "Cristian Javier",
+      "IsOwned": true,
+      "Variants": []
+    },
+    {
+      "Id": 600,
+      "PlayerName": "Juan Soto",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 601,
+      "PlayerName": "Zach Cole",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 602,
+      "PlayerName": "Shane McClanahan",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 603,
+      "PlayerName": "George Valera",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 604,
+      "PlayerName": "Jake Bauers",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 605,
+      "PlayerName": "Xander Bogaerts",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 606,
+      "PlayerName": "Zebby Matthews",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 607,
+      "PlayerName": "Cody Bellinger",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 608,
+      "PlayerName": "Cody Laweryson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 609,
+      "PlayerName": "Mitch Farris",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 610,
+      "PlayerName": "Brooks Lee",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 611,
+      "PlayerName": "Paul Gervase",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 612,
+      "PlayerName": "Jos\u00E9 Ferm\u00EDn",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 613,
+      "PlayerName": "Jordan Westburg",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 614,
+      "PlayerName": "Manny Machado",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 615,
+      "PlayerName": "Taylor Rashi",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 616,
+      "PlayerName": "Hoby Milner",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 617,
+      "PlayerName": "Caden Dana",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 618,
+      "PlayerName": "Tanner Bibee",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 619,
+      "PlayerName": "Brooks Baldwin",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 620,
+      "PlayerName": "Trey Yesavage",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 621,
+      "PlayerName": "Matthew Liberatore",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 622,
+      "PlayerName": "Cade Smith",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 623,
+      "PlayerName": "Rafael Flores",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 624,
+      "PlayerName": "Harrison Bader",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 625,
+      "PlayerName": "Yo\u00E1n Moncada",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 626,
+      "PlayerName": "Max Muncy",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 627,
+      "PlayerName": "Gustavo Campero",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 628,
+      "PlayerName": "New York Yankees",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 629,
+      "PlayerName": "Tyler Glasnow",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 630,
+      "PlayerName": "Corbin Burnes",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 631,
+      "PlayerName": "Will Smith",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 632,
+      "PlayerName": "Cade Horton",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 633,
+      "PlayerName": "Salvador Perez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 634,
+      "PlayerName": "Ryan Weathers",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 635,
+      "PlayerName": "Edgar Quero",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 636,
+      "PlayerName": "Joe Musgrove",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 637,
+      "PlayerName": "Johan Rojas",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 638,
+      "PlayerName": "Card 638",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 639,
+      "PlayerName": "Reese Olson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 640,
+      "PlayerName": "Atlanta Braves",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 641,
+      "PlayerName": "Slade Cecconi",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 642,
+      "PlayerName": "Yoshinobu Yamamoto",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 643,
+      "PlayerName": "Nick Lodolo",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 644,
+      "PlayerName": "Christian Montes De Oca",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 645,
+      "PlayerName": "Nasim Nu\u00F1ez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 646,
+      "PlayerName": "Mark Vientos",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 647,
+      "PlayerName": "Kyle Bradish",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 648,
+      "PlayerName": "Jonathan Cannon",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 649,
+      "PlayerName": "Leo Rivas",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 650,
+      "PlayerName": "Kyle Schwarber",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 651,
+      "PlayerName": "Abner Uribe",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 652,
+      "PlayerName": "Ryan Mountcastle",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 653,
+      "PlayerName": "Andruw Monasterio",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 654,
+      "PlayerName": "Baltimore Orioles",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 655,
+      "PlayerName": "Jack Suwinski",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 656,
+      "PlayerName": "Aroldis Chapman",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 657,
+      "PlayerName": "Freddy Peralta",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 658,
+      "PlayerName": "Jack Flaherty",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 659,
+      "PlayerName": "Harry Ford",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 660,
+      "PlayerName": "Edouard Julien",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 661,
+      "PlayerName": "Chicago White Sox",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 662,
+      "PlayerName": "Jeff McNeil",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 663,
+      "PlayerName": "Hyeseong Kim",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 664,
+      "PlayerName": "Jayden Murray",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 665,
+      "PlayerName": "Jose Corniell",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 666,
+      "PlayerName": "Nolan Hoffman",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 667,
+      "PlayerName": "Kodai Senga",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 668,
+      "PlayerName": "Petey Halpin",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 669,
+      "PlayerName": "Randy V\u00E1squez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 670,
+      "PlayerName": "Kyle Harrison",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 671,
+      "PlayerName": "JJ Bleday",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 672,
+      "PlayerName": "Yainer Diaz",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 673,
+      "PlayerName": "Reynaldo L\u00F3pez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 674,
+      "PlayerName": "Andre Granillo",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 675,
+      "PlayerName": "Steven Kwan",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 676,
+      "PlayerName": "Jorge Polanco",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 677,
+      "PlayerName": "Wilyer Abreu",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 678,
+      "PlayerName": "Darell Hernaiz",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 679,
+      "PlayerName": "Cam Sanders",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 680,
+      "PlayerName": "Carlos Correa",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 681,
+      "PlayerName": "Nathan Lukes",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 682,
+      "PlayerName": "Wenceel P\u00E9rez",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 683,
+      "PlayerName": "Dugan Darnell",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 684,
+      "PlayerName": "Quinn Priester",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 685,
+      "PlayerName": "Seiya Suzuki",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 686,
+      "PlayerName": "Carson Kelly",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 687,
+      "PlayerName": "Noelvi Marte",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 688,
+      "PlayerName": "Blas Casta\u00F1o",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 689,
+      "PlayerName": "Kyle Isbel",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 690,
+      "PlayerName": "Cedric Mullins",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 691,
+      "PlayerName": "Joey Cantillo",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 692,
+      "PlayerName": "Drake Baldwin",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 693,
+      "PlayerName": "Luis Matos",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 694,
+      "PlayerName": "Tyler Anderson",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 695,
+      "PlayerName": "Connor Norby",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 696,
+      "PlayerName": "Andrew Hoffmann",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 697,
+      "PlayerName": "Bryan Reynolds",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 698,
+      "PlayerName": "Andre Pallante",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 699,
+      "PlayerName": "Jared Young",
+      "IsOwned": false,
+      "Variants": []
+    },
+    {
+      "Id": 700,
+      "PlayerName": "Freddie Freeman",
+      "IsOwned": false,
+      "Variants": []
+    }
+  ]
+}

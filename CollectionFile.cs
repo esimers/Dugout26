@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-class CollectionFile
+public class CollectionFile
 {
 	[JsonPropertyName("_schemaVersion")]
 	public int SchemaVersion { get; set; } = 1;

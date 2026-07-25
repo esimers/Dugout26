@@ -1,4 +1,4 @@
-class InsertSet
+public class InsertSet
 {
 	public string Name { get; set; } = string.Empty;
 	public string Category { get; set; } = "Custom";

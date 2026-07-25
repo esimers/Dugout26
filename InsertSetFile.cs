@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-class InsertSetFile
+public class InsertSetFile
 {
 	[JsonPropertyName("_schemaVersion")]
 	public int SchemaVersion { get; set; } = 1;
