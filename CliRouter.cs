@@ -106,11 +106,8 @@ public static class CliRouter
 						continue;
 					}
 
-					if (!card.IsOwned)
-					{
-						card.IsOwned = true;
-						markedCount++;
-					}
+					card.Quantity++;
+					markedCount++;
 				}
 
 				StorageService.SaveCards(filePath, cards, jsonOptions);
@@ -123,6 +120,40 @@ public static class CliRouter
 				}
 				break;
 
+			case "dups":
+			case "duplicates":
+				ConsoleUi.PrintDuplicatesReport(cards, argument);
+				break;
+
+			case "export":
+				var exportParts = argument.Split(' ', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+				var exportSub = exportParts.Length > 0 ? exportParts[0].ToLowerInvariant() : string.Empty;
+
+				if (exportSub == "missing" || string.IsNullOrWhiteSpace(exportSub))
+				{
+					var seriesArg = exportParts.Length > 1 ? exportParts[1] : (exportParts.Length == 1 && exportSub != "missing" ? exportSub : "all");
+					var formatArg = exportParts.Length > 2 ? exportParts[2] : "txt";
+
+					var exportedPath = StorageService.ExportMissingCards(cards, seriesArg, formatArg);
+					ConsoleUi.SetColor(ConsoleColor.Green);
+					Console.WriteLine($"Export successful: Saved missing card report to '{exportedPath}'.");
+					Console.ResetColor();
+				}
+				else if (exportSub is "s1" or "s2" or "series1" or "series2" or "all")
+				{
+					var formatArg = exportParts.Length > 1 ? exportParts[1] : "txt";
+					var exportedPath = StorageService.ExportMissingCards(cards, exportSub, formatArg);
+					ConsoleUi.SetColor(ConsoleColor.Green);
+					Console.WriteLine($"Export successful: Saved missing card report to '{exportedPath}'.");
+					Console.ResetColor();
+				}
+				else
+				{
+					Console.WriteLine("Usage: export missing [s1|s2|all|range] [txt|csv]");
+					Console.WriteLine("Examples: export missing s1 | export missing s2 | export missing all csv | export missing 500-559");
+				}
+				break;
+
 			case "series":
 			case "s":
 				ConsoleUi.PrintSeriesReport(cards);
@@ -130,6 +161,19 @@ public static class CliRouter
 
 			case "missing":
 			case "m":
+				if (!string.IsNullOrWhiteSpace(argument) && argument.Contains("export", StringComparison.OrdinalIgnoreCase))
+				{
+					var cleanArg = argument.Replace("export", "", StringComparison.OrdinalIgnoreCase).Trim();
+					var formatArg = cleanArg.EndsWith("csv", StringComparison.OrdinalIgnoreCase) ? "csv" : "txt";
+					cleanArg = cleanArg.Replace("csv", "", StringComparison.OrdinalIgnoreCase).Trim();
+
+					var exportedPath = StorageService.ExportMissingCards(cards, cleanArg, formatArg);
+					ConsoleUi.SetColor(ConsoleColor.Green);
+					Console.WriteLine($"Export successful: Saved missing card report to '{exportedPath}'.");
+					Console.ResetColor();
+					break;
+				}
+
 				var missingQuery = cards.Where(c => !c.IsOwned);
 				var argTrim = argument.Trim().ToLowerInvariant();
 
@@ -189,10 +233,10 @@ public static class CliRouter
 			case "roster":
 				foreach (var card in cards.OrderBy(c => c.Id))
 				{
-					var baseStatus = card.IsOwned ? "OWNED" : "MISSING";
+					var baseStatus = card.IsOwned ? (card.Quantity > 1 ? $"OWNED(x{card.Quantity})" : "OWNED") : "MISSING";
 					var parallelOwned = card.Variants.Count(v => v.IsOwned);
 					ConsoleUi.SetColor(card.IsOwned ? ConsoleColor.Green : ConsoleColor.Red);
-					Console.WriteLine($"{ConsoleUi.FormatCardLabel(card),-36}  Base:{baseStatus,-7}  Parallels:{parallelOwned}");
+					Console.WriteLine($"{ConsoleUi.FormatCardLabel(card),-36}  Base:{baseStatus,-11}  Parallels:{parallelOwned}");
 					Console.ResetColor();
 				}
 				break;

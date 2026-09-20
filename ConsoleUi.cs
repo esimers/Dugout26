@@ -142,6 +142,79 @@ public static class ConsoleUi
 		AnsiConsole.Write(table);
 	}
 
+	public static void PrintDuplicatesReport(List<Card> cards, string argument)
+	{
+		var dupQuery = cards.Where(c => c.Quantity > 1);
+		var argTrim = argument.Trim().ToLowerInvariant();
+
+		if (!string.IsNullOrWhiteSpace(argTrim) && argTrim != "-a" && argTrim != "all")
+		{
+			if (argTrim is "s1" or "series1" or "series 1")
+			{
+				dupQuery = dupQuery.Where(c => c.Id >= 1 && c.Id <= 350);
+			}
+			else if (argTrim is "s2" or "series2" or "series 2")
+			{
+				dupQuery = dupQuery.Where(c => c.Id >= 351 && c.Id <= 700);
+			}
+			else if (!TryParseRange(argument, out var startId, out var endId))
+			{
+				Console.WriteLine("Usage: dups, dups s1, dups s2, dups -a, or dups <start-end> (example: dups 500-559)");
+				return;
+			}
+			else
+			{
+				dupQuery = dupQuery.Where(c => c.Id >= startId && c.Id <= endId);
+			}
+		}
+
+		var dupCards = dupQuery.OrderBy(c => c.Id).ToList();
+		if (dupCards.Count == 0)
+		{
+			SetColor(ConsoleColor.Green);
+			if (string.IsNullOrWhiteSpace(argument) || argument.Equals("-a", StringComparison.OrdinalIgnoreCase) || argument.Equals("all", StringComparison.OrdinalIgnoreCase))
+			{
+				Console.WriteLine("NO DUPLICATES: No extra base card duplicates found in your collection.");
+			}
+			else
+			{
+				Console.WriteLine($"No duplicate base cards found in that query ({argument}).");
+			}
+			Console.ResetColor();
+			return;
+		}
+
+		var reportTitle = argTrim switch
+		{
+			"s1" or "series1" or "series 1" => "Scout Report - Series 1 Base Card Duplicates (#1 - #350)",
+			"s2" or "series2" or "series 2" => "Scout Report - Series 2 Base Card Duplicates (#351 - #700)",
+			_ => "Scout Report - Duplicate Base Cards"
+		};
+
+		var totalDups = dupCards.Sum(c => c.Quantity - 1);
+		var table = new Table()
+			.Border(TableBorder.Rounded)
+			.Title($"[bold yellow]{reportTitle}[/]")
+			.AddColumn(new TableColumn("[bold]Card #[/]").RightAligned())
+			.AddColumn(new TableColumn("[bold]Player Name[/]"))
+			.AddColumn(new TableColumn("[bold]Total Owned[/]").RightAligned())
+			.AddColumn(new TableColumn("[bold]Duplicates (Extra)[/]").RightAligned());
+
+		foreach (var card in dupCards)
+		{
+			var extraCount = card.Quantity - 1;
+			table.AddRow(
+				$"[white]#{card.Id}[/]",
+				$"[bold white]{card.PlayerName}[/]",
+				$"[cyan]{card.Quantity}[/]",
+				$"[bold yellow]+{extraCount}[/]"
+			);
+		}
+
+		AnsiConsole.Write(table);
+		AnsiConsole.MarkupLine($"[bold yellow]Total Duplicate Cards:[/] [bold green]{totalDups}[/] extra copy/copies across [bold white]{dupCards.Count}[/] card slot(s).");
+	}
+
 	public static string ShowInteractiveMenu()
 	{
 		var prompt = new SelectionPrompt<string>()
@@ -156,6 +229,8 @@ public static class ConsoleUi
 				"✅ Mark Base Cards Owned (have)",
 				"🔥 Log Parallel Hit (hit)",
 				"🔍 View Missing Base Cards (missing)",
+				"📋 View Base Card Duplicates (dups)",
+				"📤 Export Missing Card List by Series (export)",
 				"✨ View Insert Set Checklist (inserts)",
 				"💎 View Logged Parallel Hits (parallels)",
 				"🏟️ View Team Card Report (teams)",
@@ -173,6 +248,8 @@ public static class ConsoleUi
 		if (choice.StartsWith("✅")) return "have";
 		if (choice.StartsWith("🔥")) return "hit";
 		if (choice.StartsWith("🔍")) return "missing";
+		if (choice.StartsWith("📋")) return "dups";
+		if (choice.StartsWith("📤")) return "export";
 		if (choice.StartsWith("✨")) return "inserts";
 		if (choice.StartsWith("💎")) return "parallels";
 		if (choice.StartsWith("🏟️")) return "teams";
@@ -195,6 +272,8 @@ public static class ConsoleUi
 		table.AddRow("[bold green]anim[/]", "[bold]swing[/]", "Play 8-bit ASCII baseball batter swinging animation");
 		table.AddRow("[bold green]have[/]", "[bold]h[/]", "Mark base cards owned (ex: [yellow]have 1, 5, 10-15[/])");
 		table.AddRow("[bold green]missing[/]", "[bold]m[/]", "List missing cards (ex: [yellow]missing s1[/], [yellow]missing s2[/], [yellow]missing 25-80[/])");
+		table.AddRow("[bold green]dups[/]", "[bold]duplicates[/]", "List duplicate cards (ex: [yellow]dups[/], [yellow]dups s1[/], [yellow]dups 500-559[/])");
+		table.AddRow("[bold green]export[/]", "", "Export missing cards list (ex: [yellow]export missing s1[/], [yellow]export missing s2 csv[/])");
 		table.AddRow("[bold green]series[/]", "[bold]s[/]", "Show Series 1 (#1-350) & Series 2 (#351-700) completeness report");
 		table.AddRow("[bold green]roster[/]", "[bold]list[/]", "Show full base roster ownership + parallel hit counts");
 		table.AddRow("[bold green]check[/]", "[bold]c[/]", "Show status of one card (ex: [yellow]check 24[/])");

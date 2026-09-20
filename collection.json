@@ -5,4200 +5,4900 @@
       "Id": 1,
       "PlayerName": "Aaron Judge",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 2,
       "PlayerName": "Daulton Varsho",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 3,
       "PlayerName": "Luke Keaschall",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 4,
       "PlayerName": "Jonah Tong",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 5,
       "PlayerName": "Nico Hoerner",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 6,
       "PlayerName": "Blaze Alexander",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 7,
       "PlayerName": "Patrick Bailey",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 8,
       "PlayerName": "Heliot Ramos",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 9,
       "PlayerName": "Nick Pivetta",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 10,
       "PlayerName": "Jacob Misiorowski",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 11,
       "PlayerName": "Pete Alonso",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 12,
       "PlayerName": "Jordan Beck",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 13,
       "PlayerName": "Dylan Smith",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 14,
       "PlayerName": "MacKenzie Gore",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 15,
       "PlayerName": "Payton Tolle",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 16,
       "PlayerName": "Casey Mize",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 17,
       "PlayerName": "Nick Castellanos",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 18,
       "PlayerName": "Ryan Ritter",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 19,
       "PlayerName": "Dean Kremer",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 20,
       "PlayerName": "Vladimir Guerrero Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 21,
       "PlayerName": "Kyle Backhus",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 22,
       "PlayerName": "Clayton Kershaw",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 23,
       "PlayerName": "Zach McKinstry",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 24,
       "PlayerName": "Nathan Church",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 25,
       "PlayerName": "Carson Williams",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 26,
       "PlayerName": "Brendan Donovan",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 27,
       "PlayerName": "Matt Shaw",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 28,
       "PlayerName": "Elias D\u00EDaz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 29,
       "PlayerName": "Landen Roupp",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 30,
       "PlayerName": "Sean Murphy",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 31,
       "PlayerName": "Bailey Ober",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 32,
       "PlayerName": "Shinnosuke Ogasawara",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 33,
       "PlayerName": "Xander Bogaerts",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 34,
       "PlayerName": "Kansas City Royals",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 35,
       "PlayerName": "C.J. Kayfus",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 36,
       "PlayerName": "Andry Lara",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 37,
       "PlayerName": "Jakob Marsee",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 38,
       "PlayerName": "Aaron Judge",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 39,
       "PlayerName": "Matt Olson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 40,
       "PlayerName": "Sonny Gray",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 41,
       "PlayerName": "Mookie Betts",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 42,
       "PlayerName": "Bradgley Rodriguez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 43,
       "PlayerName": "Nolan Schanuel",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 44,
       "PlayerName": "Shane Smith",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 45,
       "PlayerName": "Brandon Pfaadt",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 46,
       "PlayerName": "Gunnar Henderson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 47,
       "PlayerName": "Arizona Diamondbacks",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 48,
       "PlayerName": "Stephen Kolek",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 49,
       "PlayerName": "Grant Taylor",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 50,
       "PlayerName": "Ronald Acu\u00F1a Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 51,
       "PlayerName": "Matthew Boyd",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 52,
       "PlayerName": "Francisco Lindor",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 53,
       "PlayerName": "Garrett Crochet",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 54,
       "PlayerName": "Joe Ryan",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 55,
       "PlayerName": "Warming Bernabel",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 56,
       "PlayerName": "Lenyn Sosa",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 57,
       "PlayerName": "Casey Schmitt",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 58,
       "PlayerName": "Kris Bubic",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 59,
       "PlayerName": "Daniel Schneemann",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 60,
       "PlayerName": "Rhett Lowder",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 61,
       "PlayerName": "Kerry Carpenter",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 62,
       "PlayerName": "Bryan Woo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 63,
       "PlayerName": "Jes\u00FAs Luzardo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 64,
       "PlayerName": "Drew Rasmussen",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 65,
       "PlayerName": "Masataka Yoshida",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 66,
       "PlayerName": "Roki Sasaki",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 67,
       "PlayerName": "Parker Messick",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 68,
       "PlayerName": "Trevor Larnach",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 69,
       "PlayerName": "Logan Webb",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 70,
       "PlayerName": "Bob Seymour",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 71,
       "PlayerName": "Gabriel Moreno",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 72,
       "PlayerName": "Coby Mayo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 73,
       "PlayerName": "Jimmy Crooks",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 74,
       "PlayerName": "Alex Freeland",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 75,
       "PlayerName": "Camilo Doval",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 76,
       "PlayerName": "Jacob Lopez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 77,
       "PlayerName": "Spencer Horwitz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 78,
       "PlayerName": "Jonah Heim",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 79,
       "PlayerName": "Spencer Strider",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 80,
       "PlayerName": "Trevor Rogers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 81,
       "PlayerName": "Matt McLain",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 82,
       "PlayerName": "Carlos Rod\u00F3n",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 83,
       "PlayerName": "Jhoan Duran",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 84,
       "PlayerName": "Shohei Ohtani",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 85,
       "PlayerName": "Kody Clemens",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 86,
       "PlayerName": "Dylan Crews",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 87,
       "PlayerName": "Jeffrey Springs",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 88,
       "PlayerName": "Jos\u00E9 Caballero",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 89,
       "PlayerName": "Houston Astros",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 90,
       "PlayerName": "Yoshinobu Yamamoto",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 91,
       "PlayerName": "Jurickson Profar",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 92,
       "PlayerName": "Jackson Holliday",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 93,
       "PlayerName": "Pavin Smith",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 94,
       "PlayerName": "Yu Darvish",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 95,
       "PlayerName": "C\u00E9sar Prieto",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 96,
       "PlayerName": "Corey Seager",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 97,
       "PlayerName": "Nick Kurtz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 98,
       "PlayerName": "Josh Jung",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 99,
       "PlayerName": "Jacob deGrom",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 100,
       "PlayerName": "Paul Skenes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 101,
       "PlayerName": "Ceddanne Rafaela",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 102,
       "PlayerName": "Juan Burgos",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 103,
       "PlayerName": "Dalton Rushing",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 104,
       "PlayerName": "Samuel Basallo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 105,
       "PlayerName": "Brice Turang",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 106,
       "PlayerName": "Kyle Freeland",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 107,
       "PlayerName": "Milwaukee Brewers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 108,
       "PlayerName": "Sawyer Gipson-Long",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 109,
       "PlayerName": "Ben Lively",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 110,
       "PlayerName": "Evan Carter",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 111,
       "PlayerName": "Cam Schlittler",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 112,
       "PlayerName": "Carson Seymour",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 113,
       "PlayerName": "Toronto Blue Jays",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 114,
       "PlayerName": "Ryne Nelson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 115,
       "PlayerName": "Royce Lewis",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 116,
       "PlayerName": "Yanquiel Fern\u00E1ndez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 117,
       "PlayerName": "Jes\u00FAs Luzardo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 118,
       "PlayerName": "Ronald Acu\u00F1a Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 119,
       "PlayerName": "Nick Gonzales",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 120,
       "PlayerName": "Luinder Avila",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 121,
       "PlayerName": "Will Vest",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 122,
       "PlayerName": "Nick Kurtz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 123,
       "PlayerName": "Francisco Lindor",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 124,
       "PlayerName": "Taylor Trammell",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 125,
       "PlayerName": "Kristian Campbell",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 126,
       "PlayerName": "Pete Crow-Armstrong",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 127,
       "PlayerName": "Ke\u0027Bryan Hayes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 128,
       "PlayerName": "F\u00E9lix Bautista",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 129,
       "PlayerName": "Cole Young",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 130,
       "PlayerName": "Max Fried",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 131,
       "PlayerName": "Andrew McCutchen",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 132,
       "PlayerName": "Brice Matthews",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 133,
       "PlayerName": "Ben Rice",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 134,
       "PlayerName": "Joe Rock",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 135,
       "PlayerName": "Alex Bregman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 136,
       "PlayerName": "Ezequiel Tovar",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 137,
       "PlayerName": "Sean Burke",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 138,
       "PlayerName": "Jac Caglianone",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 139,
       "PlayerName": "Jo Adell",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 140,
       "PlayerName": "Cal Raleigh",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 141,
       "PlayerName": "Trevor Megill",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 142,
       "PlayerName": "Luke Raley",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 143,
       "PlayerName": "Zach Maxwell",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 144,
       "PlayerName": "Javier B\u00E1ez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 145,
       "PlayerName": "Kenedy Corona",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 146,
       "PlayerName": "Julio Rodr\u00EDguez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 147,
       "PlayerName": "Christian Moore",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 148,
       "PlayerName": "Jacob Melton",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 149,
       "PlayerName": "Travis Adams",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 150,
       "PlayerName": "Elly De La Cruz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 151,
       "PlayerName": "Nico Hoerner",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 152,
       "PlayerName": "CJ Abrams",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 153,
       "PlayerName": "J.T. Ginn",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 154,
       "PlayerName": "Christian Yelich",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 155,
       "PlayerName": "Drew Gilbert",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 156,
       "PlayerName": "Dominic Canzone",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 157,
       "PlayerName": "Colson Montgomery",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 158,
       "PlayerName": "Daniel Palencia",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 159,
       "PlayerName": "Ronny Mauricio",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 160,
       "PlayerName": "Victor Robles",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 161,
       "PlayerName": "Michael McGreevy",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 162,
       "PlayerName": "Jorge Soler",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 163,
       "PlayerName": "Brandyn Garcia",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 164,
       "PlayerName": "Brenton Doyle",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 165,
       "PlayerName": "Ian Seymour",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 166,
       "PlayerName": "Colton Cowser",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 167,
       "PlayerName": "Wikelman Gonz\u00E1lez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 168,
       "PlayerName": "Julio Rodr\u00EDguez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 169,
       "PlayerName": "Josh Smith",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 170,
       "PlayerName": "Brady House",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 171,
       "PlayerName": "Will Benson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 172,
       "PlayerName": "Maximo Acosta",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 173,
       "PlayerName": "Yusei Kikuchi",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 174,
       "PlayerName": "Tyler Stephenson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 175,
       "PlayerName": "Eric Lauer",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 176,
       "PlayerName": "Will Warren",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 177,
       "PlayerName": "Brayan Bello",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 178,
       "PlayerName": "Shota Imanaga",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 179,
       "PlayerName": "Mason Miller",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 180,
       "PlayerName": "Willson Contreras",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 181,
       "PlayerName": "Adam Frazier",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 182,
       "PlayerName": "Grant Holmes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 183,
       "PlayerName": "Josh Lowe",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 184,
       "PlayerName": "Carson Whisenhunt",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 185,
       "PlayerName": "Tomoyuki Sugano",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 186,
       "PlayerName": "Quinn Priester",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 187,
       "PlayerName": "Otto Kemp",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 188,
       "PlayerName": "Bo Naylor",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 189,
       "PlayerName": "Roman Anthony",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 190,
       "PlayerName": "Michael Wacha",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 191,
       "PlayerName": "Mauricio Dub\u00F3n",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 192,
       "PlayerName": "William Contreras",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 193,
       "PlayerName": "Nolan Arenado",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 194,
       "PlayerName": "Otto Lopez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 195,
       "PlayerName": "Mickey Moniak",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 196,
       "PlayerName": "Pete Crow-Armstrong",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 197,
       "PlayerName": "Bryce Harper",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 198,
       "PlayerName": "Boston Red Sox",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 199,
       "PlayerName": "Tyler Freeman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 200,
       "PlayerName": "Shohei Ohtani",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 201,
       "PlayerName": "Kyle Teel",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 202,
       "PlayerName": "Isaac Collins",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 203,
       "PlayerName": "Yoshinobu Yamamoto",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 204,
       "PlayerName": "Jacob Wilson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 205,
       "PlayerName": "Bobby Witt Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 206,
       "PlayerName": "Jack Perkins",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 207,
       "PlayerName": "Joey Bart",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 208,
       "PlayerName": "Jack Leiter",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 209,
       "PlayerName": "Riley Greene",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 210,
       "PlayerName": "Jacob Young",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 211,
       "PlayerName": "Vinnie Pasquantino",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 212,
       "PlayerName": "Troy Melton",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 213,
       "PlayerName": "Colby Thomas",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 214,
       "PlayerName": "Nolan McLean",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 215,
       "PlayerName": "David Peterson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 216,
       "PlayerName": "Gavin Sheets",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 217,
       "PlayerName": "Chad Patrick",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 218,
       "PlayerName": "Andrew Abbott",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 219,
       "PlayerName": "Rafael Devers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 220,
       "PlayerName": "Austin Wells",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 221,
       "PlayerName": "Victor Scott II",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 222,
       "PlayerName": "Tommy Edman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 223,
       "PlayerName": "Vinnie Pasquantino",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 224,
       "PlayerName": "Cody Freeman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 225,
       "PlayerName": "Max Schuemann",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 226,
       "PlayerName": "Ben Williamson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 227,
       "PlayerName": "Brandon Walter",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 228,
       "PlayerName": "David Bednar",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 229,
       "PlayerName": "Jackson Merrill",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 230,
       "PlayerName": "Zach Neto",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 231,
       "PlayerName": "Bryan Abreu",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 232,
       "PlayerName": "Chad Stevens",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 233,
       "PlayerName": "Owen Caissie",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 234,
       "PlayerName": "Carlos Est\u00E9vez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 235,
       "PlayerName": "Logan Gilbert",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 236,
       "PlayerName": "Jac Caglianone",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 237,
       "PlayerName": "Jonathan India",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 238,
       "PlayerName": "Austin Riley",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 239,
       "PlayerName": "Devin Williams",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 240,
       "PlayerName": "Jacob Wilson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 241,
       "PlayerName": "Addison Barger",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 242,
       "PlayerName": "Mike Yastrzemski",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 243,
       "PlayerName": "Didier Fuentes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 244,
       "PlayerName": "Angel Mart\u00EDnez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 245,
       "PlayerName": "Keibert Ruiz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 246,
       "PlayerName": "Oneil Cruz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 247,
       "PlayerName": "Will Banfield",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 248,
       "PlayerName": "Ryan McMahon",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 249,
       "PlayerName": "Carlos Cortes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 250,
       "PlayerName": "Bryce Harper",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 251,
       "PlayerName": "Teoscar Hern\u00E1ndez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 252,
       "PlayerName": "Max Muncy",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 253,
       "PlayerName": "Lucas Giolito",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 254,
       "PlayerName": "Gavin Williams",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 255,
       "PlayerName": "Byron Buxton",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 256,
       "PlayerName": "Los Angeles Dodgers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 257,
       "PlayerName": "Geraldo Perdomo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 258,
       "PlayerName": "Texas Rangers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 259,
       "PlayerName": "Luis Morales",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 260,
       "PlayerName": "Roman Anthony",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 261,
       "PlayerName": "Zack Wheeler",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 262,
       "PlayerName": "Detroit Tigers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 263,
       "PlayerName": "Joey Loperfido",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 264,
       "PlayerName": "Hunter Brown",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 265,
       "PlayerName": "Shohei Ohtani",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 266,
       "PlayerName": "Washington Nationals",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 267,
       "PlayerName": "Willy Adames",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 268,
       "PlayerName": "Cam Devanney",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 269,
       "PlayerName": "Marcelo Mayer",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 270,
       "PlayerName": "Max Fried",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 271,
       "PlayerName": "Reid Detmers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 272,
       "PlayerName": "Jos\u00E9 Berr\u00EDos",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 273,
       "PlayerName": "Mason Barnett",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 274,
       "PlayerName": "Hunter Goodman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 275,
       "PlayerName": "Luisangel Acu\u00F1a",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 276,
       "PlayerName": "Clay Holmes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 277,
       "PlayerName": "Jeremiah Jackson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 278,
       "PlayerName": "Jose Altuve",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 279,
       "PlayerName": "Dane Myers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 280,
       "PlayerName": "Pedro Pag\u00E9s",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 281,
       "PlayerName": "Davis Martin",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 282,
       "PlayerName": "Brady Singer",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 283,
       "PlayerName": "Bubba Chandler",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 284,
       "PlayerName": "Jos\u00E9 Ram\u00EDrez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 285,
       "PlayerName": "Eury P\u00E9rez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 286,
       "PlayerName": "Anthony Seigler",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 287,
       "PlayerName": "Agust\u00EDn Ram\u00EDrez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 288,
       "PlayerName": "Edward Cabrera",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 289,
       "PlayerName": "Edmundo Sosa",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 290,
       "PlayerName": "Ronny Henriquez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 291,
       "PlayerName": "New York Mets",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 292,
       "PlayerName": "San Diego Padres",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 293,
       "PlayerName": "Kyle Stowers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 294,
       "PlayerName": "Romy Gonzalez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 295,
       "PlayerName": "Philadelphia Phillies",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 296,
       "PlayerName": "Hayden Birdsong",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 297,
       "PlayerName": "Caleb Durbin",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 298,
       "PlayerName": "Matt Strahm",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 299,
       "PlayerName": "Lazaro Estrada",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 300,
       "PlayerName": "Tarik Skubal",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 301,
       "PlayerName": "Alejandro Kirk",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 302,
       "PlayerName": "Aaron Judge",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 303,
       "PlayerName": "Andrew Vaughn",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 304,
       "PlayerName": "Oakland Athletics",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 305,
       "PlayerName": "Shea Langeliers",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 306,
       "PlayerName": "Spencer Schwellenbach",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 307,
       "PlayerName": "Jeremy Pe\u00F1a",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 308,
       "PlayerName": "Anthony Volpe",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 309,
       "PlayerName": "Kyle Manzardo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 310,
       "PlayerName": "Michael Harris II",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 311,
       "PlayerName": "Kevin Gausman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 312,
       "PlayerName": "Chase Burns",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 313,
       "PlayerName": "Ryan Pepiot",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 314,
       "PlayerName": "Corbin Carroll",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 315,
       "PlayerName": "Ryan Jeffers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 316,
       "PlayerName": "Jhostynxon Garcia",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 317,
       "PlayerName": "Troy Johnston",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 318,
       "PlayerName": "Adolis Garc\u00EDa",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 319,
       "PlayerName": "Jos\u00E9 Soriano",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 320,
       "PlayerName": "Chicago Cubs",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 321,
       "PlayerName": "Pierson Ohl",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 322,
       "PlayerName": "Trea Turner",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 323,
       "PlayerName": "Jake Fraley",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 324,
       "PlayerName": "Lawrence Butler",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 325,
       "PlayerName": "Cristopher S\u00E1nchez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 326,
       "PlayerName": "Jonathan Aranda",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 327,
       "PlayerName": "Tarik Skubal",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 328,
       "PlayerName": "Junior Caminero",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 329,
       "PlayerName": "Miguel Vargas",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 330,
       "PlayerName": "Tristan Peters",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 331,
       "PlayerName": "Bryce Miller",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 332,
       "PlayerName": "Sean Manaea",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 333,
       "PlayerName": "Fernando Tatis Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 334,
       "PlayerName": "Kyle Karros",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 335,
       "PlayerName": "Brandon Marsh",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 336,
       "PlayerName": "Kumar Rocker",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 337,
       "PlayerName": "Francisco Alvarez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 338,
       "PlayerName": "TJ Friedl",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 339,
       "PlayerName": "Dylan Beavers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 340,
       "PlayerName": "Blake Snell",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 341,
       "PlayerName": "Giancarlo Stanton",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 342,
       "PlayerName": "Chandler Simpson",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 343,
       "PlayerName": "Ram\u00F3n Ur\u00EDas",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 344,
       "PlayerName": "Carlos Narv\u00E1ez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 345,
       "PlayerName": "Andrew Benintendi",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 346,
       "PlayerName": "Tristin English",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 347,
       "PlayerName": "Brett Baty",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 348,
       "PlayerName": "Michael Busch",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 349,
       "PlayerName": "James Wood",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 350,
       "PlayerName": "Mike Trout",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 351,
       "PlayerName": "Dillon Dingler",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 352,
       "PlayerName": "Spencer Torkelson",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 353,
       "PlayerName": "St. Louis Cardinals",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 354,
       "PlayerName": "Gabriel Arias",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 355,
       "PlayerName": "Nathan Eovaldi",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 356,
       "PlayerName": "Vladimir Guerrero Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 357,
       "PlayerName": "Gavin Lux",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 358,
       "PlayerName": "Adley Rutschman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 359,
       "PlayerName": "Adael Amador",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 360,
       "PlayerName": "Ben Joyce",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 361,
       "PlayerName": "Davis Schneider",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 362,
       "PlayerName": "Luis Severino",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 363,
       "PlayerName": "J.T. Realmuto",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 364,
       "PlayerName": "Luis Garc\u00EDa Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 365,
       "PlayerName": "Spencer Steer",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 366,
       "PlayerName": "Isaac Paredes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 367,
       "PlayerName": "Robbie Ray",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 368,
       "PlayerName": "Kyle Tucker",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 369,
       "PlayerName": "Julio Rodr\u00EDguez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 370,
       "PlayerName": "Brayan Rocchio",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 371,
       "PlayerName": "Brent Rooker",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 372,
       "PlayerName": "Sal Stewart",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 373,
       "PlayerName": "Cam Smith",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 374,
       "PlayerName": "Kevin Alc\u00E1ntara",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 375,
       "PlayerName": "Denzel Clarke",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 376,
       "PlayerName": "Christian Encarnacion-Strand",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 377,
       "PlayerName": "Alec Bohm",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 378,
       "PlayerName": "Kyren Paris",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 379,
       "PlayerName": "Blake Perkins",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 380,
       "PlayerName": "Framber Valdez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 381,
       "PlayerName": "Brian Van Belle",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 382,
       "PlayerName": "Hunter Greene",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 383,
       "PlayerName": "Wyatt Langford",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 384,
       "PlayerName": "Taijuan Walker",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 385,
       "PlayerName": "Nick Raquet",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 386,
       "PlayerName": "Luis Curvelo",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 387,
       "PlayerName": "Drew Sommers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 388,
       "PlayerName": "Yandy D\u00EDaz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 389,
       "PlayerName": "Nick Allen",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 390,
       "PlayerName": "Jack Dreyer",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 391,
       "PlayerName": "Justin Wrobleski",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 392,
       "PlayerName": "Xavier Edwards",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 393,
       "PlayerName": "Jazz Chisholm Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 394,
       "PlayerName": "Eric Wagaman",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 395,
       "PlayerName": "Josh Naylor",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 396,
       "PlayerName": "Raisel Iglesias",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 397,
       "PlayerName": "Jordan Lawlar",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 398,
       "PlayerName": "Hunter Barco",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 399,
       "PlayerName": "Javier Sanoja",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 400,
       "PlayerName": "Pete Alonso",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 401,
       "PlayerName": "Eduarniel N\u00FA\u00F1ez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 402,
       "PlayerName": "Anthony Santander",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 403,
       "PlayerName": "Bryce Johnson",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 404,
       "PlayerName": "Parker Meadows",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 405,
       "PlayerName": "PJ Poulin",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 406,
       "PlayerName": "Bryce Eldridge",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 407,
       "PlayerName": "Hurston Waldrep",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 408,
       "PlayerName": "Tampa Bay Rays",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 409,
       "PlayerName": "Logan Henderson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 410,
       "PlayerName": "Hayden Harris",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 411,
       "PlayerName": "Mike Tauchman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 412,
       "PlayerName": "Robert Stephenson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 413,
       "PlayerName": "Mike Burrows",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 414,
       "PlayerName": "Andy Pages",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 415,
       "PlayerName": "Justin Verlander",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 416,
       "PlayerName": "Austin Martin",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 417,
       "PlayerName": "Eduardo Rodriguez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 418,
       "PlayerName": "Cade Cavalli",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 419,
       "PlayerName": "Jared Jones",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 420,
       "PlayerName": "Luis Arraez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 421,
       "PlayerName": "Taylor Walls",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 422,
       "PlayerName": "Shane Bieber",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 423,
       "PlayerName": "Luis Robert Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 424,
       "PlayerName": "Zack Gelof",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 425,
       "PlayerName": "Trent Grisham",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 426,
       "PlayerName": "Matt Wallner",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 427,
       "PlayerName": "Chris Sale",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 428,
       "PlayerName": "Kris Bryant",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 429,
       "PlayerName": "Logan Allen",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 430,
       "PlayerName": "Tyler Locklear",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 431,
       "PlayerName": "Randy Arozarena",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 432,
       "PlayerName": "Ryan Feltner",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 433,
       "PlayerName": "Tyler O\u0027Neill",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 434,
       "PlayerName": "Graham Pauley",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 435,
       "PlayerName": "Denzer Guzman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 436,
       "PlayerName": "Mitch Keller",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 437,
       "PlayerName": "Nick Castellanos",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 438,
       "PlayerName": "Jake Cronenworth",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 439,
       "PlayerName": "Gleyber Torres",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 440,
       "PlayerName": "Ranger Su\u00E1rez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 441,
       "PlayerName": "Lars Nootbaar",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 442,
       "PlayerName": "Ryan O\u0027Hearn",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 443,
       "PlayerName": "Kazuma Okamoto",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 444,
       "PlayerName": "Tanner Gordon",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 445,
       "PlayerName": "Michael Massey",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 446,
       "PlayerName": "Eugenio Su\u00E1rez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 447,
       "PlayerName": "Joe Boyle",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 448,
       "PlayerName": "Jackson Chourio",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 449,
       "PlayerName": "Sandy Alcantara",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 450,
       "PlayerName": "Gerrit Cole",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 451,
       "PlayerName": "Jake Burger",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 452,
       "PlayerName": "Nick Loftin",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 453,
       "PlayerName": "Chase Dollander",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 454,
       "PlayerName": "Josh Hader",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 455,
       "PlayerName": "George Springer",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 456,
       "PlayerName": "Justin Dean",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 457,
       "PlayerName": "Nick Yorke",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 458,
       "PlayerName": "Chase DeLauter",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 459,
       "PlayerName": "Ketel Marte",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 460,
       "PlayerName": "Adrian Del Castillo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 461,
       "PlayerName": "Noah Cameron",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 462,
       "PlayerName": "Andr\u00E9s Chaparro",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 463,
       "PlayerName": "Aaron Nola",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 464,
       "PlayerName": "Triston Casas",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 465,
       "PlayerName": "Lourdes Gurriel Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 466,
       "PlayerName": "Trevor McDonald",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 467,
       "PlayerName": "Pittsburgh Pirates",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 468,
       "PlayerName": "Yordan Alvarez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 469,
       "PlayerName": "Jonathan Pintaro",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 470,
       "PlayerName": "Brandon Nimmo",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 471,
       "PlayerName": "J.P. Crawford",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 472,
       "PlayerName": "Christian Koss",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 473,
       "PlayerName": "Bo Bichette",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 474,
       "PlayerName": "Joel Peguero",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 475,
       "PlayerName": "Shane Baz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 476,
       "PlayerName": "Card 476",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 477,
       "PlayerName": "Jes\u00FAs S\u00E1nchez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 478,
       "PlayerName": "Tyler Wells",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 479,
       "PlayerName": "Aaron Judge",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 480,
       "PlayerName": "Luis Torrens",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 481,
       "PlayerName": "Tyrone Taylor",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 482,
       "PlayerName": "Alek Thomas",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 483,
       "PlayerName": "Logan O\u0027Hoppe",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 484,
       "PlayerName": "Cole Ragans",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 485,
       "PlayerName": "Jake Mangum",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 486,
       "PlayerName": "Justin Steele",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 487,
       "PlayerName": "Jake Irvin",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 488,
       "PlayerName": "Cincinnati Reds",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 489,
       "PlayerName": "James Outman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 490,
       "PlayerName": "Oswaldo Cabrera",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 491,
       "PlayerName": "Minnesota Twins",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 492,
       "PlayerName": "Cleveland Guardians",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 493,
       "PlayerName": "George Kirby",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 494,
       "PlayerName": "Jake Palisch",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 495,
       "PlayerName": "Christian Walker",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 496,
       "PlayerName": "San Francisco Giants",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 497,
       "PlayerName": "Kyle Leahy",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 498,
       "PlayerName": "Ryan Helsley",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 499,
       "PlayerName": "James Wood",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 500,
       "PlayerName": "Shohei Ohtani",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 501,
       "PlayerName": "Connelly Early",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 502,
       "PlayerName": "Miguel Rojas",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 503,
       "PlayerName": "Munetaka Murakami",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 504,
       "PlayerName": "Tanner Houck",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 505,
       "PlayerName": "Ernie Clement",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 506,
       "PlayerName": "Edwin D\u00EDaz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 507,
       "PlayerName": "Luis Castillo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 508,
       "PlayerName": "Colorado Rockies",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 509,
       "PlayerName": "Pablo L\u00F3pez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 510,
       "PlayerName": "Philip Abner",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 511,
       "PlayerName": "Jayvien Sandridge",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 512,
       "PlayerName": "Simeon Woods Richardson",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 513,
       "PlayerName": "Tatsuya Imai",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 514,
       "PlayerName": "Zac Veen",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 515,
       "PlayerName": "Blaze Alexander",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 516,
       "PlayerName": "Korey Lee",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 517,
       "PlayerName": "Mike Trout",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 518,
       "PlayerName": "Brandon Woodruff",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 519,
       "PlayerName": "Ram\u00F3n Laureano",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 520,
       "PlayerName": "Andrew Alvarez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 521,
       "PlayerName": "Henry Davis",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 522,
       "PlayerName": "Miami Marlins",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 523,
       "PlayerName": "Heston Kjerstad",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 524,
       "PlayerName": "Emmet Sheehan",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 525,
       "PlayerName": "Seattle Mariners",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 526,
       "PlayerName": "Masyn Winn",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 527,
       "PlayerName": "Maikel Garcia",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 528,
       "PlayerName": "Jared Triolo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 529,
       "PlayerName": "Griffin Conine",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 530,
       "PlayerName": "Carter Jensen",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 531,
       "PlayerName": "Alejandro Carrillo",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 532,
       "PlayerName": "Jackson Jobe",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 533,
       "PlayerName": "Jasson Dom\u00EDnguez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 534,
       "PlayerName": "Brandon Sproat",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 535,
       "PlayerName": "Javier Assad",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 536,
       "PlayerName": "Trevor Story",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 537,
       "PlayerName": "Jameson Taillon",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 538,
       "PlayerName": "Tommy Nance",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 539,
       "PlayerName": "Lucas Erceg",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 540,
       "PlayerName": "Ryan Walker",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 541,
       "PlayerName": "Jung Hoo Lee",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 542,
       "PlayerName": "Joey Ortiz",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 543,
       "PlayerName": "Jonny DeLuca",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 544,
       "PlayerName": "Kutter Crawford",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 545,
       "PlayerName": "Austin Hedges",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 546,
       "PlayerName": "Nick Fortes",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 547,
       "PlayerName": "Dylan Cease",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 548,
       "PlayerName": "Steven Kwan",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 549,
       "PlayerName": "Daylen Lile",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 550,
       "PlayerName": "Dansby Swanson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 551,
       "PlayerName": "Taylor Ward",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 552,
       "PlayerName": "Merrill Kelly",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 553,
       "PlayerName": "Elly De La Cruz",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 554,
       "PlayerName": "Ezequiel Duran",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 555,
       "PlayerName": "Cade Povich",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 556,
       "PlayerName": "Lance McCullers Jr.",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 557,
       "PlayerName": "Kyle Higashioka",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 558,
       "PlayerName": "Michael King",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 559,
       "PlayerName": "JP Sears",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 560,
       "PlayerName": "Jarren Duran",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 561,
       "PlayerName": "Matt Chapman",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 562,
       "PlayerName": "Bryson Stott",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 563,
       "PlayerName": "Ji Hwan Bae",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 564,
       "PlayerName": "Tyler Soderstrom",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 565,
       "PlayerName": "Jordan Walker",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 566,
       "PlayerName": "Jack Little",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 567,
       "PlayerName": "Thomas Saggese",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 568,
       "PlayerName": "Ozzie Albies",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 569,
       "PlayerName": "Max Scherzer",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 570,
       "PlayerName": "Rolddy Mu\u00F1oz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 571,
       "PlayerName": "Kik\u00E9 Hern\u00E1ndez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 572,
       "PlayerName": "Alan Rangel",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 573,
       "PlayerName": "Alec Burleson",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 574,
       "PlayerName": "Andr\u00E9s Mu\u00F1oz",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 575,
       "PlayerName": "Jake Meyers",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 576,
       "PlayerName": "Jarren Duran",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 577,
       "PlayerName": "Grayson Rodriguez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 578,
       "PlayerName": "Heriberto Hern\u00E1ndez",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 579,
       "PlayerName": "Brandon Lowe",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 580,
       "PlayerName": "Marcell Ozuna",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 581,
       "PlayerName": "Chase Meidroth",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 582,
       "PlayerName": "Robert Hassell III",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 583,
       "PlayerName": "Josh Simpson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 584,
       "PlayerName": "Mois\u00E9s Ballesteros",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 585,
       "PlayerName": "Ian Happ",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 586,
       "PlayerName": "Marcus Semien",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 587,
       "PlayerName": "Nolan Gorman",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 588,
       "PlayerName": "Andr\u00E9s Gim\u00E9nez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 589,
       "PlayerName": "Braxton Ashcraft",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 590,
       "PlayerName": "Austin Wynns",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 591,
       "PlayerName": "Jahmai Jones",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 592,
       "PlayerName": "Joc Pederson",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 593,
       "PlayerName": "Sal Frelick",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 594,
       "PlayerName": "Luis Gil",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 595,
       "PlayerName": "McCade Brown",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 596,
       "PlayerName": "Liam Hicks",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 597,
       "PlayerName": "Paul Goldschmidt",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 598,
       "PlayerName": "Jack Winkler",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 599,
       "PlayerName": "Cristian Javier",
       "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 600,
       "PlayerName": "Juan Soto",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 601,
       "PlayerName": "Zach Cole",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 602,
       "PlayerName": "Shane McClanahan",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 603,
       "PlayerName": "George Valera",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 604,
       "PlayerName": "Jake Bauers",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 605,
       "PlayerName": "Xander Bogaerts",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 606,
       "PlayerName": "Zebby Matthews",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 607,
       "PlayerName": "Cody Bellinger",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 608,
       "PlayerName": "Cody Laweryson",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 609,
       "PlayerName": "Mitch Farris",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 610,
       "PlayerName": "Brooks Lee",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 611,
       "PlayerName": "Paul Gervase",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 612,
       "PlayerName": "Jos\u00E9 Ferm\u00EDn",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 613,
       "PlayerName": "Jordan Westburg",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 614,
       "PlayerName": "Manny Machado",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 615,
       "PlayerName": "Taylor Rashi",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 616,
       "PlayerName": "Hoby Milner",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 617,
       "PlayerName": "Caden Dana",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 618,
       "PlayerName": "Tanner Bibee",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 619,
       "PlayerName": "Brooks Baldwin",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 620,
       "PlayerName": "Trey Yesavage",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 621,
       "PlayerName": "Matthew Liberatore",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 622,
       "PlayerName": "Cade Smith",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 623,
       "PlayerName": "Rafael Flores",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 624,
       "PlayerName": "Harrison Bader",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 625,
       "PlayerName": "Yo\u00E1n Moncada",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 626,
       "PlayerName": "Max Muncy",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 627,
       "PlayerName": "Gustavo Campero",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 628,
       "PlayerName": "New York Yankees",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 629,
       "PlayerName": "Tyler Glasnow",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 630,
       "PlayerName": "Corbin Burnes",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 631,
       "PlayerName": "Will Smith",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 632,
       "PlayerName": "Cade Horton",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 633,
       "PlayerName": "Salvador Perez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 634,
       "PlayerName": "Ryan Weathers",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 635,
       "PlayerName": "Edgar Quero",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 636,
       "PlayerName": "Joe Musgrove",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 637,
       "PlayerName": "Johan Rojas",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 638,
       "PlayerName": "Card 638",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 639,
       "PlayerName": "Reese Olson",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 640,
       "PlayerName": "Atlanta Braves",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 641,
       "PlayerName": "Slade Cecconi",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 642,
       "PlayerName": "Yoshinobu Yamamoto",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 643,
       "PlayerName": "Nick Lodolo",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 644,
       "PlayerName": "Christian Montes De Oca",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 645,
       "PlayerName": "Nasim Nu\u00F1ez",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 646,
       "PlayerName": "Mark Vientos",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 647,
       "PlayerName": "Kyle Bradish",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 648,
       "PlayerName": "Jonathan Cannon",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 649,
       "PlayerName": "Leo Rivas",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 650,
       "PlayerName": "Kyle Schwarber",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 651,
       "PlayerName": "Abner Uribe",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 652,
       "PlayerName": "Ryan Mountcastle",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 653,
       "PlayerName": "Andruw Monasterio",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 654,
       "PlayerName": "Baltimore Orioles",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 655,
       "PlayerName": "Jack Suwinski",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 656,
       "PlayerName": "Aroldis Chapman",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 657,
       "PlayerName": "Freddy Peralta",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 658,
       "PlayerName": "Jack Flaherty",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 659,
       "PlayerName": "Harry Ford",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 660,
       "PlayerName": "Edouard Julien",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 661,
       "PlayerName": "Chicago White Sox",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 662,
       "PlayerName": "Jeff McNeil",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 663,
       "PlayerName": "Hyeseong Kim",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 664,
       "PlayerName": "Jayden Murray",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 665,
       "PlayerName": "Jose Corniell",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 666,
       "PlayerName": "Nolan Hoffman",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 667,
       "PlayerName": "Kodai Senga",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 668,
       "PlayerName": "Petey Halpin",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 669,
       "PlayerName": "Randy V\u00E1squez",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 670,
       "PlayerName": "Kyle Harrison",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 671,
       "PlayerName": "JJ Bleday",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 672,
       "PlayerName": "Yainer Diaz",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 673,
       "PlayerName": "Reynaldo L\u00F3pez",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 674,
       "PlayerName": "Andre Granillo",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 675,
       "PlayerName": "Steven Kwan",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 676,
       "PlayerName": "Jorge Polanco",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 677,
       "PlayerName": "Wilyer Abreu",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 678,
       "PlayerName": "Darell Hernaiz",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 679,
       "PlayerName": "Cam Sanders",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 680,
       "PlayerName": "Carlos Correa",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 681,
       "PlayerName": "Nathan Lukes",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 682,
       "PlayerName": "Wenceel P\u00E9rez",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 683,
       "PlayerName": "Dugan Darnell",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 684,
       "PlayerName": "Quinn Priester",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 685,
       "PlayerName": "Seiya Suzuki",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 686,
       "PlayerName": "Carson Kelly",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 687,
       "PlayerName": "Noelvi Marte",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 688,
       "PlayerName": "Blas Casta\u00F1o",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 689,
       "PlayerName": "Kyle Isbel",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 690,
       "PlayerName": "Cedric Mullins",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 691,
       "PlayerName": "Joey Cantillo",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 692,
       "PlayerName": "Drake Baldwin",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 693,
       "PlayerName": "Luis Matos",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 694,
       "PlayerName": "Tyler Anderson",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 695,
       "PlayerName": "Connor Norby",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 696,
       "PlayerName": "Andrew Hoffmann",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 697,
       "PlayerName": "Bryan Reynolds",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 698,
       "PlayerName": "Andre Pallante",
-      "IsOwned": false,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
       "Id": 699,
       "PlayerName": "Jared Young",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     },
     {
       "Id": 700,
       "PlayerName": "Freddie Freeman",
       "IsOwned": false,
+      "Quantity": 0,
       "Variants": []
     }
   ]

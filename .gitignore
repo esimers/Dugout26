@@ -6,4 +6,5 @@ checklistInputs/*.pdf
 .gemini/
 *.bak
 *.tmp
+exports/
 
