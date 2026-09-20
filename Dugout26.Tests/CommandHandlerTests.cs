@@ -73,6 +73,63 @@ public class CommandHandlerTests
 	}
 
 	[Fact]
+	public void FindUniqueInsertSet_ResolvesExactCodeAndPartialName()
+	{
+		var sets = new List<InsertSet>
+		{
+			new InsertSet { Name = "Titans of the Game", Code = "TOG" },
+			new InsertSet { Name = "Stars of MLB", Code = "SMLB" }
+		};
+
+		Assert.Equal("TOG", CommandHandler.FindUniqueInsertSet(sets, "TOG")!.Code);
+		Assert.Equal("TOG", CommandHandler.FindUniqueInsertSet(sets, "Titans")!.Code);
+		Assert.Null(CommandHandler.FindUniqueInsertSet(sets, "of"));
+	}
+
+	[Fact]
+	public void GetInsertCardRows_ListsMissingWithPlayerNames()
+	{
+		var set = new InsertSet
+		{
+			Name = "Titans of the Game",
+			Code = "TOG",
+			ValidCardNumbers = new List<int> { 1, 2, 3 },
+			OwnedCards = new List<int> { 1 },
+			ValidCards = new List<InsertCardInfo>
+			{
+				new InsertCardInfo { Number = 1, Name = "Aaron Judge" },
+				new InsertCardInfo { Number = 2, Name = "Shohei Ohtani" },
+				new InsertCardInfo { Number = 3, Name = "Elly De La Cruz" }
+			}
+		};
+
+		var missing = CommandHandler.GetInsertCardRows(set, ownedFilter: false);
+		Assert.Equal(2, missing.Count);
+		Assert.Equal(2, missing[0].Number);
+		Assert.Equal("Shohei Ohtani", missing[0].Name);
+		Assert.False(missing[0].IsOwned);
+
+		var full = CommandHandler.GetInsertCardRows(set, ownedFilter: null);
+		Assert.Equal(3, full.Count);
+		Assert.True(full[0].IsOwned);
+		Assert.Equal("Aaron Judge", full[0].Name);
+	}
+
+	[Fact]
+	public void GetInsertCardRows_MissingWithoutChecklist_ReturnsEmpty()
+	{
+		var set = new InsertSet
+		{
+			Name = "Custom Set",
+			Code = "CS",
+			OwnedCards = new List<int> { 1 }
+		};
+
+		Assert.False(CommandHandler.HasInsertChecklist(set));
+		Assert.Empty(CommandHandler.GetInsertCardRows(set, ownedFilter: false));
+	}
+
+	[Fact]
 	public void ResetCollectionData_ResetsCardsAndSetsOnDoubleConfirmation()
 	{
 		var cards = new List<Card>

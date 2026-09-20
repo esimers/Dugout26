@@ -61,4 +61,21 @@ public static class VariantParser
 			IsRelic = isRelic
 		};
 	}
+
+	public static bool NameMatches(CardVariant variant, string input)
+	{
+		var raw = input.Trim();
+		if (raw.Length == 0)
+		{
+			return false;
+		}
+
+		if (variant.Name.Equals(raw, StringComparison.OrdinalIgnoreCase))
+		{
+			return true;
+		}
+
+		var parsedName = Parse(raw).Name;
+		return variant.Name.Equals(parsedName, StringComparison.OrdinalIgnoreCase);
+	}
 }

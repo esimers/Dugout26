@@ -44,4 +44,14 @@ public class VariantParserTests
 		Assert.True(variant.IsAuto);
 		Assert.True(variant.IsRelic);
 	}
+
+	[Fact]
+	public void NameMatches_AcceptsParsedSerialForm()
+	{
+		var variant = VariantParser.Parse("Gold #45/2026");
+		Assert.True(VariantParser.NameMatches(variant, "Gold"));
+		Assert.True(VariantParser.NameMatches(variant, "Gold #45/2026"));
+		Assert.True(VariantParser.NameMatches(variant, "gold #12/2026"));
+		Assert.False(VariantParser.NameMatches(variant, "Red Auto /10"));
+	}
 }

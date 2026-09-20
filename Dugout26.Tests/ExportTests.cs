@@ -54,4 +54,52 @@ public class ExportTests
 			File.Delete(exportedPath);
 		}
 	}
+
+	[Fact]
+	public void ExportDuplicateCards_Csv_IncludesQuantityAndExtras()
+	{
+		var cards = new List<Card>
+		{
+			new Card { Id = 1, PlayerName = "Shohei Ohtani", Quantity = 1 },
+			new Card { Id = 5, PlayerName = "Aaron Judge", Quantity = 3 },
+			new Card { Id = 355, PlayerName = "Mike Trout", Quantity = 2 }
+		};
+
+		var exportedPath = StorageService.ExportDuplicateCards(cards, "s1", "csv");
+		Assert.True(File.Exists(exportedPath));
+
+		var lines = File.ReadAllLines(exportedPath);
+		Assert.Equal("CardId,PlayerName,Series,Quantity,Extras", lines[0]);
+		Assert.Equal("5,Aaron Judge,Series 1,3,2", lines[1]);
+		Assert.DoesNotContain(lines, l => l.StartsWith("355,"));
+		Assert.DoesNotContain(lines, l => l.StartsWith("1,"));
+
+		if (File.Exists(exportedPath))
+		{
+			File.Delete(exportedPath);
+		}
+	}
+
+	[Fact]
+	public void ExportDuplicateCards_Text_WritesTradeListHeader()
+	{
+		var cards = new List<Card>
+		{
+			new Card { Id = 502, PlayerName = "Player B", Quantity = 4 }
+		};
+
+		var exportedPath = StorageService.ExportDuplicateCards(cards, "500-559", "txt");
+		Assert.True(File.Exists(exportedPath));
+
+		var content = File.ReadAllText(exportedPath);
+		Assert.Contains("DUPLICATE BASE CARDS / TRADE LIST", content);
+		Assert.Contains("#502", content);
+		Assert.Contains("extra +3", content);
+		Assert.Contains("Trade copies: 3", content);
+
+		if (File.Exists(exportedPath))
+		{
+			File.Delete(exportedPath);
+		}
+	}
 }

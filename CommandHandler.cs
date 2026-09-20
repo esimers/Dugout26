@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using Spectre.Console;
 
 public static class CommandHandler
 {
@@ -208,12 +209,13 @@ public static class CommandHandler
 			case "help":
 				Console.WriteLine("Insert Commands:");
 				Console.WriteLine("  inserts                                  List all insert sets");
-				Console.WriteLine("  inserts <exact code|exact name>          Show owned card details for one set");
+				Console.WriteLine("  inserts <exact code|exact name>          Full checklist with player names");
 				Console.WriteLine("  inserts missing|owned                    Filter by ownership state");
+				Console.WriteLine("  inserts missing <name|code>              Missing cards in one set (with player names)");
 				Console.WriteLine("  inserts cat:<category text>              Filter by category");
 				Console.WriteLine("  inserts find:<name text>                 Filter by insert set name");
 				Console.WriteLine("  inserts missing cat:Retail find:Titans   Combine filters");
-				Console.WriteLine("  inserts cards <name|code>                Show full owned card numbers for one set");
+				Console.WriteLine("  inserts cards <name|code>                Show owned cards for one set");
 				Console.WriteLine("  inserts have <name|code>                 Mark full insert set owned");
 				Console.WriteLine("  inserts have <code#|code#-#>[, ...]      Mark one or many insert cards (ex: GH13, TOG1-3)");
 				Console.WriteLine("  inserts unhave <name|code|code#|code#-#>[, ...]  Remove full set or one/many cards");
@@ -231,7 +233,7 @@ public static class CommandHandler
 
 					if (isExactName || isExactCode)
 					{
-						ConsoleUi.PrintOwnedInsertCards(directSet);
+						ConsoleUi.PrintInsertCardChecklist(directSet, ownedFilter: null);
 						return false;
 					}
 				}
@@ -239,6 +241,14 @@ public static class CommandHandler
 				if (!TryParseInsertFilters(argument, out var ownershipFilter, out var categoryFilter, out var nameFilter))
 				{
 					Console.WriteLine("Invalid inserts filter. Try: inserts help");
+					return false;
+				}
+
+				if (!string.IsNullOrWhiteSpace(nameFilter) &&
+					string.IsNullOrWhiteSpace(categoryFilter) &&
+					FindUniqueInsertSet(insertSets, nameFilter) is { } uniqueSet)
+				{
+					ConsoleUi.PrintInsertCardChecklist(uniqueSet, ownershipFilter);
 					return false;
 				}
 
@@ -498,6 +508,73 @@ public static class CommandHandler
 		return null;
 	}
 
+	public static InsertSet? FindUniqueInsertSet(List<InsertSet> insertSets, string query)
+	{
+		if (string.IsNullOrWhiteSpace(query))
+		{
+			return null;
+		}
+
+		var exact = insertSets
+			.Where(i =>
+				i.Name.Equals(query, StringComparison.OrdinalIgnoreCase) ||
+				NormalizeInsertCode(i.Code).Equals(NormalizeInsertCode(query), StringComparison.OrdinalIgnoreCase))
+			.ToList();
+		if (exact.Count == 1)
+		{
+			return exact[0];
+		}
+
+		var contains = insertSets
+			.Where(i =>
+				i.Name.Contains(query, StringComparison.OrdinalIgnoreCase) ||
+				i.Code.Contains(query, StringComparison.OrdinalIgnoreCase))
+			.ToList();
+		return contains.Count == 1 ? contains[0] : null;
+	}
+
+	public static string GetInsertCardName(InsertSet set, int number)
+	{
+		var match = (set.ValidCards ?? new List<InsertCardInfo>()).FirstOrDefault(c => c.Number == number);
+		return match is not null && !string.IsNullOrWhiteSpace(match.Name)
+			? match.Name
+			: $"Card {number}";
+	}
+
+	public static bool HasInsertChecklist(InsertSet set)
+	{
+		return set.ValidCardNumbers.Count > 0 || (set.ValidCards?.Count ?? 0) > 0;
+	}
+
+	public static List<(int Number, string Name, bool IsOwned)> GetInsertCardRows(InsertSet set, bool? ownedFilter)
+	{
+		var owned = set.OwnedCards.Where(n => n > 0).ToHashSet();
+		IEnumerable<int> numbers;
+		if (set.ValidCardNumbers.Count > 0)
+		{
+			numbers = set.ValidCardNumbers.Where(n => n > 0);
+		}
+		else if (set.ValidCards is { Count: > 0 } validCards)
+		{
+			numbers = validCards.Where(c => c.Number > 0).Select(c => c.Number);
+		}
+		else if (ownedFilter == false)
+		{
+			return new List<(int, string, bool)>();
+		}
+		else
+		{
+			numbers = owned;
+		}
+
+		return numbers
+			.Distinct()
+			.OrderBy(n => n)
+			.Select(n => (n, GetInsertCardName(set, n), owned.Contains(n)))
+			.Where(row => !ownedFilter.HasValue || row.Item3 == ownedFilter.Value)
+			.ToList();
+	}
+
 	public static List<InsertSet> CreateDefaultInsertSets()
 	{
 		return GetDefaultInsertSetDefinitions()
@@ -681,6 +758,59 @@ public static class CommandHandler
 		}
 
 		return $"{baseCode}{index}";
+	}
+
+	public static bool ImportCollection(
+		string sourcePath,
+		List<Card> cards,
+		List<InsertSet> insertSets,
+		string liveCardsPath,
+		string liveSetsPath,
+		System.Text.Json.JsonSerializerOptions jsonOptions,
+		Func<string, bool>? confirmPrompt = null,
+		string backupRoot = "backups")
+	{
+		if (!StorageService.TryReadSnapshot(sourcePath, jsonOptions, out var loadedCards, out var loadedSets, out var error))
+		{
+			Spectre.Console.AnsiConsole.MarkupLine($"[red]Import failed:[/] {Markup.Escape(error)}");
+			return false;
+		}
+
+		var confirm = confirmPrompt is not null
+			? confirmPrompt($"Replace live collection with '{sourcePath}'?")
+			: Spectre.Console.AnsiConsole.Confirm(
+				$"[bold yellow]Replace live collection with '{Markup.Escape(sourcePath)}'? A safety backup will be saved first.[/]",
+				defaultValue: false);
+
+		if (!confirm)
+		{
+			Spectre.Console.AnsiConsole.MarkupLine("[yellow]Import cancelled. Your collection is unchanged.[/]");
+			return false;
+		}
+
+		var safetyPath = StorageService.CreateBackup(cards, insertSets, jsonOptions, backupRoot);
+		Spectre.Console.AnsiConsole.MarkupLine($"[dim]Safety backup saved to[/] [cyan]{Markup.Escape(safetyPath)}[/]");
+
+		if (loadedCards is not null)
+		{
+			cards.Clear();
+			cards.AddRange(loadedCards);
+			StorageService.NormalizeCards(cards);
+			StorageService.SaveCards(liveCardsPath, cards, jsonOptions);
+		}
+
+		if (loadedSets is not null)
+		{
+			insertSets.Clear();
+			insertSets.AddRange(loadedSets);
+			NormalizeInsertSets(insertSets);
+			StorageService.SaveInsertSets(liveSetsPath, insertSets, jsonOptions);
+		}
+
+		var cardSummary = loadedCards is null ? "base cards unchanged" : $"{loadedCards.Count} base cards";
+		var setSummary = loadedSets is null ? "insert sets unchanged" : $"{loadedSets.Count} insert sets";
+		Spectre.Console.AnsiConsole.MarkupLine($"[bold green]Imported {cardSummary}, {setSummary} from '{Markup.Escape(sourcePath)}'.[/]");
+		return true;
 	}
 
 	public static bool ExecuteResetCollection(

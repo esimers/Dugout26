@@ -219,7 +219,7 @@ public static class ConsoleUi
 	{
 		var prompt = new SelectionPrompt<string>()
 			.Title("[bold yellow]DUGOUT MANAGER '26 - SELECT ACTION[/]")
-			.PageSize(13)
+			.PageSize(16)
 			.MoreChoicesText("[grey](Move up and down to reveal more options)[/]")
 			.AddChoices(new[]
 			{
@@ -227,10 +227,15 @@ public static class ConsoleUi
 				"📊 Display Arcade Stats Dashboard (stats)",
 				"📦 View Series Completeness Report (series)",
 				"✅ Mark Base Cards Owned (have)",
+				"➕ Log Extra Duplicate Copy (dup)",
+				"🚫 Unhave Base Card Copy (unhave)",
 				"🔥 Log Parallel Hit (hit)",
+				"👤 Look Up Player (find)",
 				"🔍 View Missing Base Cards (missing)",
 				"📋 View Base Card Duplicates (dups)",
 				"📤 Export Missing Card List by Series (export)",
+				"💾 Backup Collection Snapshot (backup)",
+				"📥 Import Collection Snapshot (import)",
 				"✨ View Insert Set Checklist (inserts)",
 				"💎 View Logged Parallel Hits (parallels)",
 				"🏟️ View Team Card Report (teams)",
@@ -246,10 +251,15 @@ public static class ConsoleUi
 		if (choice.StartsWith("📊")) return "stats";
 		if (choice.StartsWith("📦")) return "series";
 		if (choice.StartsWith("✅")) return "have";
+		if (choice.StartsWith("➕")) return "dup";
+		if (choice.StartsWith("🚫")) return "unhave";
 		if (choice.StartsWith("🔥")) return "hit";
+		if (choice.StartsWith("👤")) return "find";
 		if (choice.StartsWith("🔍")) return "missing";
 		if (choice.StartsWith("📋")) return "dups";
 		if (choice.StartsWith("📤")) return "export";
+		if (choice.StartsWith("💾")) return "backup";
+		if (choice.StartsWith("📥")) return "import";
 		if (choice.StartsWith("✨")) return "inserts";
 		if (choice.StartsWith("💎")) return "parallels";
 		if (choice.StartsWith("🏟️")) return "teams";
@@ -268,19 +278,25 @@ public static class ConsoleUi
 			.AddColumn("[bold gold1]Alias[/]")
 			.AddColumn("[bold white]Description & Usage Example[/]");
 
-		table.AddRow("[bold green]menu[/]", "[bold]m[/]", "Open interactive arrow-key selection prompt menu");
+		table.AddRow("[bold green]menu[/]", "[bold]interactive[/]", "Open interactive arrow-key selection prompt menu");
 		table.AddRow("[bold green]anim[/]", "[bold]swing[/]", "Play 8-bit ASCII baseball batter swinging animation");
-		table.AddRow("[bold green]have[/]", "[bold]h[/]", "Mark base cards owned (ex: [yellow]have 1, 5, 10-15[/])");
+		table.AddRow("[bold green]have[/]", "[bold]h[/]", "Mark base cards owned, no extras (ex: [yellow]have 1, 5, 10-15[/])");
+		table.AddRow("[bold green]dup[/]", "", "Add an extra copy of owned cards (ex: [yellow]dup 24, 31[/])");
+		table.AddRow("[bold green]unhave[/]", "[bold]uhave[/]", "Remove one copy (ex: [yellow]unhave 24[/], [yellow]unhave 10-15[/])");
 		table.AddRow("[bold green]missing[/]", "[bold]m[/]", "List missing cards (ex: [yellow]missing s1[/], [yellow]missing s2[/], [yellow]missing 25-80[/])");
+		table.AddRow("[bold green]find[/]", "[bold]f[/]", "Search by player name or card # (ex: [yellow]find judge[/])");
 		table.AddRow("[bold green]dups[/]", "[bold]duplicates[/]", "List duplicate cards (ex: [yellow]dups[/], [yellow]dups s1[/], [yellow]dups 500-559[/])");
-		table.AddRow("[bold green]export[/]", "", "Export missing cards list (ex: [yellow]export missing s1[/], [yellow]export missing s2 csv[/])");
+		table.AddRow("[bold green]export[/]", "", "Export missing or dups (ex: [yellow]export missing s1[/], [yellow]export dups csv[/])");
+		table.AddRow("[bold green]backup[/]", "", "Save timestamped snapshot (ex: [yellow]backup[/], [yellow]backup list[/])");
+		table.AddRow("[bold green]import[/]", "[bold]restore[/]", "Load a snapshot (ex: [yellow]import backups/2026-09-20_143052[/])");
 		table.AddRow("[bold green]series[/]", "[bold]s[/]", "Show Series 1 (#1-350) & Series 2 (#351-700) completeness report");
 		table.AddRow("[bold green]roster[/]", "[bold]list[/]", "Show full base roster ownership + parallel hit counts");
-		table.AddRow("[bold green]check[/]", "[bold]c[/]", "Show status of one card (ex: [yellow]check 24[/])");
+		table.AddRow("[bold green]check[/]", "[bold]c[/]", "Show status of a card (ex: [yellow]check 24[/] or [yellow]check judge[/])");
 		table.AddRow("[bold green]hit[/]", "", "Log parallel hit (ex: [yellow]hit 24 Gold #45/2026[/] or [yellow]hit 24 Red Auto /10[/])");
-		table.AddRow("[bold green]unhit[/]", "[bold]uh[/]", "Remove logged parallel hit (ex: [yellow]unhit 24 Gold[/])");
+		table.AddRow("[bold green]unhit[/]", "[bold]uh[/]", "Remove logged parallel hit (ex: [yellow]unhit 24 Gold #45/2026[/])");
 		table.AddRow("[bold green]parallels[/]", "[bold]p[/]", "Show owned parallels (ex: [yellow]parallels rare[/], [yellow]parallels auto[/], [yellow]parallels /75[/])");
-		table.AddRow("[bold green]inserts[/]", "", "Insert sets checklist (ex: [yellow]inserts h TOG1-3[/], [yellow]inserts cat:Retail[/])");
+		table.AddRow("[bold green]inserts[/]", "", "Insert sets (ex: [yellow]inserts TOG[/], [yellow]inserts missing TOG[/], [yellow]inserts h TOG1-3[/])");
+		table.AddRow("[bold green]session[/]", "", "Show this session's have/dup/hit totals");
 		table.AddRow("[bold green]stats[/]", "", "Render Arcade Stats Panel dashboard & progress bars");
 		table.AddRow("[bold green]teams[/]", "", "Show MLB 30-team card coverage report");
 		table.AddRow("[bold green]odds[/]", "", "Display top pull odds catalog from Topps PDFs");
@@ -535,41 +551,97 @@ public static class ConsoleUi
 
 	public static void PrintOwnedInsertCards(InsertSet set)
 	{
-		var ownedCards = set.OwnedCards.Where(n => n > 0).Distinct().OrderBy(n => n).ToList();
-		var nameByNumber = (set.ValidCards ?? new List<InsertCardInfo>())
-			.Where(c => c.Number > 0)
-			.GroupBy(c => c.Number)
-			.ToDictionary(g => g.Key, g => g.First().Name ?? string.Empty);
+		PrintInsertCardChecklist(set, ownedFilter: true);
+	}
 
-		var totalChecklist = set.ValidCardNumbers.Count;
-		var ownedCount = ownedCards.Count;
-		var isComplete = totalChecklist > 0
-			? ownedCount >= totalChecklist
-			: set.IsOwned;
-
-		var table = new Table()
-			.Border(TableBorder.Rounded)
-			.Title($"[bold cyan]Owned Insert Cards: {set.Name} [{set.Code}][/]")
-			.AddColumn(new TableColumn("[bold]Card #[/]").RightAligned())
-			.AddColumn(new TableColumn("[bold]Player Name[/]"));
-
-		if (ownedCards.Count == 0)
+	public static void PrintInsertCardChecklist(InsertSet set, bool? ownedFilter)
+	{
+		if (ownedFilter == false && !CommandHandler.HasInsertChecklist(set))
 		{
-			AnsiConsole.MarkupLine(isComplete
-				? "[green]All cards are considered owned for this set.[/]"
-				: "[red]No owned cards logged for this set yet.[/]");
+			AnsiConsole.MarkupLine($"[yellow]No parsed checklist for {set.Name} [{set.Code}]; cannot list missing insert cards.[/]");
 			return;
 		}
 
-		foreach (var number in ownedCards)
+		var rows = CommandHandler.GetInsertCardRows(set, ownedFilter);
+		var title = ownedFilter switch
 		{
-			var cardName = nameByNumber.TryGetValue(number, out var foundName) && !string.IsNullOrWhiteSpace(foundName)
-				? foundName
-				: $"Card {number}";
-			table.AddRow($"[yellow]#{number}[/]", $"[bold white]{cardName}[/]");
+			true => $"Owned Insert Cards: {set.Name} [{set.Code}]",
+			false => $"Missing Insert Cards: {set.Name} [{set.Code}]",
+			_ => $"Insert Checklist: {set.Name} [{set.Code}]"
+		};
+
+		if (rows.Count == 0)
+		{
+			if (ownedFilter == true)
+			{
+				AnsiConsole.MarkupLine(set.IsOwned && !CommandHandler.HasInsertChecklist(set)
+					? "[green]All cards are considered owned for this set.[/]"
+					: "[red]No owned cards logged for this set yet.[/]");
+				return;
+			}
+
+			if (ownedFilter == false)
+			{
+				AnsiConsole.MarkupLine($"[green]No missing cards in {set.Name} [{set.Code}].[/]");
+				return;
+			}
+
+			AnsiConsole.MarkupLine($"[yellow]No insert cards to show for {set.Name} [{set.Code}].[/]");
+			return;
+		}
+
+		var table = new Table()
+			.Border(TableBorder.Rounded)
+			.Title($"[bold cyan]{title}[/]")
+			.AddColumn(new TableColumn("[bold]Status[/]").Centered())
+			.AddColumn(new TableColumn("[bold]Card #[/]").RightAligned())
+			.AddColumn(new TableColumn("[bold]Player Name[/]"));
+
+		foreach (var (number, name, isOwned) in rows)
+		{
+			var status = isOwned ? "[bold green]OWNED[/]" : "[bold red]MISSING[/]";
+			table.AddRow(status, $"[yellow]#{number}[/]", $"[bold white]{name}[/]");
 		}
 
 		AnsiConsole.Write(table);
+	}
+
+	public static void PrintCardStatus(Card card)
+	{
+		SetColor(card.IsOwned ? ConsoleColor.Green : ConsoleColor.Yellow);
+		Console.WriteLine($"{FormatCardLabel(card)} - {CardLogic.FormatOwnership(card)}");
+		Console.ResetColor();
+
+		foreach (var variant in card.Variants.Where(v => v.IsOwned))
+		{
+			var serialText = !string.IsNullOrWhiteSpace(variant.SerialNum)
+				? $" #{variant.SerialNum}"
+				: (variant.PrintRun.HasValue ? $" /{variant.PrintRun}" : string.Empty);
+			var autoText = variant.IsAuto ? " [AUTO]" : string.Empty;
+			var relicText = variant.IsRelic ? " [RELIC]" : string.Empty;
+			SetColor(GetRarityColor(variant.Rarity));
+			Console.WriteLine($"  Hit: {variant.Name}{serialText}{autoText}{relicText} ({variant.Rarity})");
+			Console.ResetColor();
+		}
+	}
+
+	public static void PrintPlayerSearch(List<Card> matches, string query)
+	{
+		if (matches.Count == 0)
+		{
+			SetColor(ConsoleColor.Yellow);
+			Console.WriteLine($"No players matching '{query}'.");
+			Console.ResetColor();
+			return;
+		}
+
+		SetColor(ConsoleColor.Cyan);
+		Console.WriteLine($"Scout Report - Players matching '{query}' ({matches.Count})");
+		Console.ResetColor();
+		foreach (var card in matches)
+		{
+			PrintCardStatus(card);
+		}
 	}
 
 	public static void PrintOddsBoard(List<OddsEntry> oddsEntries)

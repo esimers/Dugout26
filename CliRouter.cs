@@ -3,6 +3,18 @@ using Spectre.Console;
 
 public static class CliRouter
 {
+	private sealed class SessionLog
+	{
+		public int BaseAdded;
+		public int DupsAdded;
+		public int CopiesRemoved;
+		public int HitsLogged;
+		public int HitsRemoved;
+
+		public bool IsEmpty =>
+			BaseAdded == 0 && DupsAdded == 0 && CopiesRemoved == 0 && HitsLogged == 0 && HitsRemoved == 0;
+	}
+
 	public static void Run(
 		List<Card> cards,
 		List<InsertSet> insertSets,
@@ -12,6 +24,7 @@ public static class CliRouter
 		JsonSerializerOptions jsonOptions)
 	{
 		var autoStatsPanel = true;
+		var session = new SessionLog();
 
 		ConsoleUi.DrawArcadeHeader(cards, oddsEntries, animate: true);
 		ConsoleUi.PrintHelp(animate: true);
@@ -37,7 +50,7 @@ public static class CliRouter
 			var command = parts[0].ToLowerInvariant();
 			var argument = parts.Length > 1 ? parts[1] : string.Empty;
 
-			ProcessCommand(command, argument, cards, insertSets, oddsEntries, filePath, insertSetsPath, jsonOptions, ref autoStatsPanel);
+			ProcessCommand(command, argument, cards, insertSets, oddsEntries, filePath, insertSetsPath, jsonOptions, session, ref autoStatsPanel);
 		}
 	}
 
@@ -50,6 +63,7 @@ public static class CliRouter
 		string filePath,
 		string insertSetsPath,
 		JsonSerializerOptions jsonOptions,
+		SessionLog session,
 		ref bool autoStatsPanel)
 	{
 		switch (command)
@@ -74,50 +88,41 @@ public static class CliRouter
 				{
 					promptArg = AnsiConsole.Ask<string>("[yellow]Enter card IDs to mark owned (ex: 1, 5, 10-15):[/]");
 				}
+				else if (menuChoice == "dup")
+				{
+					promptArg = AnsiConsole.Ask<string>("[yellow]Enter owned card IDs to add extra copies (ex: 24, 31):[/]");
+				}
+				else if (menuChoice == "unhave")
+				{
+					promptArg = AnsiConsole.Ask<string>("[yellow]Enter card IDs to remove one copy (ex: 24, 10-15):[/]");
+				}
+				else if (menuChoice == "find")
+				{
+					promptArg = AnsiConsole.Ask<string>("[yellow]Enter player name or card number (ex: judge):[/]");
+				}
 				else if (menuChoice == "hit")
 				{
 					promptArg = AnsiConsole.Ask<string>("[yellow]Enter parallel hit details (ex: 24 Gold #45/2026 or 24 Red Auto /10):[/]");
 				}
+				else if (menuChoice == "import")
+				{
+					promptArg = AnsiConsole.Ask<string>("[yellow]Enter backup folder or JSON path (ex: backups/2026-09-20_143052):[/]");
+				}
 
-				return ProcessCommand(menuChoice, promptArg, cards, insertSets, oddsEntries, filePath, insertSetsPath, jsonOptions, ref autoStatsPanel);
+				return ProcessCommand(menuChoice, promptArg, cards, insertSets, oddsEntries, filePath, insertSetsPath, jsonOptions, session, ref autoStatsPanel);
 
 			case "have":
 			case "h":
-				if (string.IsNullOrWhiteSpace(argument))
-				{
-					Console.WriteLine("Usage: have 1, 5, 10-15");
-					break;
-				}
+				ApplyQuantityCommand(argument, cards, filePath, jsonOptions, insertSets, oddsEntries, session, ref autoStatsPanel, "have", "Usage: have 1, 5, 10-15");
+				break;
 
-				var ids = CardLogic.ParseIds(argument);
-				if (ids.Count == 0)
-				{
-					Console.WriteLine("No valid IDs found.");
-					break;
-				}
+			case "dup":
+				ApplyQuantityCommand(argument, cards, filePath, jsonOptions, insertSets, oddsEntries, session, ref autoStatsPanel, "dup", "Usage: dup 24, 31  (adds extra copies of owned cards)");
+				break;
 
-				var markedCount = 0;
-				foreach (var id in ids)
-				{
-					var card = cards.FirstOrDefault(c => c.Id == id);
-					if (card is null)
-					{
-						Console.WriteLine($"Card #{id} not found.");
-						continue;
-					}
-
-					card.Quantity++;
-					markedCount++;
-				}
-
-				StorageService.SaveCards(filePath, cards, jsonOptions);
-				ConsoleUi.SetColor(ConsoleColor.Green);
-				Console.WriteLine($"Roster update: signed {markedCount} base card(s).");
-				Console.ResetColor();
-				if (autoStatsPanel)
-				{
-					StatsRenderer.DrawStatsPanel(cards, oddsEntries, insertSets);
-				}
+			case "unhave":
+			case "uhave":
+				ApplyQuantityCommand(argument, cards, filePath, jsonOptions, insertSets, oddsEntries, session, ref autoStatsPanel, "unhave", "Usage: unhave 24, 10-15  (removes one copy)");
 				break;
 
 			case "dups":
@@ -129,20 +134,25 @@ public static class CliRouter
 				var exportParts = argument.Split(' ', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
 				var exportSub = exportParts.Length > 0 ? exportParts[0].ToLowerInvariant() : string.Empty;
 
-				if (exportSub == "missing" || string.IsNullOrWhiteSpace(exportSub))
+				if (exportSub is "dups" or "dup" or "duplicates" or "trade")
 				{
-					var seriesArg = exportParts.Length > 1 ? exportParts[1] : (exportParts.Length == 1 && exportSub != "missing" ? exportSub : "all");
-					var formatArg = exportParts.Length > 2 ? exportParts[2] : "txt";
-
-					var exportedPath = StorageService.ExportMissingCards(cards, seriesArg, formatArg);
+					var (dupSeries, dupFormat) = ParseSeriesAndFormat(exportParts, 1);
+					var exportedDupsPath = StorageService.ExportDuplicateCards(cards, dupSeries, dupFormat);
 					ConsoleUi.SetColor(ConsoleColor.Green);
-					Console.WriteLine($"Export successful: Saved missing card report to '{exportedPath}'.");
+					Console.WriteLine($"Export successful: Saved duplicate/trade list to '{exportedDupsPath}'.");
 					Console.ResetColor();
 				}
-				else if (exportSub is "s1" or "s2" or "series1" or "series2" or "all")
+				else if (exportSub == "missing" || string.IsNullOrWhiteSpace(exportSub) || exportSub is "s1" or "s2" or "series1" or "series2" or "all")
 				{
-					var formatArg = exportParts.Length > 1 ? exportParts[1] : "txt";
-					var exportedPath = StorageService.ExportMissingCards(cards, exportSub, formatArg);
+					var startIndex = exportSub == "missing" ? 1 : 0;
+					var (seriesArg, formatArg) = ParseSeriesAndFormat(exportParts, startIndex);
+					if (exportSub is "s1" or "s2" or "series1" or "series2" or "all")
+					{
+						seriesArg = exportSub;
+						formatArg = exportParts.Length > 1 && IsFormatToken(exportParts[1]) ? exportParts[1] : "txt";
+					}
+
+					var exportedPath = StorageService.ExportMissingCards(cards, seriesArg, formatArg);
 					ConsoleUi.SetColor(ConsoleColor.Green);
 					Console.WriteLine($"Export successful: Saved missing card report to '{exportedPath}'.");
 					Console.ResetColor();
@@ -150,7 +160,8 @@ public static class CliRouter
 				else
 				{
 					Console.WriteLine("Usage: export missing [s1|s2|all|range] [txt|csv]");
-					Console.WriteLine("Examples: export missing s1 | export missing s2 | export missing all csv | export missing 500-559");
+					Console.WriteLine("       export dups [s1|s2|all|range] [txt|csv]");
+					Console.WriteLine("Examples: export missing s1 | export dups csv | export trade s2 | export missing 500-559");
 				}
 				break;
 
@@ -243,22 +254,42 @@ public static class CliRouter
 
 			case "check":
 			case "c":
-				if (!int.TryParse(argument, out var checkId))
+				if (string.IsNullOrWhiteSpace(argument))
 				{
-					Console.WriteLine("Usage: check <cardId>");
+					Console.WriteLine("Usage: check <cardId|player name>  (ex: check 24 or check judge)");
 					break;
 				}
 
-				var checkCard = cards.FirstOrDefault(c => c.Id == checkId);
-				if (checkCard is null)
+				var checkMatches = CardLogic.FindCards(cards, argument);
+				if (checkMatches.Count == 0)
 				{
-					Console.WriteLine($"Card #{checkId} not found.");
+					ConsoleUi.SetColor(ConsoleColor.Yellow);
+					Console.WriteLine(int.TryParse(argument.Trim(), out var missingId)
+						? $"Card #{missingId} not found."
+						: $"No players matching '{argument.Trim()}'.");
+					Console.ResetColor();
 					break;
 				}
 
-				ConsoleUi.SetColor(checkCard.IsOwned ? ConsoleColor.Green : ConsoleColor.Yellow);
-				Console.WriteLine($"{ConsoleUi.FormatCardLabel(checkCard)} - {(checkCard.IsOwned ? "OWNED" : "MISSING")}");
-				Console.ResetColor();
+				if (checkMatches.Count == 1)
+				{
+					ConsoleUi.PrintCardStatus(checkMatches[0]);
+				}
+				else
+				{
+					ConsoleUi.PrintPlayerSearch(checkMatches, argument.Trim());
+				}
+				break;
+
+			case "find":
+			case "f":
+				if (string.IsNullOrWhiteSpace(argument))
+				{
+					Console.WriteLine("Usage: find <player name|cardId>  (ex: find judge)");
+					break;
+				}
+
+				ConsoleUi.PrintPlayerSearch(CardLogic.FindCards(cards, argument), argument.Trim());
 				break;
 
 			case "hit":
@@ -311,6 +342,7 @@ public static class CliRouter
 				}
 
 				StorageService.SaveCards(filePath, cards, jsonOptions);
+				session.HitsLogged++;
 				ConsoleUi.SetColor(ConsoleUi.GetRarityColor(variant.Rarity));
 				var serialSummary = !string.IsNullOrWhiteSpace(variant.SerialNum) ? $" #{variant.SerialNum}" : (variant.PrintRun.HasValue ? $" /{variant.PrintRun}" : string.Empty);
 				var autoSummary = variant.IsAuto ? " [AUTO]" : string.Empty;
@@ -347,8 +379,8 @@ public static class CliRouter
 				}
 
 				var unhitVariantName = unhitParts[1].Trim();
-				var unhitVariant = unhitCard.Variants.FirstOrDefault(v => v.Name.Equals(unhitVariantName, StringComparison.OrdinalIgnoreCase));
-				if (unhitVariant is null || !unhitVariant.IsOwned)
+				var unhitVariant = unhitCard.Variants.FirstOrDefault(v => v.IsOwned && VariantParser.NameMatches(v, unhitVariantName));
+				if (unhitVariant is null)
 				{
 					Console.WriteLine($"No owned parallel named '{unhitVariantName}' is logged for {ConsoleUi.FormatCardLabel(unhitCard)}.");
 					break;
@@ -361,6 +393,7 @@ public static class CliRouter
 				}
 
 				StorageService.SaveCards(filePath, cards, jsonOptions);
+				session.HitsRemoved++;
 				ConsoleUi.SetColor(ConsoleColor.Yellow);
 				Console.WriteLine($"Removed parallel: {ConsoleUi.FormatCardLabel(unhitCard)} - {unhitVariant.Name}");
 				Console.ResetColor();
@@ -419,6 +452,48 @@ public static class CliRouter
 				}
 				break;
 
+			case "session":
+				PrintSessionSummary(session);
+				break;
+
+			case "backup":
+				if (argument.Equals("list", StringComparison.OrdinalIgnoreCase) ||
+					argument.Equals("ls", StringComparison.OrdinalIgnoreCase))
+				{
+					PrintBackupList();
+				}
+				else if (string.IsNullOrWhiteSpace(argument))
+				{
+					var backupPath = StorageService.CreateBackup(cards, insertSets, jsonOptions);
+					ConsoleUi.SetColor(ConsoleColor.Green);
+					Console.WriteLine($"Backup saved to '{backupPath}'.");
+					Console.ResetColor();
+					Console.WriteLine($"Restore later with: import {backupPath}");
+				}
+				else
+				{
+					Console.WriteLine("Usage: backup");
+					Console.WriteLine("       backup list");
+				}
+				break;
+
+			case "import":
+			case "restore":
+				if (string.IsNullOrWhiteSpace(argument))
+				{
+					Console.WriteLine("Usage: import <backup-folder|collection.json>");
+					Console.WriteLine("Examples: import backups/2026-09-20_143052");
+					Console.WriteLine("          import collection.json");
+					PrintBackupList();
+					break;
+				}
+
+				if (CommandHandler.ImportCollection(argument, cards, insertSets, filePath, insertSetsPath, jsonOptions) && autoStatsPanel)
+				{
+					StatsRenderer.DrawStatsPanel(cards, oddsEntries, insertSets);
+				}
+				break;
+
 			case "help":
 				ConsoleUi.PrintHelp();
 				break;
@@ -447,6 +522,149 @@ public static class CliRouter
 		}
 
 		return true;
+	}
+
+	private static void ApplyQuantityCommand(
+		string argument,
+		List<Card> cards,
+		string filePath,
+		JsonSerializerOptions jsonOptions,
+		List<InsertSet> insertSets,
+		List<OddsEntry> oddsEntries,
+		SessionLog session,
+		ref bool autoStatsPanel,
+		string mode,
+		string usage)
+	{
+		if (string.IsNullOrWhiteSpace(argument))
+		{
+			Console.WriteLine(usage);
+			return;
+		}
+
+		var ids = CardLogic.ParseIds(argument);
+		if (ids.Count == 0)
+		{
+			Console.WriteLine("No valid IDs found.");
+			return;
+		}
+
+		var changed = 0;
+		var skipped = 0;
+		foreach (var id in ids.OrderBy(i => i))
+		{
+			var card = cards.FirstOrDefault(c => c.Id == id);
+			if (card is null)
+			{
+				Console.WriteLine($"Card #{id} not found.");
+				continue;
+			}
+
+			var result = mode switch
+			{
+				"dup" => CardLogic.ApplyDup(card),
+				"unhave" => CardLogic.ApplyUnhave(card),
+				_ => CardLogic.ApplyHave(card)
+			};
+
+			if (result.Changed)
+			{
+				changed++;
+				if (mode == "dup") session.DupsAdded++;
+				else if (mode == "unhave") session.CopiesRemoved++;
+				else session.BaseAdded++;
+			}
+			else
+			{
+				skipped++;
+			}
+
+			if (mode != "have" || !result.Changed)
+			{
+				Console.WriteLine(result.Message);
+			}
+		}
+
+		if (changed == 0)
+		{
+			return;
+		}
+
+		StorageService.SaveCards(filePath, cards, jsonOptions);
+		if (mode == "have")
+		{
+			ConsoleUi.SetColor(ConsoleColor.Green);
+			Console.WriteLine($"Roster update: signed {changed} new base card(s).");
+			Console.ResetColor();
+			if (skipped > 0)
+			{
+				Console.WriteLine($"{skipped} already owned (not incremented). Use dup <id> to add extras.");
+			}
+		}
+
+		if (autoStatsPanel)
+		{
+			StatsRenderer.DrawStatsPanel(cards, oddsEntries, insertSets);
+		}
+	}
+
+	private static void PrintBackupList()
+	{
+		var backups = StorageService.ListBackups();
+		if (backups.Count == 0)
+		{
+			Console.WriteLine("No snapshots in backups/. Run backup first.");
+			return;
+		}
+
+		ConsoleUi.SetColor(ConsoleColor.Cyan);
+		Console.WriteLine("Available backups:");
+		Console.ResetColor();
+		foreach (var dir in backups)
+		{
+			Console.WriteLine($"  {dir}");
+		}
+
+		Console.WriteLine($"Import one with: import {backups[0]}");
+	}
+
+	private static void PrintSessionSummary(SessionLog session)
+	{
+		if (session.IsEmpty)
+		{
+			Console.WriteLine("This session: no collection changes yet.");
+			return;
+		}
+
+		ConsoleUi.SetColor(ConsoleColor.Cyan);
+		Console.WriteLine(
+			$"This session: {session.BaseAdded} new base, {session.DupsAdded} extras, {session.CopiesRemoved} copies removed, {session.HitsLogged} hits logged, {session.HitsRemoved} hits removed.");
+		Console.ResetColor();
+	}
+
+	private static (string Series, string Format) ParseSeriesAndFormat(string[] parts, int startIndex)
+	{
+		var series = "all";
+		var format = "txt";
+		for (var i = startIndex; i < parts.Length; i++)
+		{
+			if (IsFormatToken(parts[i]))
+			{
+				format = parts[i].ToLowerInvariant();
+			}
+			else
+			{
+				series = parts[i];
+			}
+		}
+
+		return (series, format);
+	}
+
+	private static bool IsFormatToken(string token)
+	{
+		return token.Equals("txt", StringComparison.OrdinalIgnoreCase) ||
+			token.Equals("csv", StringComparison.OrdinalIgnoreCase);
 	}
 }
 

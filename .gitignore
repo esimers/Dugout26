@@ -7,4 +7,5 @@ checklistInputs/*.pdf
 *.bak
 *.tmp
 exports/
+backups/
 
