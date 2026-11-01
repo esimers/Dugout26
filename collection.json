@@ -361,8 +361,8 @@
     {
       "Id": 52,
       "PlayerName": "Francisco Lindor",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -417,8 +417,8 @@
     {
       "Id": 60,
       "PlayerName": "Rhett Lowder",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -473,8 +473,8 @@
     {
       "Id": 68,
       "PlayerName": "Trevor Larnach",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -494,8 +494,8 @@
     {
       "Id": 71,
       "PlayerName": "Gabriel Moreno",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -907,8 +907,8 @@
     {
       "Id": 130,
       "PlayerName": "Max Fried",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -963,8 +963,8 @@
     {
       "Id": 138,
       "PlayerName": "Jac Caglianone",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -1992,8 +1992,8 @@
     {
       "Id": 285,
       "PlayerName": "Eury P\u00E9rez",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -2307,8 +2307,8 @@
     {
       "Id": 330,
       "PlayerName": "Tristan Peters",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -2398,8 +2398,8 @@
     {
       "Id": 343,
       "PlayerName": "Ram\u00F3n Ur\u00EDas",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -2790,8 +2790,8 @@
     {
       "Id": 399,
       "PlayerName": "Javier Sanoja",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -2825,8 +2825,8 @@
     {
       "Id": 404,
       "PlayerName": "Parker Meadows",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -3441,8 +3441,8 @@
     {
       "Id": 492,
       "PlayerName": "Cleveland Guardians",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -4435,8 +4435,8 @@
     {
       "Id": 634,
       "PlayerName": "Ryan Weathers",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
@@ -4680,8 +4680,8 @@
     {
       "Id": 669,
       "PlayerName": "Randy V\u00E1squez",
-      "IsOwned": false,
-      "Quantity": 0,
+      "IsOwned": true,
+      "Quantity": 1,
       "Variants": []
     },
     {
